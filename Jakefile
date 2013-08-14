@@ -24,6 +24,7 @@ var compilerSources = [
 	"base64.ts",
 	"bloomFilter.ts",
 	"declarationEmitter.ts",
+	"documentationEmitter.ts",
 	"diagnostics.ts",
 	"emitter.ts",
 	"enumerator.ts",

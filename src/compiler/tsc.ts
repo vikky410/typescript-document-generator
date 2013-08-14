@@ -236,6 +236,13 @@ module TypeScript {
                 if (emitDeclarationsDiagnostics.length > 0) {
                     return true;
                 }
+
+                var emitDocumentationDiagnostics = compiler.emitAllDocumentation();
+                compiler.reportDiagnostics(emitDocumentationDiagnostics, this);
+                if (emitDocumentationDiagnostics.length > 0)
+                {
+                    return true;
+                }
             }
 
             return false;
@@ -367,6 +374,33 @@ module TypeScript {
                 }
             });
 
+            opts.option('wikiRemoveRoot', {
+                usage: {
+                    locCode: DiagnosticCode.Wiki_Remove_Root,
+                    args: null
+                },
+                type: DiagnosticCode.LOCATION,
+                set: (str) =>
+                {
+                    this.compilationSettings.wikiRemoveRootPath = str.replace(/[\\]+/gi, "/");
+                    if (this.compilationSettings.wikiRemoveRootPath.lastIndexOf("/") !== this.compilationSettings.wikiRemoveRootPath.length - 1)
+                    {
+                        this.compilationSettings.wikiRemoveRootPath += "/";
+                    }
+                }
+            });
+            opts.option('wikiSourceRoot', {
+                usage: {
+                    locCode: DiagnosticCode.Wiki_Source_Root,
+                    args: null
+                },
+                type: DiagnosticCode.LOCATION,
+                set: (str) =>
+                {
+                    this.compilationSettings.wikiSourceRootPath = str;
+                }
+            });
+
             opts.flag('declaration', {
                 usage: {
                     locCode: DiagnosticCode.Generates_corresponding_0_file,
@@ -376,6 +410,17 @@ module TypeScript {
                     this.compilationSettings.generateDeclarationFiles = true;
                 }
             }, 'd');
+
+            opts.flag('documentation', {
+                usage: {
+                    locCode: DiagnosticCode.Generates_corresponding_0_file,
+                    args: ['.ts.wiki']
+                },
+                set: () =>
+                {
+                    this.compilationSettings.generateDocumentationFiles = true;
+                }
+            }, 'doc');
 
             if (this.ioHost.watchFile) {
                 opts.flag('watch', {
@@ -413,7 +458,7 @@ module TypeScript {
                     this.compilationSettings.noResolve = true;
                 }
             });
-
+            
             opts.flag('noLib', {
                 experimental: true,
                 set: () => {

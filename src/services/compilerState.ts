@@ -340,9 +340,11 @@ module Services {
                 return result;
             }
 
-            // Emit declarations, if there are no semantic errors
-            if (!this.containErrors(semanticDiagnostics)) {
+            // Emit declarations and documentation, if there are no semantic errors
+            if (!this.containErrors(semanticDiagnostics))
+            {
                 diagnostics = this.compiler.emitUnitDeclarations(fileName) || [];
+                diagnostics = diagnostics.concat(this.compiler.emitUnitDocumentation(fileName) || []);
                 result.diagnostics = result.diagnostics.concat(diagnostics);
             }
 

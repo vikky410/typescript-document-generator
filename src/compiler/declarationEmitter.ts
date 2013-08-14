@@ -942,8 +942,8 @@ module TypeScript {
                     var currentReference = scriptReferences[j];
                     var document = this.compiler.getDocument(currentReference);
                     // All the references that are not going to be part of same file
-
-                    if (this.compiler.emitOptions.outputMany || document.script.isDeclareFile || document.script.topLevelMod || !addedGlobalDocument) {
+                    
+                    if (!document.script.isDocumentationFile && (this.compiler.emitOptions.outputMany || document.script.isDeclareFile || document.script.topLevelMod || !addedGlobalDocument)) {
                         documents = documents.concat(document);
                         if (!document.script.isDeclareFile && document.script.topLevelMod) {
                             addedGlobalDocument = true;
@@ -953,15 +953,17 @@ module TypeScript {
             } else {
                 // Collect from all the references and emit
                 var allDocuments = this.compiler.getDocuments();
-                for (var i = 0; i < allDocuments.length; i++) {
-                    if (!allDocuments[i].script.isDeclareFile && !allDocuments[i].script.topLevelMod) {
+                for (var i = 0; i < allDocuments.length; i++)
+                {
+                    if (!allDocuments[i].script.isDeclareFile && !allDocuments[i].script.isDocumentationFile && !allDocuments[i].script.topLevelMod) {
                         // Check what references need to be added
                         var scriptReferences = allDocuments[i].script.referencedFiles;
                         for (var j = 0; j < scriptReferences.length; j++) {
                             var currentReference = scriptReferences[j];
                             var document = this.compiler.getDocument(currentReference);
+                            
                             // All the references that are not going to be part of same file
-                            if (document.script.isDeclareFile || document.script.topLevelMod) {
+                            if ((document.script.isDeclareFile || document.script.topLevelMod) && !document.script.isDocumentationFile) {
                                 for (var k = 0; k < documents.length; k++) {
                                     if (documents[k] == document) {
                                         break;

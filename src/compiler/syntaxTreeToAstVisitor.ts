@@ -356,6 +356,7 @@ module TypeScript {
             result.moduleElements = bod;
             result.topLevelMod = topLevelMod;
             result.isDeclareFile = isDTSFile(this.fileName);
+            result.isDocumentationFile = isDocTSFile(this.fileName);
 
             return result;
         }

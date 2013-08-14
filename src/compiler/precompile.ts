@@ -39,6 +39,9 @@ module TypeScript {
         public mapRoot: string = ""; 
         public sourceRoot: string = "";
         public generateDeclarationFiles = false;
+        public generateDocumentationFiles = false;
+        public wikiRemoveRootPath: string = "";
+        public wikiSourceRootPath: string = "";
 
         public useCaseSensitiveFileResolution = false;
         public gatherDiagnostics = false;

@@ -943,6 +943,7 @@ module TypeScript {
         public moduleElements: ASTList = null;
         public referencedFiles= new Array<string>();
         public isDeclareFile = false;
+        public isDocumentationFile = false;
         public topLevelMod: ModuleDeclaration = null;
 
         public nodeType(): NodeType {
@@ -950,7 +951,7 @@ module TypeScript {
         }
 
         public emit(emitter: Emitter) {
-            if (!this.isDeclareFile) {
+            if (!this.isDeclareFile && !this.isDocumentationFile) {
                 emitter.emitScriptElements(this);
             }
         }

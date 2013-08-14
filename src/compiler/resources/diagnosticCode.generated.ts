@@ -338,6 +338,8 @@ module TypeScript {
         Redirect_output_structure_to_the_directory: "Redirect output structure to the directory",
         Do_not_emit_comments_to_output: "Do not emit comments to output",
         Skip_resolution_and_preprocessing: "Skip resolution and preprocessing",
+        Wiki_Remove_Root: "Removes the specified root path from the Wiki references",
+        Wiki_Source_Root: "Specified the absolute root path of the source code files (either on the web or locally).",
         Specify_ECMAScript_target_version_0_default_or_1: "Specify ECMAScript target version: \"{0}\" (default), or \"{1}\"",
         Specify_module_code_generation_0_or_1: "Specify module code generation: \"{0}\" or \"{1}\"",
         Print_this_message: "Print this message",

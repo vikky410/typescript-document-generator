@@ -33,6 +33,7 @@
 ///<reference path='precompile.ts' />
 ///<reference path='referenceResolver.ts' />
 ///<reference path='declarationEmitter.ts' />
+///<reference path='documentationEmitter.ts' />
 ///<reference path='bloomFilter.ts' />
 ///<reference path='identifierWalker.ts' />
 ///<reference path='typecheck\dataMap.ts' />
@@ -50,7 +51,7 @@
 ///<reference path='syntaxTreeToAstVisitor.ts' />
 
 module TypeScript {
-
+     
     declare var IO: any;
 
     export var fileResolutionTime = 0;
@@ -76,6 +77,17 @@ module TypeScript {
     export var declarationEmitGetAccessorFunctionTime = 0;
     export var declarationEmitGetTypeParameterSymbolTime = 0;
     export var declarationEmitGetImportDeclarationSymbolTime = 0;
+
+    export var documentationEmitTime = 0;
+    export var documentationEmitIsExternallyVisibleTime = 0;
+    export var documentationEmitTypeSignatureTime = 0;
+    export var documentationEmitGetBoundDeclTypeTime = 0;
+    export var documentationEmitIsOverloadedCallSignatureTime = 0;
+    export var documentationEmitFunctiondocumentationGetSymbolTime = 0;
+    export var documentationEmitGetBaseTypeTime = 0;
+    export var documentationEmitGetAccessorFunctionTime = 0;
+    export var documentationEmitGetTypeParameterSymbolTime = 0;
+    export var documentationEmitGetImportdocumentationSymbolTime = 0;
 
     export var ioHostResolvePathTime = 0;
     export var ioHostDirectoryNameTime = 0;
@@ -306,7 +318,8 @@ module TypeScript {
             for (var i = 0, n = fileNames.length; i < n; i++) {
                 var document = this.getDocument(fileNames[i]);
                 var script = document.script;
-                if (!script.isDeclareFile && script.topLevelMod !== null) {
+               
+                if (!script.isDeclareFile && !script.isDocumentationFile && script.topLevelMod !== null) {
                     return true;
                 }
             }
@@ -322,8 +335,8 @@ module TypeScript {
                 var fileName = fileNames[i];
                 var document = this.getDocument(fileNames[i]);
                 var script = document.script;
-
-                if (!script.isDeclareFile) {
+                
+                if (!script.isDeclareFile && !script.isDocumentationFile) {
                     var fileComponents = filePathComponents(fileName);
                     if (commonComponentsLength === -1) {
                         // First time at finding common path
@@ -470,6 +483,10 @@ module TypeScript {
         static mapToDTSFileName(fileName: string, wholeFileNameReplaced: boolean) {
             return getDeclareFilePath(fileName);
         }
+        static mapToDocTSFileName(fileName: string, wholeFileNameReplaced: boolean)
+        {
+            return getDocumentationFilePath(fileName);
+        }
 
         private canEmitDeclarations(script?: Script) {
             if (!this.settings.generateDeclarationFiles) {
@@ -572,6 +589,132 @@ module TypeScript {
             return [];
         }
 
+
+        private canEmitDocumentation(script?: Script)
+        {
+            if (!this.settings.generateDocumentationFiles)
+            {
+                return false; 
+            }
+
+            // If its already a documentation file or is resident or does not contain body 
+            if (!!script && (script.isDocumentationFile || script.moduleElements === null))
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        // Caller is responsible for closing emitter.
+        private emitDocumentation(document: Document, documentationEmitter?: DocumentationEmitter): DocumentationEmitter
+        {
+            var script = document.script;
+            if (this.canEmitDocumentation(script))
+            {
+                if (documentationEmitter)
+                {
+                    documentationEmitter.document = document;
+                } else
+                {
+                    var declareFileName = this.emitOptions.mapOutputFileName(document, TypeScriptCompiler.mapToDocTSFileName);
+                    documentationEmitter = new DocumentationEmitter(declareFileName, document, this);
+                }
+
+                documentationEmitter.emitDocumentation(script);
+            }
+
+            return documentationEmitter;
+        }
+
+        // Will not throw exceptions.
+        public emitAllDocumentation(): Diagnostic[]
+        {
+            var start = new Date().getTime();
+
+            if (this.canEmitDocumentation())
+            {
+                var sharedEmitter: DocumentationEmitter = null;
+                var fileNames = this.fileNameToDocument.getAllKeys();
+
+                for (var i = 0, n = fileNames.length; i < n; i++)
+                {
+                    var fileName = fileNames[i];
+
+                    try
+                    {
+                        var document = this.getDocument(fileNames[i]);
+
+                        // Emitting module or multiple files, always goes to single file
+                        if (this.emitOptions.outputMany || document.script.topLevelMod)
+                        {
+                            var singleEmitter = this.emitDocumentation(document);
+                            if (singleEmitter)
+                            {
+                                singleEmitter.close();
+                            }
+                        }
+                        else
+                        {
+                            // Create or reuse file
+                            sharedEmitter = this.emitDocumentation(document, sharedEmitter);
+                        }
+                    }
+                    catch (ex1)
+                    {
+                        return Emitter.handleEmitterError(fileName, ex1);
+                    }
+                }
+
+                if (sharedEmitter)
+                {
+                    try
+                    {
+                        sharedEmitter.close();
+                    }
+                    catch (ex2)
+                    {
+                        return Emitter.handleEmitterError(sharedEmitter.document.fileName, ex2);
+                    }
+                }
+            }
+
+            documentationEmitTime += new Date().getTime() - start;
+
+            return [];
+        }
+
+        // Will not throw exceptions.
+        public emitUnitDocumentation(fileName: string): Diagnostic[]
+        {
+            if (this.canEmitDocumentation())
+            {
+                var document = this.getDocument(fileName);
+                // Emitting module or multiple files, always goes to single file
+                if (this.emitOptions.outputMany || document.script.topLevelMod)
+                {
+                    try
+                    {
+                        var emitter = this.emitDocumentation(document);
+                        if (emitter)
+                        {
+                            emitter.close();
+                        }
+                    }
+                    catch (ex1)
+                    {
+                        return Emitter.handleEmitterError(fileName, ex1);
+                    }
+                }
+                else
+                {
+                    return this.emitAllDocumentation();
+                }
+            }
+
+            return [];
+        }
+
         static mapToFileNameExtension(extension: string, fileName: string, wholeFileNameReplaced: boolean) {
             if (wholeFileNameReplaced) {
                 // The complete output is redirected in this file so do not change extension
@@ -595,7 +738,8 @@ module TypeScript {
                      emitter?: Emitter): Emitter {
 
             var script = document.script;
-            if (!script.isDeclareFile) {
+            
+            if (!script.isDeclareFile && !script.isDocumentationFile) {
                 var typeScriptFileName = document.fileName;
                 if (!emitter) {
                     var javaScriptFileName = this.emitOptions.mapOutputFileName(document, TypeScriptCompiler.mapToJSFileName);

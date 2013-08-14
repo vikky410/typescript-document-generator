@@ -57,6 +57,11 @@ module TypeScript {
         if (modName.length > 5 && modName.substring(modName.length - 5, modName.length) === ".d.ts") {
             return modName.substring(0, modName.length - 5);
         }
+        // in case's it's a documentation file...
+        if (modName.length > 8 && modName.substring(modName.length - 8, modName.length) === ".ts.wiki")
+        {
+            return modName.substring(0, modName.length - 8);
+        }
         if (modName.length > 3 && modName.substring(modName.length - 3, modName.length) === ".ts") {
             return modName.substring(0, modName.length - 3);
         }
@@ -70,6 +75,10 @@ module TypeScript {
 
     export function getDeclareFilePath(fname: string) {
         return isTSFile(fname) ? changePathToDTS(fname) : changePathToDTS(fname);
+    }
+    export function getDocumentationFilePath(fname: string)
+    {
+        return isTSFile(fname) ? changePathToDocTS(fname) : changePathToDocTS(fname);
     }
 
     function isFileOfExtension(fname: string, ext: string) {
@@ -89,6 +98,11 @@ module TypeScript {
 
     export function isDTSFile(fname: string) {
         return isFileOfExtension(fname, ".d.ts");
+    }
+
+    export function isDocTSFile(fname: string)
+    {
+        return isFileOfExtension(fname, ".ts.wiki");
     }
 
     export function getPrettyName(modPath: string, quote=true, treatAsFileName=false): any { 
@@ -150,6 +164,10 @@ module TypeScript {
 
     export function changePathToDTS(modPath: string) {
         return trimModName(stripQuotes(modPath)) + ".d.ts";
+    }
+    export function changePathToDocTS(modPath: string)
+    {
+        return trimModName(stripQuotes(modPath)) + ".ts.wiki";
     }
 
     export function isRelative(path: string) {

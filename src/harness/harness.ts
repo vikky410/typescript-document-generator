@@ -797,8 +797,10 @@ module Harness {
                         var referencedFiles: string[] = [];
                         var importedFiles: string[] = [];
 
-                        // If declaration files are going to be emitted, preprocess the file contents and add in referenced files as well
-                        if (this.compiler.settings.generateDeclarationFiles) {
+                        // If declaration or documentation files are going to be emitted, preprocess the file contents and add in referenced files as well
+                        if (this.compiler.settings.generateDeclarationFiles ||
+                            this.compiler.settings.generateDocumentationFiles)
+                        {
                             var references = TypeScript.getReferencedFiles(inputFile, this.getScriptSnapshot(inputFile));
                             references.forEach((reference) => { referencedFiles.push(reference.path); });
                         }
@@ -983,6 +985,7 @@ module Harness {
                 stderr.reset();
                 this.compiler.emitAll(stdout);
                 this.compiler.emitAllDeclarations();
+                this.compiler.emitAllDocumentation();
                 var result = new CompilerResult(stdout.toArray(), stderr.lines);
 
                 this.compiler.settings.moduleGenTarget = oldModuleType;
@@ -1027,6 +1030,9 @@ module Harness {
 
                 var emitDeclarationsDiagnostics = this.compiler.emitAllDeclarations();
                 this.compiler.reportDiagnostics(emitDeclarationsDiagnostics, errorReporter);
+
+                var emitDocumentationDiagnostics = this.compiler.emitAllDocumentation();
+                this.compiler.reportDiagnostics(emitDocumentationDiagnostics, errorReporter);
 
                 return errorTarget.lines;
             }
@@ -1095,6 +1101,7 @@ module Harness {
             private supportedFlags: { flag: string; setFlag: (x: TypeScript.CompilationSettings, value: string) => void ; }[] = [
                 { flag: 'comments', setFlag: (x: TypeScript.CompilationSettings, value: string) => { x.removeComments = value.toLowerCase() === 'true' ? false : true; } },
                 { flag: 'declaration', setFlag: (x: TypeScript.CompilationSettings, value: string) => { x.generateDeclarationFiles = value.toLowerCase() === 'true' ? true : false; } },
+                { flag: 'documentation', setFlag: (x: TypeScript.CompilationSettings, value: string) => { x.generateDocumentationFiles = value.toLowerCase() === 'true' ? true : false; } },
                 {
                     flag: 'module', setFlag: (x: TypeScript.CompilationSettings, value: string) => {
                         switch (value.toLowerCase()) {
@@ -1614,7 +1621,7 @@ module Harness {
         var optionRegex = /^[\/]{2}\s*@(\w+)\s*:\s*(\S*)/gm;  // multiple matches on multiple lines
 
         // List of allowed metadata names
-        var fileMetadataNames = ["filename", "comments", "declaration", "module", "nolib", "sourcemap", "target", "out", "outDir", "noimplicitany"];
+        var fileMetadataNames = ["filename", "comments", "declaration", "documentation", "module", "nolib", "sourcemap", "target", "out", "outDir", "noimplicitany"];
 
         function extractCompilerSettings(content: string): CompilerSetting[] {
 
