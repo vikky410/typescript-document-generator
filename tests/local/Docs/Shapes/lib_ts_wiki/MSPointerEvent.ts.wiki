@@ -1,0 +1,113 @@
+{anchor:MSPointerEvent}
+!! {"MSPointerEvent"}
+*Module:* [None]
+*Extends:* [MouseEvent]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"width: number;"}
+{""}
+
+!!!!!! {"rotation: number;"}
+{""}
+
+!!!!!! {"pressure: number;"}
+{""}
+
+!!!!!! {"pointerType: any;"}
+{""}
+
+!!!!!! {"isPrimary: boolean;"}
+{""}
+
+!!!!!! {"tiltY: number;"}
+{""}
+
+!!!!!! {"height: number;"}
+{""}
+
+!!!!!! {"intermediatePoints: any;"}
+{""}
+
+!!!!!! {"currentPoint: any;"}
+{""}
+
+!!!!!! {"tiltX: number;"}
+{""}
+
+!!!!!! {"hwTimestamp: number;"}
+{""}
+
+!!!!!! {"pointerId: number;"}
+{""}
+
+!!!!!! {"MSPOINTER_TYPE_PEN: number;"}
+{""}
+
+!!!!!! {"MSPOINTER_TYPE_MOUSE: number;"}
+{""}
+
+!!!!!! {"MSPOINTER_TYPE_TOUCH: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initPointerEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, viewArg: Window, detailArg: number, screenXArg: number, screenYArg: number, clientXArg: number, clientYArg: number, ctrlKeyArg: boolean, altKeyArg: boolean, shiftKeyArg: boolean, metaKeyArg: boolean, buttonArg: number, relatedTargetArg: EventTarget, offsetXArg: number, offsetYArg: number, widthArg: number, heightArg: number, pressure: number, rotation: number, tiltX: number, tiltY: number, pointerIdArg: number, pointerType: any, hwTimestampArg: number, isPrimary: boolean): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"viewArg:"}* {"Window - "}
+* *{"detailArg:"}* {"number - "}
+* *{"screenXArg:"}* {"number - "}
+* *{"screenYArg:"}* {"number - "}
+* *{"clientXArg:"}* {"number - "}
+* *{"clientYArg:"}* {"number - "}
+* *{"ctrlKeyArg:"}* {"boolean - "}
+* *{"altKeyArg:"}* {"boolean - "}
+* *{"shiftKeyArg:"}* {"boolean - "}
+* *{"metaKeyArg:"}* {"boolean - "}
+* *{"buttonArg:"}* {"number - "}
+* *{"relatedTargetArg:"}* {"EventTarget - "}
+* *{"offsetXArg:"}* {"number - "}
+* *{"offsetYArg:"}* {"number - "}
+* *{"widthArg:"}* {"number - "}
+* *{"heightArg:"}* {"number - "}
+* *{"pressure:"}* {"number - "}
+* *{"rotation:"}* {"number - "}
+* *{"tiltX:"}* {"number - "}
+* *{"tiltY:"}* {"number - "}
+* *{"pointerIdArg:"}* {"number - "}
+* *{"pointerType:"}* {"any - "}
+* *{"hwTimestampArg:"}* {"number - "}
+* *{"isPrimary:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getCurrentPoint(element: Element): void"}
+{""}
+* *{"element:"}* {"Element - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getIntermediatePoints(element: Element): void"}
+{""}
+* *{"element:"}* {"Element - "}
+* *Returns:* {"void - "}
+
+
+----
+

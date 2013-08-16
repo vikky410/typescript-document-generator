@@ -1,0 +1,42 @@
+{anchor:SVGFEGaussianBlurElement}
+!! {"SVGFEGaussianBlurElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGFilterPrimitiveStandardAttributes]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"stdDeviationX: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"in1: SVGAnimatedString;"}
+{""}
+
+!!!!!! {"stdDeviationY: SVGAnimatedNumber;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"setStdDeviation(stdDeviationX: number, stdDeviationY: number): void"}
+{""}
+* *{"stdDeviationX:"}* {"number - "}
+* *{"stdDeviationY:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

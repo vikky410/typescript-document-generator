@@ -1,0 +1,49 @@
+{anchor:SVGTextPathElement}
+!! {"SVGTextPathElement"}
+*Module:* [None]
+*Extends:* [SVGTextContentElement], [SVGURIReference]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"startOffset: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"method: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"spacing: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"TEXTPATH_SPACINGTYPE_EXACT: number;"}
+{""}
+
+!!!!!! {"TEXTPATH_METHODTYPE_STRETCH: number;"}
+{""}
+
+!!!!!! {"TEXTPATH_SPACINGTYPE_AUTO: number;"}
+{""}
+
+!!!!!! {"TEXTPATH_SPACINGTYPE_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"TEXTPATH_METHODTYPE_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"TEXTPATH_METHODTYPE_ALIGN: number;"}
+{""}
+
+
+----
+

@@ -1,0 +1,44 @@
+{anchor:History}
+!! {"History"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"state: any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"replaceState(statedata: any, title: string, url?: string): void"}
+{""}
+* *{"statedata:"}* {"any - "}
+* *{"title:"}* {"string - "}
+* [OPTIONAL] *{"url:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"pushState(statedata: any, title: string, url?: string): void"}
+{""}
+* *{"statedata:"}* {"any - "}
+* *{"title:"}* {"string - "}
+* [OPTIONAL] *{"url:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

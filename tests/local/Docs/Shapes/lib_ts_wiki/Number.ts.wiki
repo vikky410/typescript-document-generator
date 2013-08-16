@@ -1,0 +1,42 @@
+{anchor:Number}
+!! {"Number"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"toString(radix?: number): string"}
+{""}
+* [OPTIONAL] *{"radix:"}* {"number - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"toFixed(fractionDigits?: number): string"}
+{""}
+* [OPTIONAL] *{"fractionDigits:"}* {"number - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"toExponential(fractionDigits?: number): string"}
+{""}
+* [OPTIONAL] *{"fractionDigits:"}* {"number - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"toPrecision(precision: number): string"}
+{""}
+* *{"precision:"}* {"number - "}
+* *Returns:* {"string - "}
+
+
+----
+

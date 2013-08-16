@@ -1,0 +1,37 @@
+{anchor:MSWindowModeless}
+!! {"MSWindowModeless"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"dialogTop: any;"}
+{""}
+
+!!!!!! {"dialogLeft: any;"}
+{""}
+
+!!!!!! {"dialogWidth: any;"}
+{""}
+
+!!!!!! {"dialogHeight: any;"}
+{""}
+
+!!!!!! {"menuArguments: any;"}
+{""}
+
+
+----
+

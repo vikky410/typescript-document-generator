@@ -1,0 +1,118 @@
+{anchor:MSGestureEvent}
+!! {"MSGestureEvent"}
+*Module:* [None]
+*Extends:* [UIEvent]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"offsetY: number;"}
+{""}
+
+!!!!!! {"translationY: number;"}
+{""}
+
+!!!!!! {"velocityExpansion: number;"}
+{""}
+
+!!!!!! {"velocityY: number;"}
+{""}
+
+!!!!!! {"velocityAngular: number;"}
+{""}
+
+!!!!!! {"translationX: number;"}
+{""}
+
+!!!!!! {"velocityX: number;"}
+{""}
+
+!!!!!! {"hwTimestamp: number;"}
+{""}
+
+!!!!!! {"offsetX: number;"}
+{""}
+
+!!!!!! {"screenX: number;"}
+{""}
+
+!!!!!! {"rotation: number;"}
+{""}
+
+!!!!!! {"expansion: number;"}
+{""}
+
+!!!!!! {"clientY: number;"}
+{""}
+
+!!!!!! {"screenY: number;"}
+{""}
+
+!!!!!! {"scale: number;"}
+{""}
+
+!!!!!! {"gestureObject: any;"}
+{""}
+
+!!!!!! {"clientX: number;"}
+{""}
+
+!!!!!! {"MSGESTURE_FLAG_BEGIN: number;"}
+{""}
+
+!!!!!! {"MSGESTURE_FLAG_END: number;"}
+{""}
+
+!!!!!! {"MSGESTURE_FLAG_CANCEL: number;"}
+{""}
+
+!!!!!! {"MSGESTURE_FLAG_INERTIA: number;"}
+{""}
+
+!!!!!! {"MSGESTURE_FLAG_NONE: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initGestureEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, viewArg: Window, detailArg: number, screenXArg: number, screenYArg: number, clientXArg: number, clientYArg: number, offsetXArg: number, offsetYArg: number, translationXArg: number, translationYArg: number, scaleArg: number, expansionArg: number, rotationArg: number, velocityXArg: number, velocityYArg: number, velocityExpansionArg: number, velocityAngularArg: number, hwTimestampArg: number): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"viewArg:"}* {"Window - "}
+* *{"detailArg:"}* {"number - "}
+* *{"screenXArg:"}* {"number - "}
+* *{"screenYArg:"}* {"number - "}
+* *{"clientXArg:"}* {"number - "}
+* *{"clientYArg:"}* {"number - "}
+* *{"offsetXArg:"}* {"number - "}
+* *{"offsetYArg:"}* {"number - "}
+* *{"translationXArg:"}* {"number - "}
+* *{"translationYArg:"}* {"number - "}
+* *{"scaleArg:"}* {"number - "}
+* *{"expansionArg:"}* {"number - "}
+* *{"rotationArg:"}* {"number - "}
+* *{"velocityXArg:"}* {"number - "}
+* *{"velocityYArg:"}* {"number - "}
+* *{"velocityExpansionArg:"}* {"number - "}
+* *{"velocityAngularArg:"}* {"number - "}
+* *{"hwTimestampArg:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

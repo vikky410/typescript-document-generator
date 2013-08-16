@@ -1,0 +1,41 @@
+{anchor:HTMLCollection}
+!! {"HTMLCollection"}
+*Module:* [None]
+*Extends:* [MSHTMLCollectionExtensions]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"item(nameOrIndex?: any, optionalIndex?: any): Element"}
+{""}
+* [OPTIONAL] *{"nameOrIndex:"}* {"any - "}
+* [OPTIONAL] *{"optionalIndex:"}* {"any - "}
+* *Returns:* {"Element - "}
+
+!!!!!! {"namedItem(name: string): Element"}
+{""}
+* *{"name:"}* {"string - "}
+* *Returns:* {"Element - "}
+
+
+----
+

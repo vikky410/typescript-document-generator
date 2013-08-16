@@ -1,0 +1,331 @@
+{anchor:CanvasRenderingContext2D}
+!! {"CanvasRenderingContext2D"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"miterLimit: number;"}
+{""}
+
+!!!!!! {"font: string;"}
+{""}
+
+!!!!!! {"globalCompositeOperation: string;"}
+{""}
+
+!!!!!! {"msFillRule: string;"}
+{""}
+
+!!!!!! {"lineCap: string;"}
+{""}
+
+!!!!!! {"msImageSmoothingEnabled: boolean;"}
+{""}
+
+!!!!!! {"lineDashOffset: number;"}
+{""}
+
+!!!!!! {"shadowColor: string;"}
+{""}
+
+!!!!!! {"lineJoin: string;"}
+{""}
+
+!!!!!! {"shadowOffsetX: number;"}
+{""}
+
+!!!!!! {"lineWidth: number;"}
+{""}
+
+!!!!!! {"canvas: HTMLCanvasElement;"}
+{""}
+
+!!!!!! {"strokeStyle: any;"}
+{""}
+
+!!!!!! {"globalAlpha: number;"}
+{""}
+
+!!!!!! {"shadowOffsetY: number;"}
+{""}
+
+!!!!!! {"fillStyle: any;"}
+{""}
+
+!!!!!! {"shadowBlur: number;"}
+{""}
+
+!!!!!! {"textAlign: string;"}
+{""}
+
+!!!!!! {"textBaseline: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"restore(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"setTransform(m11: number, m12: number, m21: number, m22: number, dx: number, dy: number): void"}
+{""}
+* *{"m11:"}* {"number - "}
+* *{"m12:"}* {"number - "}
+* *{"m21:"}* {"number - "}
+* *{"m22:"}* {"number - "}
+* *{"dx:"}* {"number - "}
+* *{"dy:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"save(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"arc(x: number, y: number, radius: number, startAngle: number, endAngle: number, anticlockwise?: boolean): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *{"radius:"}* {"number - "}
+* *{"startAngle:"}* {"number - "}
+* *{"endAngle:"}* {"number - "}
+* [OPTIONAL] *{"anticlockwise:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"measureText(text: string): TextMetrics"}
+{""}
+* *{"text:"}* {"string - "}
+* *Returns:* {"TextMetrics - "}
+
+!!!!!! {"isPointInPath(x: number, y: number, fillRule?: string): boolean"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* [OPTIONAL] *{"fillRule:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"quadraticCurveTo(cpx: number, cpy: number, x: number, y: number): void"}
+{""}
+* *{"cpx:"}* {"number - "}
+* *{"cpy:"}* {"number - "}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"putImageData(imagedata: ImageData, dx: number, dy: number, dirtyX?: number, dirtyY?: number, dirtyWidth?: number, dirtyHeight?: number): void"}
+{""}
+* *{"imagedata:"}* {"ImageData - "}
+* *{"dx:"}* {"number - "}
+* *{"dy:"}* {"number - "}
+* [OPTIONAL] *{"dirtyX:"}* {"number - "}
+* [OPTIONAL] *{"dirtyY:"}* {"number - "}
+* [OPTIONAL] *{"dirtyWidth:"}* {"number - "}
+* [OPTIONAL] *{"dirtyHeight:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"rotate(angle: number): void"}
+{""}
+* *{"angle:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"fillText(text: string, x: number, y: number, maxWidth?: number): void"}
+{""}
+* *{"text:"}* {"string - "}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* [OPTIONAL] *{"maxWidth:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"translate(x: number, y: number): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"scale(x: number, y: number): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"createRadialGradient(x0: number, y0: number, r0: number, x1: number, y1: number, r1: number): CanvasGradient"}
+{""}
+* *{"x0:"}* {"number - "}
+* *{"y0:"}* {"number - "}
+* *{"r0:"}* {"number - "}
+* *{"x1:"}* {"number - "}
+* *{"y1:"}* {"number - "}
+* *{"r1:"}* {"number - "}
+* *Returns:* {"CanvasGradient - "}
+
+!!!!!! {"lineTo(x: number, y: number): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getLineDash(): number[]"}
+{""}
+* *Returns:* {"number[] - "}
+
+!!!!!! {"fill(fillRule?: string): void"}
+{""}
+* [OPTIONAL] *{"fillRule:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"createImageData(imageDataOrSw: any, sh?: number): ImageData"}
+{""}
+* *{"imageDataOrSw:"}* {"any - "}
+* [OPTIONAL] *{"sh:"}* {"number - "}
+* *Returns:* {"ImageData - "}
+
+!!!!!! {"createPattern(image: HTMLElement, repetition: string): CanvasPattern"}
+{""}
+* *{"image:"}* {"HTMLElement - "}
+* *{"repetition:"}* {"string - "}
+* *Returns:* {"CanvasPattern - "}
+
+!!!!!! {"closePath(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"rect(x: number, y: number, w: number, h: number): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *{"w:"}* {"number - "}
+* *{"h:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"clip(fillRule?: string): void"}
+{""}
+* [OPTIONAL] *{"fillRule:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"clearRect(x: number, y: number, w: number, h: number): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *{"w:"}* {"number - "}
+* *{"h:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"moveTo(x: number, y: number): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getImageData(sx: number, sy: number, sw: number, sh: number): ImageData"}
+{""}
+* *{"sx:"}* {"number - "}
+* *{"sy:"}* {"number - "}
+* *{"sw:"}* {"number - "}
+* *{"sh:"}* {"number - "}
+* *Returns:* {"ImageData - "}
+
+!!!!!! {"fillRect(x: number, y: number, w: number, h: number): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *{"w:"}* {"number - "}
+* *{"h:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"bezierCurveTo(cp1x: number, cp1y: number, cp2x: number, cp2y: number, x: number, y: number): void"}
+{""}
+* *{"cp1x:"}* {"number - "}
+* *{"cp1y:"}* {"number - "}
+* *{"cp2x:"}* {"number - "}
+* *{"cp2y:"}* {"number - "}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"drawImage(image: HTMLElement, offsetX: number, offsetY: number, width?: number, height?: number, canvasOffsetX?: number, canvasOffsetY?: number, canvasImageWidth?: number, canvasImageHeight?: number): void"}
+{""}
+* *{"image:"}* {"HTMLElement - "}
+* *{"offsetX:"}* {"number - "}
+* *{"offsetY:"}* {"number - "}
+* [OPTIONAL] *{"width:"}* {"number - "}
+* [OPTIONAL] *{"height:"}* {"number - "}
+* [OPTIONAL] *{"canvasOffsetX:"}* {"number - "}
+* [OPTIONAL] *{"canvasOffsetY:"}* {"number - "}
+* [OPTIONAL] *{"canvasImageWidth:"}* {"number - "}
+* [OPTIONAL] *{"canvasImageHeight:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"transform(m11: number, m12: number, m21: number, m22: number, dx: number, dy: number): void"}
+{""}
+* *{"m11:"}* {"number - "}
+* *{"m12:"}* {"number - "}
+* *{"m21:"}* {"number - "}
+* *{"m22:"}* {"number - "}
+* *{"dx:"}* {"number - "}
+* *{"dy:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"stroke(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"strokeRect(x: number, y: number, w: number, h: number): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *{"w:"}* {"number - "}
+* *{"h:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"setLineDash(segments: number[]): void"}
+{""}
+* *{"segments:"}* {"number[] - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"strokeText(text: string, x: number, y: number, maxWidth?: number): void"}
+{""}
+* *{"text:"}* {"string - "}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* [OPTIONAL] *{"maxWidth:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"beginPath(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"arcTo(x1: number, y1: number, x2: number, y2: number, radius: number): void"}
+{""}
+* *{"x1:"}* {"number - "}
+* *{"y1:"}* {"number - "}
+* *{"x2:"}* {"number - "}
+* *{"y2:"}* {"number - "}
+* *{"radius:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"createLinearGradient(x0: number, y0: number, x1: number, y1: number): CanvasGradient"}
+{""}
+* *{"x0:"}* {"number - "}
+* *{"y0:"}* {"number - "}
+* *{"x1:"}* {"number - "}
+* *{"y1:"}* {"number - "}
+* *Returns:* {"CanvasGradient - "}
+
+
+----
+

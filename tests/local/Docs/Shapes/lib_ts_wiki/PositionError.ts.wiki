@@ -1,0 +1,46 @@
+{anchor:PositionError}
+!! {"PositionError"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"code: number;"}
+{""}
+
+!!!!!! {"message: string;"}
+{""}
+
+!!!!!! {"POSITION_UNAVAILABLE: number;"}
+{""}
+
+!!!!!! {"PERMISSION_DENIED: number;"}
+{""}
+
+!!!!!! {"TIMEOUT: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"toString(): string"}
+{""}
+* *Returns:* {"string - "}
+
+
+----
+

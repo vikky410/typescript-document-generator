@@ -1,0 +1,37 @@
+{anchor:SVGRadialGradientElement}
+!! {"SVGRadialGradientElement"}
+*Module:* [None]
+*Extends:* [SVGGradientElement]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"cx: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"r: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"cy: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"fx: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"fy: SVGAnimatedLength;"}
+{""}
+
+
+----
+

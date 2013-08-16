@@ -1,0 +1,52 @@
+{anchor:SVGFEDisplacementMapElement}
+!! {"SVGFEDisplacementMapElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGFilterPrimitiveStandardAttributes]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"in2: SVGAnimatedString;"}
+{""}
+
+!!!!!! {"xChannelSelector: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"yChannelSelector: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"scale: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"in1: SVGAnimatedString;"}
+{""}
+
+!!!!!! {"SVG_CHANNEL_B: number;"}
+{""}
+
+!!!!!! {"SVG_CHANNEL_R: number;"}
+{""}
+
+!!!!!! {"SVG_CHANNEL_G: number;"}
+{""}
+
+!!!!!! {"SVG_CHANNEL_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_CHANNEL_A: number;"}
+{""}
+
+
+----
+

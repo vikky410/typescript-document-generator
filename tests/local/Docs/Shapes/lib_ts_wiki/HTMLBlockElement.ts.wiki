@@ -1,0 +1,28 @@
+{anchor:HTMLBlockElement}
+!! {"HTMLBlockElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [DOML2DeprecatedTextFlowControl]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"width: number;"}
+{""}
+
+!!!!!! {"cite: string;"}
+{""}
+
+
+----
+

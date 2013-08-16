@@ -1,0 +1,70 @@
+{anchor:TreeWalker}
+!! {"TreeWalker"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"whatToShow: number;"}
+{""}
+
+!!!!!! {"filter: NodeFilter;"}
+{""}
+
+!!!!!! {"root: Node;"}
+{""}
+
+!!!!!! {"currentNode: Node;"}
+{""}
+
+!!!!!! {"expandEntityReferences: boolean;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"previousSibling(): Node"}
+{""}
+* *Returns:* {"Node - "}
+
+!!!!!! {"lastChild(): Node"}
+{""}
+* *Returns:* {"Node - "}
+
+!!!!!! {"nextSibling(): Node"}
+{""}
+* *Returns:* {"Node - "}
+
+!!!!!! {"nextNode(): Node"}
+{""}
+* *Returns:* {"Node - "}
+
+!!!!!! {"parentNode(): Node"}
+{""}
+* *Returns:* {"Node - "}
+
+!!!!!! {"firstChild(): Node"}
+{""}
+* *Returns:* {"Node - "}
+
+!!!!!! {"previousNode(): Node"}
+{""}
+* *Returns:* {"Node - "}
+
+
+----
+

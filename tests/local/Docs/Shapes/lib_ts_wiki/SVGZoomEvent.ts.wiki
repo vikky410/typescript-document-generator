@@ -1,0 +1,37 @@
+{anchor:SVGZoomEvent}
+!! {"SVGZoomEvent"}
+*Module:* [None]
+*Extends:* [UIEvent]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"zoomRectScreen: SVGRect;"}
+{""}
+
+!!!!!! {"previousScale: number;"}
+{""}
+
+!!!!!! {"newScale: number;"}
+{""}
+
+!!!!!! {"previousTranslate: SVGPoint;"}
+{""}
+
+!!!!!! {"newTranslate: SVGPoint;"}
+{""}
+
+
+----
+

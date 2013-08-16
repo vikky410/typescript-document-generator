@@ -1,0 +1,40 @@
+{anchor:DocumentType}
+!! {"DocumentType"}
+*Module:* [None]
+*Extends:* [Node]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"name: string;"}
+{""}
+
+!!!!!! {"notations: NamedNodeMap;"}
+{""}
+
+!!!!!! {"systemId: string;"}
+{""}
+
+!!!!!! {"internalSubset: string;"}
+{""}
+
+!!!!!! {"entities: NamedNodeMap;"}
+{""}
+
+!!!!!! {"publicId: string;"}
+{""}
+
+
+----
+

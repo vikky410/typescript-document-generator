@@ -1,0 +1,59 @@
+{anchor:MediaSource}
+!! {"MediaSource"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"sourceBuffers: SourceBufferList;"}
+{""}
+
+!!!!!! {"duration: string;"}
+{""}
+
+!!!!!! {"readyState: any;"}
+{""}
+
+!!!!!! {"activeSourceBuffers: SourceBufferList;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addSourceBuffer(type: string): SourceBuffer"}
+{""}
+* *{"type:"}* {"string - "}
+* *Returns:* {"SourceBuffer - "}
+
+!!!!!! {"endOfStream(error?: string): void"}
+{""}
+* [OPTIONAL] *{"error:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"isTypeSupported(type: string): boolean"}
+{""}
+* *{"type:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"removeSourceBuffer(sourceBuffer: SourceBuffer): void"}
+{""}
+* *{"sourceBuffer:"}* {"SourceBuffer - "}
+* *Returns:* {"void - "}
+
+
+----
+

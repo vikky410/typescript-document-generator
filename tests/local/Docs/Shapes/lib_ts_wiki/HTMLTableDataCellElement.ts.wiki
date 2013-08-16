@@ -1,0 +1,17 @@
+{anchor:HTMLTableDataCellElement}
+!! {"HTMLTableDataCellElement"}
+*Module:* [None]
+*Extends:* [HTMLTableCellElement]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+

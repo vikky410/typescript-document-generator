@@ -1,0 +1,30 @@
+{anchor:TestEnum}
+!! {"TestEnum"}
+*Module:* [None]
+*Extends:* [N/A]
+*Implements:* [N/A]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:Shapes.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/Shapes.ts]
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{"Test enumeration summary."}
+
+----
+
+!!!! {"Values"}
+
+* *{"AValue"}* = 0 - {"AValue summary"}
+* *{"BValue"}* = 5 - {"BValue summary"}
+* *{"CValue"}* = 6 - {"CValue summary"}
+* *{"DValue"}* = 11 - {"DValue summary"}
+* *{"EValue"}* = 12 - {"EValue summary"}
+* *{"FValue"}* = 17 - {"FValue summary"}
+
+----
+

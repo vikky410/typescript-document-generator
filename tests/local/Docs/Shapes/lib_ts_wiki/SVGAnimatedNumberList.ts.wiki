@@ -1,0 +1,28 @@
+{anchor:SVGAnimatedNumberList}
+!! {"SVGAnimatedNumberList"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"animVal: SVGNumberList;"}
+{""}
+
+!!!!!! {"baseVal: SVGNumberList;"}
+{""}
+
+
+----
+

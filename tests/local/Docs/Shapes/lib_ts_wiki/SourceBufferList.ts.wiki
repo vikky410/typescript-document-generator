@@ -1,0 +1,35 @@
+{anchor:SourceBufferList}
+!! {"SourceBufferList"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"item(index: number): SourceBuffer"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SourceBuffer - "}
+
+
+----
+

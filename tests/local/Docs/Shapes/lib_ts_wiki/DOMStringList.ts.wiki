@@ -1,0 +1,40 @@
+{anchor:DOMStringList}
+!! {"DOMStringList"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"contains(str: string): boolean"}
+{""}
+* *{"str:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"item(index: number): string"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"string - "}
+
+
+----
+

@@ -1,0 +1,40 @@
+{anchor:HTMLMetaElement}
+!! {"HTMLMetaElement"}
+*Module:* [None]
+*Extends:* [HTMLElement]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"httpEquiv: string;"}
+{""}
+
+!!!!!! {"name: string;"}
+{""}
+
+!!!!!! {"content: string;"}
+{""}
+
+!!!!!! {"url: string;"}
+{""}
+
+!!!!!! {"scheme: string;"}
+{""}
+
+!!!!!! {"charset: string;"}
+{""}
+
+
+----
+

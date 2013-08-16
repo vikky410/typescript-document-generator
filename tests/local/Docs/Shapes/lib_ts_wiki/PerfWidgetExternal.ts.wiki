@@ -1,0 +1,92 @@
+{anchor:PerfWidgetExternal}
+!! {"PerfWidgetExternal"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"maxCpuSpeed: number;"}
+{""}
+
+!!!!!! {"performanceCounterFrequency: number;"}
+{""}
+
+!!!!!! {"performanceCounter: number;"}
+{""}
+
+!!!!!! {"averagePaintTime: number;"}
+{""}
+
+!!!!!! {"activeNetworkRequestCount: number;"}
+{""}
+
+!!!!!! {"paintRequestsPerSecond: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"repositionWindow(x: number, y: number): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getRecentMemoryUsage(last: number): any"}
+{""}
+* *{"last:"}* {"number - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"getMemoryUsage(): number"}
+{""}
+* *Returns:* {"number - "}
+
+!!!!!! {"resizeWindow(width: number, height: number): void"}
+{""}
+* *{"width:"}* {"number - "}
+* *{"height:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getProcessCpuUsage(): number"}
+{""}
+* *Returns:* {"number - "}
+
+!!!!!! {"removeEventListener(eventType: string, callback: (ev: any) => any): void"}
+{""}
+* *{"eventType:"}* {"string - "}
+* *{"callback:"}* {"(ev: any) => any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getRecentCpuUsage(last: number): any"}
+{""}
+* *{"last:"}* {"number - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"addEventListener(eventType: string, callback: (ev: any) => any): void"}
+{""}
+* *{"eventType:"}* {"string - "}
+* *{"callback:"}* {"(ev: any) => any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getRecentPaintRequests(last: number): any"}
+{""}
+* *{"last:"}* {"number - "}
+* *Returns:* {"any - "}
+
+
+----
+

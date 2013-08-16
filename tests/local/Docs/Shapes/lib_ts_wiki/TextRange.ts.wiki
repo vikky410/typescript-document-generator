@@ -1,0 +1,200 @@
+{anchor:TextRange}
+!! {"TextRange"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"boundingLeft: number;"}
+{""}
+
+!!!!!! {"htmlText: string;"}
+{""}
+
+!!!!!! {"offsetLeft: number;"}
+{""}
+
+!!!!!! {"boundingWidth: number;"}
+{""}
+
+!!!!!! {"boundingHeight: number;"}
+{""}
+
+!!!!!! {"boundingTop: number;"}
+{""}
+
+!!!!!! {"text: string;"}
+{""}
+
+!!!!!! {"offsetTop: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"moveToPoint(x: number, y: number): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"queryCommandValue(cmdID: string): any"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"getBookmark(): string"}
+{""}
+* *Returns:* {"string - "}
+
+!!!!!! {"move(unit: string, count?: number): number"}
+{""}
+* *{"unit:"}* {"string - "}
+* [OPTIONAL] *{"count:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"queryCommandIndeterm(cmdID: string): boolean"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"scrollIntoView(fStart?: boolean): void"}
+{""}
+* [OPTIONAL] *{"fStart:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"findText(string: string, count?: number, flags?: number): boolean"}
+{""}
+* *{"string:"}* {"string - "}
+* [OPTIONAL] *{"count:"}* {"number - "}
+* [OPTIONAL] *{"flags:"}* {"number - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"execCommand(cmdID: string, showUI?: boolean, value?: any): boolean"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* [OPTIONAL] *{"showUI:"}* {"boolean - "}
+* [OPTIONAL] *{"value:"}* {"any - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"getBoundingClientRect(): ClientRect"}
+{""}
+* *Returns:* {"ClientRect - "}
+
+!!!!!! {"moveToBookmark(bookmark: string): boolean"}
+{""}
+* *{"bookmark:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"isEqual(range: TextRange): boolean"}
+{""}
+* *{"range:"}* {"TextRange - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"duplicate(): TextRange"}
+{""}
+* *Returns:* {"TextRange - "}
+
+!!!!!! {"collapse(start?: boolean): void"}
+{""}
+* [OPTIONAL] *{"start:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"queryCommandText(cmdID: string): string"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"select(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"pasteHTML(html: string): void"}
+{""}
+* *{"html:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"inRange(range: TextRange): boolean"}
+{""}
+* *{"range:"}* {"TextRange - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"moveEnd(unit: string, count?: number): number"}
+{""}
+* *{"unit:"}* {"string - "}
+* [OPTIONAL] *{"count:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"getClientRects(): ClientRectList"}
+{""}
+* *Returns:* {"ClientRectList - "}
+
+!!!!!! {"moveStart(unit: string, count?: number): number"}
+{""}
+* *{"unit:"}* {"string - "}
+* [OPTIONAL] *{"count:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"parentElement(): Element"}
+{""}
+* *Returns:* {"Element - "}
+
+!!!!!! {"queryCommandState(cmdID: string): boolean"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"compareEndPoints(how: string, sourceRange: TextRange): number"}
+{""}
+* *{"how:"}* {"string - "}
+* *{"sourceRange:"}* {"TextRange - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"execCommandShowHelp(cmdID: string): boolean"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"moveToElementText(element: Element): void"}
+{""}
+* *{"element:"}* {"Element - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"expand(Unit: string): boolean"}
+{""}
+* *{"Unit:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"queryCommandSupported(cmdID: string): boolean"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"setEndPoint(how: string, SourceRange: TextRange): void"}
+{""}
+* *{"how:"}* {"string - "}
+* *{"SourceRange:"}* {"TextRange - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"queryCommandEnabled(cmdID: string): boolean"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+
+----
+

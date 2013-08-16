@@ -1,0 +1,75 @@
+{anchor:SVGTransformList}
+!! {"SVGTransformList"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"numberOfItems: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"getItem(index: number): SVGTransform"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGTransform - "}
+
+!!!!!! {"consolidate(): SVGTransform"}
+{""}
+* *Returns:* {"SVGTransform - "}
+
+!!!!!! {"clear(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"appendItem(newItem: SVGTransform): SVGTransform"}
+{""}
+* *{"newItem:"}* {"SVGTransform - "}
+* *Returns:* {"SVGTransform - "}
+
+!!!!!! {"initialize(newItem: SVGTransform): SVGTransform"}
+{""}
+* *{"newItem:"}* {"SVGTransform - "}
+* *Returns:* {"SVGTransform - "}
+
+!!!!!! {"removeItem(index: number): SVGTransform"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGTransform - "}
+
+!!!!!! {"insertItemBefore(newItem: SVGTransform, index: number): SVGTransform"}
+{""}
+* *{"newItem:"}* {"SVGTransform - "}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGTransform - "}
+
+!!!!!! {"replaceItem(newItem: SVGTransform, index: number): SVGTransform"}
+{""}
+* *{"newItem:"}* {"SVGTransform - "}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGTransform - "}
+
+!!!!!! {"createSVGTransformFromMatrix(matrix: SVGMatrix): SVGTransform"}
+{""}
+* *{"matrix:"}* {"SVGMatrix - "}
+* *Returns:* {"SVGTransform - "}
+
+
+----
+

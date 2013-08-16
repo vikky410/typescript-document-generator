@@ -1,0 +1,42 @@
+{anchor:TransitionEvent}
+!! {"TransitionEvent"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"propertyName: string;"}
+{""}
+
+!!!!!! {"elapsedTime: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initTransitionEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, propertyNameArg: string, elapsedTimeArg: number): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"propertyNameArg:"}* {"string - "}
+* *{"elapsedTimeArg:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

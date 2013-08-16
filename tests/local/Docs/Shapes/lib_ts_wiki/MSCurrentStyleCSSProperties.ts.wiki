@@ -1,0 +1,40 @@
+{anchor:MSCurrentStyleCSSProperties}
+!! {"MSCurrentStyleCSSProperties"}
+*Module:* [None]
+*Extends:* [MSCSSProperties]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"blockDirection: string;"}
+{""}
+
+!!!!!! {"clipBottom: string;"}
+{""}
+
+!!!!!! {"clipLeft: string;"}
+{""}
+
+!!!!!! {"clipRight: string;"}
+{""}
+
+!!!!!! {"clipTop: string;"}
+{""}
+
+!!!!!! {"hasLayout: string;"}
+{""}
+
+
+----
+

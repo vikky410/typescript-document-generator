@@ -1,0 +1,102 @@
+{anchor:MSHTMLWebViewElement}
+!! {"MSHTMLWebViewElement"}
+*Module:* [None]
+*Extends:* [HTMLElement]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"documentTitle: string;"}
+{""}
+
+!!!!!! {"width: number;"}
+{""}
+
+!!!!!! {"src: string;"}
+{""}
+
+!!!!!! {"canGoForward: boolean;"}
+{""}
+
+!!!!!! {"height: number;"}
+{""}
+
+!!!!!! {"canGoBack: boolean;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"navigateWithHttpRequestMessage(requestMessage: any): void"}
+{""}
+* *{"requestMessage:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"goBack(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"navigate(uri: string): void"}
+{""}
+* *{"uri:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"stop(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"navigateToString(contents: string): void"}
+{""}
+* *{"contents:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"captureSelectedContentToDataPackageAsync(): MSWebViewAsyncOperation"}
+{""}
+* *Returns:* {"MSWebViewAsyncOperation - "}
+
+!!!!!! {"capturePreviewToBlobAsync(): MSWebViewAsyncOperation"}
+{""}
+* *Returns:* {"MSWebViewAsyncOperation - "}
+
+!!!!!! {"refresh(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"goForward(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"navigateToLocalStreamUri(source: string, streamResolver: any): void"}
+{""}
+* *{"source:"}* {"string - "}
+* *{"streamResolver:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"invokeScriptAsync(scriptName: string, ...args: any[]): MSWebViewAsyncOperation"}
+{""}
+* *{"scriptName:"}* {"string - "}
+* *{"args:"}* {"any[] - "}
+* *Returns:* {"MSWebViewAsyncOperation - "}
+
+!!!!!! {"buildLocalStreamUri(contentIdentifier: string, relativePath: string): string"}
+{""}
+* *{"contentIdentifier:"}* {"string - "}
+* *{"relativePath:"}* {"string - "}
+* *Returns:* {"string - "}
+
+
+----
+

@@ -1,0 +1,37 @@
+{anchor:MSImageResourceExtensions}
+!! {"MSImageResourceExtensions"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"dynsrc: string;"}
+{""}
+
+!!!!!! {"vrml: string;"}
+{""}
+
+!!!!!! {"lowsrc: string;"}
+{""}
+
+!!!!!! {"start: string;"}
+{""}
+
+!!!!!! {"loop: number;"}
+{""}
+
+
+----
+

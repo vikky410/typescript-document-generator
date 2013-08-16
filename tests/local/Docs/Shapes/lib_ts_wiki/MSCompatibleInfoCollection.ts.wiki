@@ -1,0 +1,35 @@
+{anchor:MSCompatibleInfoCollection}
+!! {"MSCompatibleInfoCollection"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"item(index: number): MSCompatibleInfo"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"MSCompatibleInfo - "}
+
+
+----
+

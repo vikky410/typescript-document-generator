@@ -1,0 +1,63 @@
+{anchor:MutationEvent}
+!! {"MutationEvent"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"newValue: string;"}
+{""}
+
+!!!!!! {"attrChange: number;"}
+{""}
+
+!!!!!! {"attrName: string;"}
+{""}
+
+!!!!!! {"prevValue: string;"}
+{""}
+
+!!!!!! {"relatedNode: Node;"}
+{""}
+
+!!!!!! {"MODIFICATION: number;"}
+{""}
+
+!!!!!! {"REMOVAL: number;"}
+{""}
+
+!!!!!! {"ADDITION: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initMutationEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, relatedNodeArg: Node, prevValueArg: string, newValueArg: string, attrNameArg: string, attrChangeArg: number): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"relatedNodeArg:"}* {"Node - "}
+* *{"prevValueArg:"}* {"string - "}
+* *{"newValueArg:"}* {"string - "}
+* *{"attrNameArg:"}* {"string - "}
+* *{"attrChangeArg:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

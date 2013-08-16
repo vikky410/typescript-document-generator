@@ -1,0 +1,64 @@
+{anchor:IDBKeyRange}
+!! {"IDBKeyRange"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"upper: any;"}
+{""}
+
+!!!!!! {"upperOpen: boolean;"}
+{""}
+
+!!!!!! {"lower: any;"}
+{""}
+
+!!!!!! {"lowerOpen: boolean;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"bound(lower: any, upper: any, lowerOpen?: boolean, upperOpen?: boolean): IDBKeyRange"}
+{""}
+* *{"lower:"}* {"any - "}
+* *{"upper:"}* {"any - "}
+* [OPTIONAL] *{"lowerOpen:"}* {"boolean - "}
+* [OPTIONAL] *{"upperOpen:"}* {"boolean - "}
+* *Returns:* {"IDBKeyRange - "}
+
+!!!!!! {"only(value: any): IDBKeyRange"}
+{""}
+* *{"value:"}* {"any - "}
+* *Returns:* {"IDBKeyRange - "}
+
+!!!!!! {"lowerBound(bound: any, open?: boolean): IDBKeyRange"}
+{""}
+* *{"bound:"}* {"any - "}
+* [OPTIONAL] *{"open:"}* {"boolean - "}
+* *Returns:* {"IDBKeyRange - "}
+
+!!!!!! {"upperBound(bound: any, open?: boolean): IDBKeyRange"}
+{""}
+* *{"bound:"}* {"any - "}
+* [OPTIONAL] *{"open:"}* {"boolean - "}
+* *Returns:* {"IDBKeyRange - "}
+
+
+----
+

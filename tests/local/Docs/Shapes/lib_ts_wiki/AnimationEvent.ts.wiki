@@ -1,0 +1,42 @@
+{anchor:AnimationEvent}
+!! {"AnimationEvent"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"animationName: string;"}
+{""}
+
+!!!!!! {"elapsedTime: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initAnimationEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, animationNameArg: string, elapsedTimeArg: number): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"animationNameArg:"}* {"string - "}
+* *{"elapsedTimeArg:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

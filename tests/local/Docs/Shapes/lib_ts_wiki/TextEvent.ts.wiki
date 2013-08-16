@@ -1,0 +1,77 @@
+{anchor:TextEvent}
+!! {"TextEvent"}
+*Module:* [None]
+*Extends:* [UIEvent]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"inputMethod: number;"}
+{""}
+
+!!!!!! {"data: string;"}
+{""}
+
+!!!!!! {"locale: string;"}
+{""}
+
+!!!!!! {"DOM_INPUT_METHOD_KEYBOARD: number;"}
+{""}
+
+!!!!!! {"DOM_INPUT_METHOD_DROP: number;"}
+{""}
+
+!!!!!! {"DOM_INPUT_METHOD_IME: number;"}
+{""}
+
+!!!!!! {"DOM_INPUT_METHOD_SCRIPT: number;"}
+{""}
+
+!!!!!! {"DOM_INPUT_METHOD_VOICE: number;"}
+{""}
+
+!!!!!! {"DOM_INPUT_METHOD_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"DOM_INPUT_METHOD_PASTE: number;"}
+{""}
+
+!!!!!! {"DOM_INPUT_METHOD_HANDWRITING: number;"}
+{""}
+
+!!!!!! {"DOM_INPUT_METHOD_OPTION: number;"}
+{""}
+
+!!!!!! {"DOM_INPUT_METHOD_MULTIMODAL: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initTextEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, viewArg: Window, dataArg: string, inputMethod: number, locale: string): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"viewArg:"}* {"Window - "}
+* *{"dataArg:"}* {"string - "}
+* *{"inputMethod:"}* {"number - "}
+* *{"locale:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

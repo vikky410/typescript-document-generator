@@ -1,0 +1,104 @@
+{anchor:CSSStyleSheet}
+!! {"CSSStyleSheet"}
+*Module:* [None]
+*Extends:* [StyleSheet]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"owningElement: Element;"}
+{""}
+
+!!!!!! {"imports: StyleSheetList;"}
+{""}
+
+!!!!!! {"isAlternate: boolean;"}
+{""}
+
+!!!!!! {"rules: MSCSSRuleList;"}
+{""}
+
+!!!!!! {"isPrefAlternate: boolean;"}
+{""}
+
+!!!!!! {"readOnly: boolean;"}
+{""}
+
+!!!!!! {"cssText: string;"}
+{""}
+
+!!!!!! {"ownerRule: CSSRule;"}
+{""}
+
+!!!!!! {"href: string;"}
+{""}
+
+!!!!!! {"cssRules: CSSRuleList;"}
+{""}
+
+!!!!!! {"id: string;"}
+{""}
+
+!!!!!! {"pages: StyleSheetPageList;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addImport(bstrURL: string, lIndex?: number): number"}
+{""}
+* *{"bstrURL:"}* {"string - "}
+* [OPTIONAL] *{"lIndex:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"addPageRule(bstrSelector: string, bstrStyle: string, lIndex?: number): number"}
+{""}
+* *{"bstrSelector:"}* {"string - "}
+* *{"bstrStyle:"}* {"string - "}
+* [OPTIONAL] *{"lIndex:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"insertRule(rule: string, index?: number): number"}
+{""}
+* *{"rule:"}* {"string - "}
+* [OPTIONAL] *{"index:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"removeRule(lIndex: number): void"}
+{""}
+* *{"lIndex:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"deleteRule(index?: number): void"}
+{""}
+* [OPTIONAL] *{"index:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addRule(bstrSelector: string, bstrStyle?: string, lIndex?: number): number"}
+{""}
+* *{"bstrSelector:"}* {"string - "}
+* [OPTIONAL] *{"bstrStyle:"}* {"string - "}
+* [OPTIONAL] *{"lIndex:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"removeImport(lIndex: number): void"}
+{""}
+* *{"lIndex:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

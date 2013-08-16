@@ -1,0 +1,44 @@
+{anchor:ElementCSSInlineStyle}
+!! {"ElementCSSInlineStyle"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"runtimeStyle: MSStyleCSSProperties;"}
+{""}
+
+!!!!!! {"currentStyle: MSCurrentStyleCSSProperties;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"doScroll(component?: any): void"}
+{""}
+* [OPTIONAL] *{"component:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"componentFromPoint(x: number, y: number): string"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"string - "}
+
+
+----
+

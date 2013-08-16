@@ -1,0 +1,48 @@
+{anchor:CSSKeyframesRule}
+!! {"CSSKeyframesRule"}
+*Module:* [None]
+*Extends:* [CSSRule]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"name: string;"}
+{""}
+
+!!!!!! {"cssRules: CSSRuleList;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"findRule(rule: string): CSSKeyframeRule"}
+{""}
+* *{"rule:"}* {"string - "}
+* *Returns:* {"CSSKeyframeRule - "}
+
+!!!!!! {"deleteRule(rule: string): void"}
+{""}
+* *{"rule:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"appendRule(rule: string): void"}
+{""}
+* *{"rule:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

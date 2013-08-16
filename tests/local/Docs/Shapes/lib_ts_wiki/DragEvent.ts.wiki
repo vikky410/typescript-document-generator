@@ -1,0 +1,29 @@
+{anchor:DragEvent}
+!! {"DragEvent"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"msConvertURL(file: File, targetType: string, targetURL?: string): boolean"}
+{""}
+* *{"file:"}* {"File - "}
+* *{"targetType:"}* {"string - "}
+* [OPTIONAL] *{"targetURL:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+
+----
+

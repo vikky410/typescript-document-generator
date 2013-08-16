@@ -1,0 +1,42 @@
+{anchor:UIEvent}
+!! {"UIEvent"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"detail: number;"}
+{""}
+
+!!!!!! {"view: Window;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initUIEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, viewArg: Window, detailArg: number): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"viewArg:"}* {"Window - "}
+* *{"detailArg:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

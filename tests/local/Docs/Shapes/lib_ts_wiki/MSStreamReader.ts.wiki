@@ -1,0 +1,55 @@
+{anchor:MSStreamReader}
+!! {"MSStreamReader"}
+*Module:* [None]
+*Extends:* [MSBaseReader]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"error: DOMError;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"readAsArrayBuffer(stream: MSStream, size?: number): void"}
+{""}
+* *{"stream:"}* {"MSStream - "}
+* [OPTIONAL] *{"size:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"readAsBlob(stream: MSStream, size?: number): void"}
+{""}
+* *{"stream:"}* {"MSStream - "}
+* [OPTIONAL] *{"size:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"readAsDataURL(stream: MSStream, size?: number): void"}
+{""}
+* *{"stream:"}* {"MSStream - "}
+* [OPTIONAL] *{"size:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"readAsText(stream: MSStream, encoding?: string, size?: number): void"}
+{""}
+* *{"stream:"}* {"MSStream - "}
+* [OPTIONAL] *{"encoding:"}* {"string - "}
+* [OPTIONAL] *{"size:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

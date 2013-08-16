@@ -1,0 +1,240 @@
+{anchor:SVGSVGElement}
+!! {"SVGSVGElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGStylable], [SVGZoomAndPan], [DocumentEvent], [SVGLangSpace], [SVGLocatable], [SVGTests], [SVGFitToViewBox], [SVGExternalResourcesRequired]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"width: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"x: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"contentStyleType: string;"}
+{""}
+
+!!!!!! {"onzoom: (ev: any) => any;"}
+{""}
+
+!!!!!! {"y: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"viewport: SVGRect;"}
+{""}
+
+!!!!!! {"onerror: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"pixelUnitToMillimeterY: number;"}
+{""}
+
+!!!!!! {"onresize: (ev: UIEvent) => any;"}
+{""}
+
+!!!!!! {"screenPixelToMillimeterY: number;"}
+{""}
+
+!!!!!! {"height: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"onabort: (ev: UIEvent) => any;"}
+{""}
+
+!!!!!! {"contentScriptType: string;"}
+{""}
+
+!!!!!! {"pixelUnitToMillimeterX: number;"}
+{""}
+
+!!!!!! {"currentTranslate: SVGPoint;"}
+{""}
+
+!!!!!! {"onunload: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"currentScale: number;"}
+{""}
+
+!!!!!! {"onscroll: (ev: UIEvent) => any;"}
+{""}
+
+!!!!!! {"screenPixelToMillimeterX: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "zoom", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""zoom" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "error", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""error" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "resize", listener: (ev: UIEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""resize" - "}
+* *{"listener:"}* {"(ev: UIEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "abort", listener: (ev: UIEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""abort" - "}
+* *{"listener:"}* {"(ev: UIEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "unload", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""unload" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "scroll", listener: (ev: UIEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""scroll" - "}
+* *{"listener:"}* {"(ev: UIEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"setCurrentTime(seconds: number): void"}
+{""}
+* *{"seconds:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"createSVGLength(): SVGLength"}
+{""}
+* *Returns:* {"SVGLength - "}
+
+!!!!!! {"getIntersectionList(rect: SVGRect, referenceElement: SVGElement): NodeList"}
+{""}
+* *{"rect:"}* {"SVGRect - "}
+* *{"referenceElement:"}* {"SVGElement - "}
+* *Returns:* {"NodeList - "}
+
+!!!!!! {"unpauseAnimations(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"createSVGRect(): SVGRect"}
+{""}
+* *Returns:* {"SVGRect - "}
+
+!!!!!! {"checkIntersection(element: SVGElement, rect: SVGRect): boolean"}
+{""}
+* *{"element:"}* {"SVGElement - "}
+* *{"rect:"}* {"SVGRect - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"unsuspendRedrawAll(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"pauseAnimations(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"suspendRedraw(maxWaitMilliseconds: number): number"}
+{""}
+* *{"maxWaitMilliseconds:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"deselectAll(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"createSVGAngle(): SVGAngle"}
+{""}
+* *Returns:* {"SVGAngle - "}
+
+!!!!!! {"getEnclosureList(rect: SVGRect, referenceElement: SVGElement): NodeList"}
+{""}
+* *{"rect:"}* {"SVGRect - "}
+* *{"referenceElement:"}* {"SVGElement - "}
+* *Returns:* {"NodeList - "}
+
+!!!!!! {"createSVGTransform(): SVGTransform"}
+{""}
+* *Returns:* {"SVGTransform - "}
+
+!!!!!! {"unsuspendRedraw(suspendHandleID: number): void"}
+{""}
+* *{"suspendHandleID:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"forceRedraw(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"getCurrentTime(): number"}
+{""}
+* *Returns:* {"number - "}
+
+!!!!!! {"checkEnclosure(element: SVGElement, rect: SVGRect): boolean"}
+{""}
+* *{"element:"}* {"SVGElement - "}
+* *{"rect:"}* {"SVGRect - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"createSVGMatrix(): SVGMatrix"}
+{""}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"createSVGPoint(): SVGPoint"}
+{""}
+* *Returns:* {"SVGPoint - "}
+
+!!!!!! {"createSVGNumber(): SVGNumber"}
+{""}
+* *Returns:* {"SVGNumber - "}
+
+!!!!!! {"createSVGTransformFromMatrix(matrix: SVGMatrix): SVGTransform"}
+{""}
+* *{"matrix:"}* {"SVGMatrix - "}
+* *Returns:* {"SVGTransform - "}
+
+!!!!!! {"getComputedStyle(elt: Element, pseudoElt?: string): CSSStyleDeclaration"}
+{""}
+* *{"elt:"}* {"Element - "}
+* [OPTIONAL] *{"pseudoElt:"}* {"string - "}
+* *Returns:* {"CSSStyleDeclaration - "}
+
+!!!!!! {"getElementById(elementId: string): Element"}
+{""}
+* *{"elementId:"}* {"string - "}
+* *Returns:* {"Element - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

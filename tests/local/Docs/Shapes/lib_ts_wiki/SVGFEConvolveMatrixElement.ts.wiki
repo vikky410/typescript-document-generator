@@ -1,0 +1,70 @@
+{anchor:SVGFEConvolveMatrixElement}
+!! {"SVGFEConvolveMatrixElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGFilterPrimitiveStandardAttributes]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"orderY: SVGAnimatedInteger;"}
+{""}
+
+!!!!!! {"kernelUnitLengthY: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"orderX: SVGAnimatedInteger;"}
+{""}
+
+!!!!!! {"preserveAlpha: SVGAnimatedBoolean;"}
+{""}
+
+!!!!!! {"kernelMatrix: SVGAnimatedNumberList;"}
+{""}
+
+!!!!!! {"edgeMode: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"kernelUnitLengthX: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"bias: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"targetX: SVGAnimatedInteger;"}
+{""}
+
+!!!!!! {"targetY: SVGAnimatedInteger;"}
+{""}
+
+!!!!!! {"divisor: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"in1: SVGAnimatedString;"}
+{""}
+
+!!!!!! {"SVG_EDGEMODE_WRAP: number;"}
+{""}
+
+!!!!!! {"SVG_EDGEMODE_DUPLICATE: number;"}
+{""}
+
+!!!!!! {"SVG_EDGEMODE_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_EDGEMODE_NONE: number;"}
+{""}
+
+
+----
+

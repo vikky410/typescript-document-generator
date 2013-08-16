@@ -1,0 +1,36 @@
+{anchor:String}
+!! {"String"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"localeCompare(that: string, locales: string[], options?: Intl.CollatorOptions): number"}
+{""}
+* *{"that:"}* {"string - "}
+* *{"locales:"}* {"string[] - "}
+* [OPTIONAL] *{"options:"}* {"Intl.CollatorOptions - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"localeCompare(that: string, locale: string, options?: Intl.CollatorOptions): number"}
+{""}
+* *{"that:"}* {"string - "}
+* *{"locale:"}* {"string - "}
+* [OPTIONAL] *{"options:"}* {"Intl.CollatorOptions - "}
+* *Returns:* {"number - "}
+
+
+----
+

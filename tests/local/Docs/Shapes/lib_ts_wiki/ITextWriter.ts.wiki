@@ -1,0 +1,36 @@
+{anchor:ITextWriter}
+!! {"ITextWriter"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"Write(s: string): void"}
+{""}
+* *{"s:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"WriteLine(s: string): void"}
+{""}
+* *{"s:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"Close(): void"}
+{""}
+* *Returns:* {"void - "}
+
+
+----
+

@@ -1,0 +1,69 @@
+{anchor:IDBRequest}
+!! {"IDBRequest"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"source: any;"}
+{""}
+
+!!!!!! {"onsuccess: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"error: DOMError;"}
+{""}
+
+!!!!!! {"transaction: IDBTransaction;"}
+{""}
+
+!!!!!! {"onerror: (ev: ErrorEvent) => any;"}
+{""}
+
+!!!!!! {"readyState: string;"}
+{""}
+
+!!!!!! {"result: any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "success", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""success" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "error", listener: (ev: ErrorEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""error" - "}
+* *{"listener:"}* {"(ev: ErrorEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

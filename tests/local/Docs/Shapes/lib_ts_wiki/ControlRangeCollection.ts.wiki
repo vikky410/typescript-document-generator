@@ -1,0 +1,96 @@
+{anchor:ControlRangeCollection}
+!! {"ControlRangeCollection"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"queryCommandValue(cmdID: string): any"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"remove(index: number): void"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"add(item: Element): void"}
+{""}
+* *{"item:"}* {"Element - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"queryCommandIndeterm(cmdID: string): boolean"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"scrollIntoView(varargStart?: any): void"}
+{""}
+* [OPTIONAL] *{"varargStart:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"item(index: number): Element"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"Element - "}
+
+!!!!!! {"execCommand(cmdID: string, showUI?: boolean, value?: any): boolean"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* [OPTIONAL] *{"showUI:"}* {"boolean - "}
+* [OPTIONAL] *{"value:"}* {"any - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"addElement(item: Element): void"}
+{""}
+* *{"item:"}* {"Element - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"queryCommandState(cmdID: string): boolean"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"queryCommandSupported(cmdID: string): boolean"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"queryCommandEnabled(cmdID: string): boolean"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"queryCommandText(cmdID: string): string"}
+{""}
+* *{"cmdID:"}* {"string - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"select(): void"}
+{""}
+* *Returns:* {"void - "}
+
+
+----
+

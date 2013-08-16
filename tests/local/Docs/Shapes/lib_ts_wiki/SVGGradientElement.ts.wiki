@@ -1,0 +1,43 @@
+{anchor:SVGGradientElement}
+!! {"SVGGradientElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGUnitTypes], [SVGStylable], [SVGExternalResourcesRequired], [SVGURIReference]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"spreadMethod: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"gradientTransform: SVGAnimatedTransformList;"}
+{""}
+
+!!!!!! {"gradientUnits: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"SVG_SPREADMETHOD_REFLECT: number;"}
+{""}
+
+!!!!!! {"SVG_SPREADMETHOD_PAD: number;"}
+{""}
+
+!!!!!! {"SVG_SPREADMETHOD_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_SPREADMETHOD_REPEAT: number;"}
+{""}
+
+
+----
+

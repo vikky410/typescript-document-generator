@@ -1,0 +1,25 @@
+{anchor:SVGTransformable}
+!! {"SVGTransformable"}
+*Module:* [None]
+*Extends:* [SVGLocatable]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"transform: SVGAnimatedTransformList;"}
+{""}
+
+
+----
+

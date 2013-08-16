@@ -1,0 +1,55 @@
+{anchor:PerformanceResourceTiming}
+!! {"PerformanceResourceTiming"}
+*Module:* [None]
+*Extends:* [PerformanceEntry]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"redirectStart: number;"}
+{""}
+
+!!!!!! {"redirectEnd: number;"}
+{""}
+
+!!!!!! {"domainLookupEnd: number;"}
+{""}
+
+!!!!!! {"responseStart: number;"}
+{""}
+
+!!!!!! {"domainLookupStart: number;"}
+{""}
+
+!!!!!! {"fetchStart: number;"}
+{""}
+
+!!!!!! {"requestStart: number;"}
+{""}
+
+!!!!!! {"connectEnd: number;"}
+{""}
+
+!!!!!! {"connectStart: number;"}
+{""}
+
+!!!!!! {"initiatorType: string;"}
+{""}
+
+!!!!!! {"responseEnd: number;"}
+{""}
+
+
+----
+

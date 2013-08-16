@@ -1,0 +1,63 @@
+{anchor:HTMLButtonElement}
+!! {"HTMLButtonElement"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"validationMessage: string;"}
+{""}
+
+!!!!!! {"formTarget: string;"}
+{""}
+
+!!!!!! {"willValidate: boolean;"}
+{""}
+
+!!!!!! {"formAction: string;"}
+{""}
+
+!!!!!! {"autofocus: boolean;"}
+{""}
+
+!!!!!! {"validity: ValidityState;"}
+{""}
+
+!!!!!! {"formNoValidate: string;"}
+{""}
+
+!!!!!! {"formEnctype: string;"}
+{""}
+
+!!!!!! {"formMethod: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"checkValidity(): boolean"}
+{""}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"setCustomValidity(error: string): void"}
+{""}
+* *{"error:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

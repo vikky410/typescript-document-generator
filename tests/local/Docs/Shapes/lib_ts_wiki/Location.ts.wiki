@@ -1,0 +1,70 @@
+{anchor:Location}
+!! {"Location"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"hash: string;"}
+{""}
+
+!!!!!! {"protocol: string;"}
+{""}
+
+!!!!!! {"search: string;"}
+{""}
+
+!!!!!! {"href: string;"}
+{""}
+
+!!!!!! {"hostname: string;"}
+{""}
+
+!!!!!! {"port: string;"}
+{""}
+
+!!!!!! {"pathname: string;"}
+{""}
+
+!!!!!! {"host: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"reload(flag?: boolean): void"}
+{""}
+* [OPTIONAL] *{"flag:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"replace(url: string): void"}
+{""}
+* *{"url:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"assign(url: string): void"}
+{""}
+* *{"url:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"toString(): string"}
+{""}
+* *Returns:* {"string - "}
+
+
+----
+

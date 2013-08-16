@@ -1,0 +1,113 @@
+{anchor:MSBaseReader}
+!! {"MSBaseReader"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"onprogress: (ev: ProgressEvent) => any;"}
+{""}
+
+!!!!!! {"readyState: number;"}
+{""}
+
+!!!!!! {"onabort: (ev: any) => any;"}
+{""}
+
+!!!!!! {"onloadend: (ev: ProgressEvent) => any;"}
+{""}
+
+!!!!!! {"onerror: (ev: ErrorEvent) => any;"}
+{""}
+
+!!!!!! {"onload: (ev: any) => any;"}
+{""}
+
+!!!!!! {"onloadstart: (ev: any) => any;"}
+{""}
+
+!!!!!! {"result: any;"}
+{""}
+
+!!!!!! {"LOADING: number;"}
+{""}
+
+!!!!!! {"EMPTY: number;"}
+{""}
+
+!!!!!! {"DONE: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "progress", listener: (ev: ProgressEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""progress" - "}
+* *{"listener:"}* {"(ev: ProgressEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "abort", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""abort" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "loadend", listener: (ev: ProgressEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""loadend" - "}
+* *{"listener:"}* {"(ev: ProgressEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "error", listener: (ev: ErrorEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""error" - "}
+* *{"listener:"}* {"(ev: ErrorEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "load", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""load" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "loadstart", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""loadstart" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"abort(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

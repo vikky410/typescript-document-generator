@@ -1,0 +1,56 @@
+{anchor:RegExp}
+!! {"RegExp"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"source: string;"}
+{""}
+
+!!!!!! {"global: boolean;"}
+{""}
+
+!!!!!! {"ignoreCase: boolean;"}
+{""}
+
+!!!!!! {"multiline: boolean;"}
+{""}
+
+!!!!!! {"lastIndex: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"exec(string: string): RegExpExecArray"}
+{""}
+* *{"string:"}* {"string - "}
+* *Returns:* {"RegExpExecArray - "}
+
+!!!!!! {"test(string: string): boolean"}
+{""}
+* *{"string:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"compile(): RegExp"}
+{""}
+* *Returns:* {"RegExp - "}
+
+
+----
+

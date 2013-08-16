@@ -1,0 +1,128 @@
+{anchor:HTMLTableElement}
+!! {"HTMLTableElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [MSDataBindingTableExtensions], [MSDataBindingExtensions], [DOML2DeprecatedBackgroundStyle], [DOML2DeprecatedBackgroundColorStyle]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"width: string;"}
+{""}
+
+!!!!!! {"borderColorLight: any;"}
+{""}
+
+!!!!!! {"cellSpacing: string;"}
+{""}
+
+!!!!!! {"tFoot: HTMLTableSectionElement;"}
+{""}
+
+!!!!!! {"frame: string;"}
+{""}
+
+!!!!!! {"borderColor: any;"}
+{""}
+
+!!!!!! {"rows: HTMLCollection;"}
+{""}
+
+!!!!!! {"rules: string;"}
+{""}
+
+!!!!!! {"cols: number;"}
+{""}
+
+!!!!!! {"summary: string;"}
+{""}
+
+!!!!!! {"caption: HTMLTableCaptionElement;"}
+{""}
+
+!!!!!! {"tBodies: HTMLCollection;"}
+{""}
+
+!!!!!! {"tHead: HTMLTableSectionElement;"}
+{""}
+
+!!!!!! {"align: string;"}
+{""}
+
+!!!!!! {"cells: HTMLCollection;"}
+{""}
+
+!!!!!! {"height: any;"}
+{""}
+
+!!!!!! {"cellPadding: string;"}
+{""}
+
+!!!!!! {"border: string;"}
+{""}
+
+!!!!!! {"borderColorDark: any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"deleteRow(index?: number): void"}
+{""}
+* [OPTIONAL] *{"index:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"createTBody(): HTMLElement"}
+{""}
+* *Returns:* {"HTMLElement - "}
+
+!!!!!! {"deleteCaption(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"insertRow(index?: number): HTMLElement"}
+{""}
+* [OPTIONAL] *{"index:"}* {"number - "}
+* *Returns:* {"HTMLElement - "}
+
+!!!!!! {"deleteTFoot(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"createTHead(): HTMLElement"}
+{""}
+* *Returns:* {"HTMLElement - "}
+
+!!!!!! {"deleteTHead(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"createCaption(): HTMLElement"}
+{""}
+* *Returns:* {"HTMLElement - "}
+
+!!!!!! {"moveRow(indexFrom?: number, indexTo?: number): Object"}
+{""}
+* [OPTIONAL] *{"indexFrom:"}* {"number - "}
+* [OPTIONAL] *{"indexTo:"}* {"number - "}
+* *Returns:* {"Object - "}
+
+!!!!!! {"createTFoot(): HTMLElement"}
+{""}
+* *Returns:* {"HTMLElement - "}
+
+
+----
+

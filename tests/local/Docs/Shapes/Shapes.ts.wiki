@@ -1,0 +1,48 @@
+{anchor:Shapes}
+!! {"Shapes"}
+*Module:* [Sayings.None]
+*Extends:* [None]
+*Implements:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:Shapes.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/Shapes.ts]
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{"Shapes description"}
+
+----
+
+!!!! {"Constructors"}
+
+!!!!!! constructor{"(Value: number)"}
+{"constructor description"}
+* *{"Value:"}* {"number - Value description"}
+
+!!!!!! constructor{"(Value: number, Units?: string, Auto?: boolean)"}
+{"constructor description"}
+* *{"Value:"}* {"number - Value description"}
+* [OPTIONAL] *{"Units:"}* {"string - Units description"}
+* [OPTIONAL] *{"Auto:"}* {"boolean - Auto description"}
+
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"Value: number;"}
+{"Value description"}
+
+!!!!!! {"Units: string;"}
+{"Units description"}
+
+!!!!!! {"Auto: boolean;"}
+{"Auto description"}
+
+
+----
+

@@ -1,0 +1,47 @@
+{anchor:MouseWheelEvent}
+!! {"MouseWheelEvent"}
+*Module:* [None]
+*Extends:* [MouseEvent]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"wheelDelta: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initMouseWheelEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, viewArg: Window, detailArg: number, screenXArg: number, screenYArg: number, clientXArg: number, clientYArg: number, buttonArg: number, relatedTargetArg: EventTarget, modifiersListArg: string, wheelDeltaArg: number): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"viewArg:"}* {"Window - "}
+* *{"detailArg:"}* {"number - "}
+* *{"screenXArg:"}* {"number - "}
+* *{"screenYArg:"}* {"number - "}
+* *{"clientXArg:"}* {"number - "}
+* *{"clientYArg:"}* {"number - "}
+* *{"buttonArg:"}* {"number - "}
+* *{"relatedTargetArg:"}* {"EventTarget - "}
+* *{"modifiersListArg:"}* {"string - "}
+* *{"wheelDeltaArg:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

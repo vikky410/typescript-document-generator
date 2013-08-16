@@ -1,0 +1,40 @@
+{anchor:Text}
+!! {"Text"}
+*Module:* [None]
+*Extends:* [CharacterData], [MSNodeExtensions]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"wholeText: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"splitText(offset: number): Text"}
+{""}
+* *{"offset:"}* {"number - "}
+* *Returns:* {"Text - "}
+
+!!!!!! {"replaceWholeText(content: string): Text"}
+{""}
+* *{"content:"}* {"string - "}
+* *Returns:* {"Text - "}
+
+
+----
+

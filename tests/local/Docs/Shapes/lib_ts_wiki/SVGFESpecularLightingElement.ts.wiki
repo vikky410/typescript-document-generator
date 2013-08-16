@@ -1,0 +1,40 @@
+{anchor:SVGFESpecularLightingElement}
+!! {"SVGFESpecularLightingElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGFilterPrimitiveStandardAttributes]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"kernelUnitLengthY: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"surfaceScale: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"specularExponent: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"in1: SVGAnimatedString;"}
+{""}
+
+!!!!!! {"kernelUnitLengthX: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"specularConstant: SVGAnimatedNumber;"}
+{""}
+
+
+----
+

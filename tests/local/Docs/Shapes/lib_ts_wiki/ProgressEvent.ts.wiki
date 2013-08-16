@@ -1,0 +1,46 @@
+{anchor:ProgressEvent}
+!! {"ProgressEvent"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"loaded: number;"}
+{""}
+
+!!!!!! {"lengthComputable: boolean;"}
+{""}
+
+!!!!!! {"total: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initProgressEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, lengthComputableArg: boolean, loadedArg: number, totalArg: number): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"lengthComputableArg:"}* {"boolean - "}
+* *{"loadedArg:"}* {"number - "}
+* *{"totalArg:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

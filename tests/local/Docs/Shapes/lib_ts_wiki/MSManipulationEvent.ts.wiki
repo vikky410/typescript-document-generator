@@ -1,0 +1,37 @@
+{anchor:MSManipulationEvent}
+!! {"MSManipulationEvent"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"MS_MANIPULATION_STATE_SELECTING: number;"}
+{""}
+
+!!!!!! {"MS_MANIPULATION_STATE_COMMITTED: number;"}
+{""}
+
+!!!!!! {"MS_MANIPULATION_STATE_PRESELECT: number;"}
+{""}
+
+!!!!!! {"MS_MANIPULATION_STATE_DRAGGING: number;"}
+{""}
+
+!!!!!! {"MS_MANIPULATION_STATE_CANCELLED: number;"}
+{""}
+
+
+----
+

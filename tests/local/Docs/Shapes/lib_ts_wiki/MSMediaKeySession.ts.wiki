@@ -1,0 +1,45 @@
+{anchor:MSMediaKeySession}
+!! {"MSMediaKeySession"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"sessionId: string;"}
+{""}
+
+!!!!!! {"error: MSMediaKeyError;"}
+{""}
+
+!!!!!! {"keySystem: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"close(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"update(key: Uint8Array): void"}
+{""}
+* *{"key:"}* {"Uint8Array - "}
+* *Returns:* {"void - "}
+
+
+----
+

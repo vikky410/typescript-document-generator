@@ -1,0 +1,61 @@
+{anchor:Map<K, V>}
+!! {"Map<K, V>"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"size: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"clear(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"delete(key: K): boolean"}
+{""}
+* *{"key:"}* {"K - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"forEach(callbackfn: (value: V, index: K, map: Map<K, V>) => void, thisArg?: any): void"}
+{""}
+* *{"callbackfn:"}* {"(value: V, index: K, map: Map<K, V>) => void - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"get(key: K): V"}
+{""}
+* *{"key:"}* {"K - "}
+* *Returns:* {"V - "}
+
+!!!!!! {"has(key: K): boolean"}
+{""}
+* *{"key:"}* {"K - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"set(key: K, value: V): Map<K, V>"}
+{""}
+* *{"key:"}* {"K - "}
+* *{"value:"}* {"V - "}
+* *Returns:* {"Map<K, V> - "}
+
+
+----
+

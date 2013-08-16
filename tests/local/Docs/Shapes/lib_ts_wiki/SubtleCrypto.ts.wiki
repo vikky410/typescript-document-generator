@@ -1,0 +1,104 @@
+{anchor:SubtleCrypto}
+!! {"SubtleCrypto"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"unwrapKey(wrappedKey: ArrayBufferView, keyAlgorithm: any, keyEncryptionKey: Key, extractable?: boolean, keyUsages?: string[]): KeyOperation"}
+{""}
+* *{"wrappedKey:"}* {"ArrayBufferView - "}
+* *{"keyAlgorithm:"}* {"any - "}
+* *{"keyEncryptionKey:"}* {"Key - "}
+* [OPTIONAL] *{"extractable:"}* {"boolean - "}
+* [OPTIONAL] *{"keyUsages:"}* {"string[] - "}
+* *Returns:* {"KeyOperation - "}
+
+!!!!!! {"encrypt(algorithm: any, key: Key, buffer?: ArrayBufferView): CryptoOperation"}
+{""}
+* *{"algorithm:"}* {"any - "}
+* *{"key:"}* {"Key - "}
+* [OPTIONAL] *{"buffer:"}* {"ArrayBufferView - "}
+* *Returns:* {"CryptoOperation - "}
+
+!!!!!! {"importKey(format: string, keyData: ArrayBufferView, algorithm: any, extractable?: boolean, keyUsages?: string[]): KeyOperation"}
+{""}
+* *{"format:"}* {"string - "}
+* *{"keyData:"}* {"ArrayBufferView - "}
+* *{"algorithm:"}* {"any - "}
+* [OPTIONAL] *{"extractable:"}* {"boolean - "}
+* [OPTIONAL] *{"keyUsages:"}* {"string[] - "}
+* *Returns:* {"KeyOperation - "}
+
+!!!!!! {"wrapKey(key: Key, keyEncryptionKey: Key, keyWrappingAlgorithm: any): KeyOperation"}
+{""}
+* *{"key:"}* {"Key - "}
+* *{"keyEncryptionKey:"}* {"Key - "}
+* *{"keyWrappingAlgorithm:"}* {"any - "}
+* *Returns:* {"KeyOperation - "}
+
+!!!!!! {"verify(algorithm: any, key: Key, signature: ArrayBufferView, buffer?: ArrayBufferView): CryptoOperation"}
+{""}
+* *{"algorithm:"}* {"any - "}
+* *{"key:"}* {"Key - "}
+* *{"signature:"}* {"ArrayBufferView - "}
+* [OPTIONAL] *{"buffer:"}* {"ArrayBufferView - "}
+* *Returns:* {"CryptoOperation - "}
+
+!!!!!! {"deriveKey(algorithm: any, baseKey: Key, derivedKeyType: any, extractable?: boolean, keyUsages?: string[]): KeyOperation"}
+{""}
+* *{"algorithm:"}* {"any - "}
+* *{"baseKey:"}* {"Key - "}
+* *{"derivedKeyType:"}* {"any - "}
+* [OPTIONAL] *{"extractable:"}* {"boolean - "}
+* [OPTIONAL] *{"keyUsages:"}* {"string[] - "}
+* *Returns:* {"KeyOperation - "}
+
+!!!!!! {"digest(algorithm: any, buffer?: ArrayBufferView): CryptoOperation"}
+{""}
+* *{"algorithm:"}* {"any - "}
+* [OPTIONAL] *{"buffer:"}* {"ArrayBufferView - "}
+* *Returns:* {"CryptoOperation - "}
+
+!!!!!! {"exportKey(format: string, key: Key): KeyOperation"}
+{""}
+* *{"format:"}* {"string - "}
+* *{"key:"}* {"Key - "}
+* *Returns:* {"KeyOperation - "}
+
+!!!!!! {"generateKey(algorithm: any, extractable?: boolean, keyUsages?: string[]): KeyOperation"}
+{""}
+* *{"algorithm:"}* {"any - "}
+* [OPTIONAL] *{"extractable:"}* {"boolean - "}
+* [OPTIONAL] *{"keyUsages:"}* {"string[] - "}
+* *Returns:* {"KeyOperation - "}
+
+!!!!!! {"sign(algorithm: any, key: Key, buffer?: ArrayBufferView): CryptoOperation"}
+{""}
+* *{"algorithm:"}* {"any - "}
+* *{"key:"}* {"Key - "}
+* [OPTIONAL] *{"buffer:"}* {"ArrayBufferView - "}
+* *Returns:* {"CryptoOperation - "}
+
+!!!!!! {"decrypt(algorithm: any, key: Key, buffer?: ArrayBufferView): CryptoOperation"}
+{""}
+* *{"algorithm:"}* {"any - "}
+* *{"key:"}* {"Key - "}
+* [OPTIONAL] *{"buffer:"}* {"ArrayBufferView - "}
+* *Returns:* {"CryptoOperation - "}
+
+
+----
+

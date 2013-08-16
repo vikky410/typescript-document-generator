@@ -1,0 +1,65 @@
+{anchor:HTMLMediaElement}
+!! {"HTMLMediaElement"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"msPlayToPreferredSourceUri: string;"}
+{""}
+
+!!!!!! {"onmsneedkey: (ev: MSMediaKeyNeededEvent) => any;"}
+{""}
+
+!!!!!! {"msKeys: MSMediaKeys;"}
+{""}
+
+!!!!!! {"msGraphicsTrustStatus: MSGraphicsTrust;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "msneedkey", listener: (ev: MSMediaKeyNeededEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""msneedkey" - "}
+* *{"listener:"}* {"(ev: MSMediaKeyNeededEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"msSetMediaKeys(mediaKeys: MSMediaKeys): void"}
+{""}
+* *{"mediaKeys:"}* {"MSMediaKeys - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addTextTrack(kind: string, label?: string, language?: string): TextTrack"}
+{""}
+* *{"kind:"}* {"string - "}
+* [OPTIONAL] *{"label:"}* {"string - "}
+* [OPTIONAL] *{"language:"}* {"string - "}
+* *Returns:* {"TextTrack - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

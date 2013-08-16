@@ -1,0 +1,37 @@
+{anchor:MSNodeExtensions}
+!! {"MSNodeExtensions"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"swapNode(otherNode: Node): Node"}
+{""}
+* *{"otherNode:"}* {"Node - "}
+* *Returns:* {"Node - "}
+
+!!!!!! {"removeNode(deep?: boolean): Node"}
+{""}
+* [OPTIONAL] *{"deep:"}* {"boolean - "}
+* *Returns:* {"Node - "}
+
+!!!!!! {"replaceNode(replacement: Node): Node"}
+{""}
+* *{"replacement:"}* {"Node - "}
+* *Returns:* {"Node - "}
+
+
+----
+

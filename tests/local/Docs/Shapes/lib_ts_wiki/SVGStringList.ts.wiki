@@ -1,0 +1,66 @@
+{anchor:SVGStringList}
+!! {"SVGStringList"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"numberOfItems: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"replaceItem(newItem: string, index: number): string"}
+{""}
+* *{"newItem:"}* {"string - "}
+* *{"index:"}* {"number - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"getItem(index: number): string"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"clear(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"appendItem(newItem: string): string"}
+{""}
+* *{"newItem:"}* {"string - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"initialize(newItem: string): string"}
+{""}
+* *{"newItem:"}* {"string - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"removeItem(index: number): string"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"insertItemBefore(newItem: string, index: number): string"}
+{""}
+* *{"newItem:"}* {"string - "}
+* *{"index:"}* {"number - "}
+* *Returns:* {"string - "}
+
+
+----
+

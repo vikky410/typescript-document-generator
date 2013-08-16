@@ -1,0 +1,42 @@
+{anchor:MSNamespaceInfoCollection}
+!! {"MSNamespaceInfoCollection"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"add(namespace?: string, urn?: string, implementationUrl?: any): Object"}
+{""}
+* [OPTIONAL] *{"namespace:"}* {"string - "}
+* [OPTIONAL] *{"urn:"}* {"string - "}
+* [OPTIONAL] *{"implementationUrl:"}* {"any - "}
+* *Returns:* {"Object - "}
+
+!!!!!! {"item(index: any): Object"}
+{""}
+* *{"index:"}* {"any - "}
+* *Returns:* {"Object - "}
+
+
+----
+

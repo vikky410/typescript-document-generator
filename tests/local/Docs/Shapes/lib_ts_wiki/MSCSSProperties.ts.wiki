@@ -1,0 +1,136 @@
+{anchor:MSCSSProperties}
+!! {"MSCSSProperties"}
+*Module:* [None]
+*Extends:* [CSSStyleDeclaration]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"scrollbarShadowColor: string;"}
+{""}
+
+!!!!!! {"scrollbarHighlightColor: string;"}
+{""}
+
+!!!!!! {"layoutGridChar: string;"}
+{""}
+
+!!!!!! {"layoutGridType: string;"}
+{""}
+
+!!!!!! {"textAutospace: string;"}
+{""}
+
+!!!!!! {"textKashidaSpace: string;"}
+{""}
+
+!!!!!! {"writingMode: string;"}
+{""}
+
+!!!!!! {"scrollbarFaceColor: string;"}
+{""}
+
+!!!!!! {"backgroundPositionY: string;"}
+{""}
+
+!!!!!! {"lineBreak: string;"}
+{""}
+
+!!!!!! {"imeMode: string;"}
+{""}
+
+!!!!!! {"msBlockProgression: string;"}
+{""}
+
+!!!!!! {"layoutGridLine: string;"}
+{""}
+
+!!!!!! {"scrollbarBaseColor: string;"}
+{""}
+
+!!!!!! {"layoutGrid: string;"}
+{""}
+
+!!!!!! {"layoutFlow: string;"}
+{""}
+
+!!!!!! {"textKashida: string;"}
+{""}
+
+!!!!!! {"filter: string;"}
+{""}
+
+!!!!!! {"zoom: string;"}
+{""}
+
+!!!!!! {"scrollbarArrowColor: string;"}
+{""}
+
+!!!!!! {"behavior: string;"}
+{""}
+
+!!!!!! {"backgroundPositionX: string;"}
+{""}
+
+!!!!!! {"accelerator: string;"}
+{""}
+
+!!!!!! {"layoutGridMode: string;"}
+{""}
+
+!!!!!! {"textJustifyTrim: string;"}
+{""}
+
+!!!!!! {"scrollbar3dLightColor: string;"}
+{""}
+
+!!!!!! {"msInterpolationMode: string;"}
+{""}
+
+!!!!!! {"scrollbarTrackColor: string;"}
+{""}
+
+!!!!!! {"scrollbarDarkShadowColor: string;"}
+{""}
+
+!!!!!! {"styleFloat: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"getAttribute(attributeName: string, flags?: number): any"}
+{""}
+* *{"attributeName:"}* {"string - "}
+* [OPTIONAL] *{"flags:"}* {"number - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"setAttribute(attributeName: string, AttributeValue: any, flags?: number): void"}
+{""}
+* *{"attributeName:"}* {"string - "}
+* *{"AttributeValue:"}* {"any - "}
+* [OPTIONAL] *{"flags:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"removeAttribute(attributeName: string, flags?: number): boolean"}
+{""}
+* *{"attributeName:"}* {"string - "}
+* [OPTIONAL] *{"flags:"}* {"number - "}
+* *Returns:* {"boolean - "}
+
+
+----
+

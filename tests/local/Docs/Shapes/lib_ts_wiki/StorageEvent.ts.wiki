@@ -1,0 +1,54 @@
+{anchor:StorageEvent}
+!! {"StorageEvent"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"oldValue: any;"}
+{""}
+
+!!!!!! {"newValue: any;"}
+{""}
+
+!!!!!! {"url: string;"}
+{""}
+
+!!!!!! {"storageArea: Storage;"}
+{""}
+
+!!!!!! {"key: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initStorageEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, keyArg: string, oldValueArg: any, newValueArg: any, urlArg: string, storageAreaArg: Storage): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"keyArg:"}* {"string - "}
+* *{"oldValueArg:"}* {"any - "}
+* *{"newValueArg:"}* {"any - "}
+* *{"urlArg:"}* {"string - "}
+* *{"storageAreaArg:"}* {"Storage - "}
+* *Returns:* {"void - "}
+
+
+----
+

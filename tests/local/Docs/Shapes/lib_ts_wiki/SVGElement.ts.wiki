@@ -1,0 +1,146 @@
+{anchor:SVGElement}
+!! {"SVGElement"}
+*Module:* [None]
+*Extends:* [Element]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"onmouseover: (ev: MouseEvent) => any;"}
+{""}
+
+!!!!!! {"viewportElement: SVGElement;"}
+{""}
+
+!!!!!! {"onmousemove: (ev: MouseEvent) => any;"}
+{""}
+
+!!!!!! {"onmouseout: (ev: MouseEvent) => any;"}
+{""}
+
+!!!!!! {"ondblclick: (ev: MouseEvent) => any;"}
+{""}
+
+!!!!!! {"onfocusout: (ev: FocusEvent) => any;"}
+{""}
+
+!!!!!! {"onfocusin: (ev: FocusEvent) => any;"}
+{""}
+
+!!!!!! {"xmlbase: string;"}
+{""}
+
+!!!!!! {"onmousedown: (ev: MouseEvent) => any;"}
+{""}
+
+!!!!!! {"onload: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"onmouseup: (ev: MouseEvent) => any;"}
+{""}
+
+!!!!!! {"onclick: (ev: MouseEvent) => any;"}
+{""}
+
+!!!!!! {"ownerSVGElement: SVGSVGElement;"}
+{""}
+
+!!!!!! {"id: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "mouseover", listener: (ev: MouseEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""mouseover" - "}
+* *{"listener:"}* {"(ev: MouseEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "mousemove", listener: (ev: MouseEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""mousemove" - "}
+* *{"listener:"}* {"(ev: MouseEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "mouseout", listener: (ev: MouseEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""mouseout" - "}
+* *{"listener:"}* {"(ev: MouseEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "dblclick", listener: (ev: MouseEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""dblclick" - "}
+* *{"listener:"}* {"(ev: MouseEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "focusout", listener: (ev: FocusEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""focusout" - "}
+* *{"listener:"}* {"(ev: FocusEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "focusin", listener: (ev: FocusEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""focusin" - "}
+* *{"listener:"}* {"(ev: FocusEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "mousedown", listener: (ev: MouseEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""mousedown" - "}
+* *{"listener:"}* {"(ev: MouseEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "load", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""load" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "mouseup", listener: (ev: MouseEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""mouseup" - "}
+* *{"listener:"}* {"(ev: MouseEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "click", listener: (ev: MouseEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""click" - "}
+* *{"listener:"}* {"(ev: MouseEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

@@ -1,0 +1,34 @@
+{anchor:CSSPageRule}
+!! {"CSSPageRule"}
+*Module:* [None]
+*Extends:* [CSSRule]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"pseudoClass: string;"}
+{""}
+
+!!!!!! {"selectorText: string;"}
+{""}
+
+!!!!!! {"selector: string;"}
+{""}
+
+!!!!!! {"style: CSSStyleDeclaration;"}
+{""}
+
+
+----
+

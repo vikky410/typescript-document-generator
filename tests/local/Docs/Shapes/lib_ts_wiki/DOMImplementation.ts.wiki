@@ -1,0 +1,47 @@
+{anchor:DOMImplementation}
+!! {"DOMImplementation"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"createDocumentType(qualifiedName: string, publicId: string, systemId: string): DocumentType"}
+{""}
+* *{"qualifiedName:"}* {"string - "}
+* *{"publicId:"}* {"string - "}
+* *{"systemId:"}* {"string - "}
+* *Returns:* {"DocumentType - "}
+
+!!!!!! {"createDocument(namespaceURI: string, qualifiedName: string, doctype: DocumentType): Document"}
+{""}
+* *{"namespaceURI:"}* {"string - "}
+* *{"qualifiedName:"}* {"string - "}
+* *{"doctype:"}* {"DocumentType - "}
+* *Returns:* {"Document - "}
+
+!!!!!! {"hasFeature(feature: string, version?: string): boolean"}
+{""}
+* *{"feature:"}* {"string - "}
+* [OPTIONAL] *{"version:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"createHTMLDocument(title: string): Document"}
+{""}
+* *{"title:"}* {"string - "}
+* *Returns:* {"Document - "}
+
+
+----
+

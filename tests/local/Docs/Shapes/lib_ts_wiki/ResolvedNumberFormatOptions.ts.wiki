@@ -1,0 +1,55 @@
+{anchor:ResolvedNumberFormatOptions}
+!! {"ResolvedNumberFormatOptions"}
+*Module:* [Intl.None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"locale: string;"}
+{""}
+
+!!!!!! {"numberingSystem: string;"}
+{""}
+
+!!!!!! {"style: string;"}
+{""}
+
+!!!!!! {"currency?: string;"}
+{""}
+
+!!!!!! {"currencyDisplay?: string;"}
+{""}
+
+!!!!!! {"minimumintegerDigits: number;"}
+{""}
+
+!!!!!! {"minimumFractionDigits: number;"}
+{""}
+
+!!!!!! {"maximumFractionDigits: number;"}
+{""}
+
+!!!!!! {"minimumSignificantDigits?: number;"}
+{""}
+
+!!!!!! {"maximumSignificantDigits?: number;"}
+{""}
+
+!!!!!! {"useGrouping: boolean;"}
+{""}
+
+
+----
+

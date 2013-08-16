@@ -1,0 +1,43 @@
+{anchor:MSMediaKeys}
+!! {"MSMediaKeys"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"keySystem: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"createSession(type: string, initData: Uint8Array, cdmData?: Uint8Array): MSMediaKeySession"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"initData:"}* {"Uint8Array - "}
+* [OPTIONAL] *{"cdmData:"}* {"Uint8Array - "}
+* *Returns:* {"MSMediaKeySession - "}
+
+!!!!!! {"isTypeSupported(keySystem: string, type?: string): boolean"}
+{""}
+* *{"keySystem:"}* {"string - "}
+* [OPTIONAL] *{"type:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+
+----
+

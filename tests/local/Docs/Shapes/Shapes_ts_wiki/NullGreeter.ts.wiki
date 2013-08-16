@@ -1,0 +1,19 @@
+{anchor:NullGreeter}
+!! {"NullGreeter"}
+*Module:* [Sayings.None]
+*Extends:* [None]
+*Implements:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:Shapes.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/Shapes.ts]
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{"NullGreeter description"}
+
+----
+

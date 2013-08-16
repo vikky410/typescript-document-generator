@@ -1,0 +1,47 @@
+{anchor:HTMLBodyElement}
+!! {"HTMLBodyElement"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"onpageshow: (ev: PageTransitionEvent) => any;"}
+{""}
+
+!!!!!! {"onpagehide: (ev: PageTransitionEvent) => any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "pageshow", listener: (ev: PageTransitionEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""pageshow" - "}
+* *{"listener:"}* {"(ev: PageTransitionEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "pagehide", listener: (ev: PageTransitionEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""pagehide" - "}
+* *{"listener:"}* {"(ev: PageTransitionEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

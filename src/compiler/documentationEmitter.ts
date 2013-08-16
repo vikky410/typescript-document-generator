@@ -20,7 +20,7 @@ module TypeScript {
     {
         private static debugMessage(text: string): void
         {
-            process.stdout.write(text);
+            //process.stdout.write(text);
         }
 
         private docFile: TextWriter = null;
@@ -1779,9 +1779,12 @@ module TypeScript {
                         {
                             this.emitTypeOfBoundDecl(argDecl);
                         }
-                        this.emitDescription(argDecl);
-                        this.currentBlock.WriteLine(";");
+                        this.currentBlock.Write(";");
 
+                        this.addNewDocBlock(DocumentationBlockTypes.Description, BlockSignatures.Public, 1);
+                        this.emitArgumentDocumentationComments(argDecl.id.actualText, funcDecl);
+                        this.currentBlock = this.currentBlock.parent;
+                        
                         this.currentBlock = this.currentBlock.parent;
                     }
                 }

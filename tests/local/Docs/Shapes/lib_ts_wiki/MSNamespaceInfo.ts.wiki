@@ -1,0 +1,58 @@
+{anchor:MSNamespaceInfo}
+!! {"MSNamespaceInfo"}
+*Module:* [None]
+*Extends:* [MSEventAttachmentTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"urn: string;"}
+{""}
+
+!!!!!! {"onreadystatechange: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"name: string;"}
+{""}
+
+!!!!!! {"readyState: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "readystatechange", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""readystatechange" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"doImport(implementationUrl: string): void"}
+{""}
+* *{"implementationUrl:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

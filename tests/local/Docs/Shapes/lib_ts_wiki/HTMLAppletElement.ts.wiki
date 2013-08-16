@@ -1,0 +1,79 @@
+{anchor:HTMLAppletElement}
+!! {"HTMLAppletElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [DOML2DeprecatedMarginStyle], [DOML2DeprecatedBorderStyle], [DOML2DeprecatedAlignmentStyle], [MSDataBindingExtensions], [MSDataBindingRecordSetExtensions]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"width: number;"}
+{""}
+
+!!!!!! {"codeType: string;"}
+{""}
+
+!!!!!! {"object: string;"}
+{""}
+
+!!!!!! {"form: HTMLFormElement;"}
+{""}
+
+!!!!!! {"code: string;"}
+{""}
+
+!!!!!! {"archive: string;"}
+{""}
+
+!!!!!! {"alt: string;"}
+{""}
+
+!!!!!! {"standby: string;"}
+{""}
+
+!!!!!! {"classid: string;"}
+{""}
+
+!!!!!! {"name: string;"}
+{""}
+
+!!!!!! {"useMap: string;"}
+{""}
+
+!!!!!! {"data: string;"}
+{""}
+
+!!!!!! {"height: string;"}
+{""}
+
+!!!!!! {"altHtml: string;"}
+{""}
+
+!!!!!! {"contentDocument: Document;"}
+{""}
+
+!!!!!! {"codeBase: string;"}
+{""}
+
+!!!!!! {"declare: boolean;"}
+{""}
+
+!!!!!! {"type: string;"}
+{""}
+
+!!!!!! {"BaseHref: string;"}
+{""}
+
+
+----
+

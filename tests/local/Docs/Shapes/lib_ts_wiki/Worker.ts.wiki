@@ -1,0 +1,54 @@
+{anchor:Worker}
+!! {"Worker"}
+*Module:* [None]
+*Extends:* [AbstractWorker]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"onmessage: (ev: any) => any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "message", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""message" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"postMessage(message: any, ports?: any): void"}
+{""}
+* *{"message:"}* {"any - "}
+* [OPTIONAL] *{"ports:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"terminate(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

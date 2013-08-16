@@ -1,0 +1,100 @@
+{anchor:SVGMatrix}
+!! {"SVGMatrix"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"e: number;"}
+{""}
+
+!!!!!! {"c: number;"}
+{""}
+
+!!!!!! {"a: number;"}
+{""}
+
+!!!!!! {"b: number;"}
+{""}
+
+!!!!!! {"d: number;"}
+{""}
+
+!!!!!! {"f: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"multiply(secondMatrix: SVGMatrix): SVGMatrix"}
+{""}
+* *{"secondMatrix:"}* {"SVGMatrix - "}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"flipY(): SVGMatrix"}
+{""}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"skewY(angle: number): SVGMatrix"}
+{""}
+* *{"angle:"}* {"number - "}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"inverse(): SVGMatrix"}
+{""}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"scaleNonUniform(scaleFactorX: number, scaleFactorY: number): SVGMatrix"}
+{""}
+* *{"scaleFactorX:"}* {"number - "}
+* *{"scaleFactorY:"}* {"number - "}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"rotate(angle: number): SVGMatrix"}
+{""}
+* *{"angle:"}* {"number - "}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"flipX(): SVGMatrix"}
+{""}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"translate(x: number, y: number): SVGMatrix"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"scale(scaleFactor: number): SVGMatrix"}
+{""}
+* *{"scaleFactor:"}* {"number - "}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"rotateFromVector(x: number, y: number): SVGMatrix"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"skewX(angle: number): SVGMatrix"}
+{""}
+* *{"angle:"}* {"number - "}
+* *Returns:* {"SVGMatrix - "}
+
+
+----
+

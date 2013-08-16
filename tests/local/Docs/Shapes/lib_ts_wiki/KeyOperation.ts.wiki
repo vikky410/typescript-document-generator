@@ -1,0 +1,57 @@
+{anchor:KeyOperation}
+!! {"KeyOperation"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"oncomplete: (ev: any) => any;"}
+{""}
+
+!!!!!! {"onerror: (ev: any) => any;"}
+{""}
+
+!!!!!! {"result: any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "complete", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""complete" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "error", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""error" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

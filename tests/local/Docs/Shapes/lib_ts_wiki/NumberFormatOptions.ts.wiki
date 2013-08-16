@@ -1,0 +1,37 @@
+{anchor:NumberFormatOptions}
+!! {"NumberFormatOptions"}
+*Module:* [Intl.None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"localeMatcher?: string;"}
+{""}
+
+!!!!!! {"style?: string;"}
+{""}
+
+!!!!!! {"currency?: string;"}
+{""}
+
+!!!!!! {"currencyDisplay?: string;"}
+{""}
+
+!!!!!! {"useGrouping?: boolean;"}
+{""}
+
+
+----
+

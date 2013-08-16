@@ -1,0 +1,102 @@
+{anchor:HTMLMarqueeElement}
+!! {"HTMLMarqueeElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [MSDataBindingExtensions], [DOML2DeprecatedBackgroundColorStyle]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"width: string;"}
+{""}
+
+!!!!!! {"onbounce: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"vspace: number;"}
+{""}
+
+!!!!!! {"trueSpeed: boolean;"}
+{""}
+
+!!!!!! {"scrollAmount: number;"}
+{""}
+
+!!!!!! {"scrollDelay: number;"}
+{""}
+
+!!!!!! {"behavior: string;"}
+{""}
+
+!!!!!! {"height: string;"}
+{""}
+
+!!!!!! {"loop: number;"}
+{""}
+
+!!!!!! {"direction: string;"}
+{""}
+
+!!!!!! {"hspace: number;"}
+{""}
+
+!!!!!! {"onstart: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"onfinish: (ev: Event) => any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "bounce", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""bounce" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "start", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""start" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "finish", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""finish" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"stop(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"start(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

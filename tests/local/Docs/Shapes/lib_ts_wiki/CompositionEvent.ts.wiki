@@ -1,0 +1,43 @@
+{anchor:CompositionEvent}
+!! {"CompositionEvent"}
+*Module:* [None]
+*Extends:* [UIEvent]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"data: string;"}
+{""}
+
+!!!!!! {"locale: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initCompositionEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, viewArg: Window, dataArg: string, locale: string): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"viewArg:"}* {"Window - "}
+* *{"dataArg:"}* {"string - "}
+* *{"locale:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

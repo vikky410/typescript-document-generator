@@ -1,0 +1,32 @@
+{anchor:WindowBase64}
+!! {"WindowBase64"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"btoa(rawString: string): string"}
+{""}
+* *{"rawString:"}* {"string - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"atob(encodedString: string): string"}
+{""}
+* *{"encodedString:"}* {"string - "}
+* *Returns:* {"string - "}
+
+
+----
+

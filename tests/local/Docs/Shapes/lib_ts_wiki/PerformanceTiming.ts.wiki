@@ -1,0 +1,94 @@
+{anchor:PerformanceTiming}
+!! {"PerformanceTiming"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"redirectStart: number;"}
+{""}
+
+!!!!!! {"domainLookupEnd: number;"}
+{""}
+
+!!!!!! {"responseStart: number;"}
+{""}
+
+!!!!!! {"domComplete: number;"}
+{""}
+
+!!!!!! {"domainLookupStart: number;"}
+{""}
+
+!!!!!! {"loadEventStart: number;"}
+{""}
+
+!!!!!! {"msFirstPaint: number;"}
+{""}
+
+!!!!!! {"unloadEventEnd: number;"}
+{""}
+
+!!!!!! {"fetchStart: number;"}
+{""}
+
+!!!!!! {"requestStart: number;"}
+{""}
+
+!!!!!! {"domInteractive: number;"}
+{""}
+
+!!!!!! {"navigationStart: number;"}
+{""}
+
+!!!!!! {"connectEnd: number;"}
+{""}
+
+!!!!!! {"loadEventEnd: number;"}
+{""}
+
+!!!!!! {"connectStart: number;"}
+{""}
+
+!!!!!! {"responseEnd: number;"}
+{""}
+
+!!!!!! {"domLoading: number;"}
+{""}
+
+!!!!!! {"redirectEnd: number;"}
+{""}
+
+!!!!!! {"unloadEventStart: number;"}
+{""}
+
+!!!!!! {"domContentLoadedEventStart: number;"}
+{""}
+
+!!!!!! {"domContentLoadedEventEnd: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"toJSON(): any"}
+{""}
+* *Returns:* {"any - "}
+
+
+----
+

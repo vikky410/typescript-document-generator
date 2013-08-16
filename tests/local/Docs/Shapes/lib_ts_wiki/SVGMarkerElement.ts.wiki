@@ -1,0 +1,75 @@
+{anchor:SVGMarkerElement}
+!! {"SVGMarkerElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGStylable], [SVGLangSpace], [SVGFitToViewBox], [SVGExternalResourcesRequired]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"orientType: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"markerUnits: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"markerWidth: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"markerHeight: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"orientAngle: SVGAnimatedAngle;"}
+{""}
+
+!!!!!! {"refY: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"refX: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"SVG_MARKER_ORIENT_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_MARKER_ORIENT_ANGLE: number;"}
+{""}
+
+!!!!!! {"SVG_MARKERUNITS_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_MARKERUNITS_STROKEWIDTH: number;"}
+{""}
+
+!!!!!! {"SVG_MARKER_ORIENT_AUTO: number;"}
+{""}
+
+!!!!!! {"SVG_MARKERUNITS_USERSPACEONUSE: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"setOrientToAngle(angle: SVGAngle): void"}
+{""}
+* *{"angle:"}* {"SVGAngle - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"setOrientToAuto(): void"}
+{""}
+* *Returns:* {"void - "}
+
+
+----
+

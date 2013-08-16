@@ -1,0 +1,31 @@
+{anchor:NumberFormat}
+!! {"NumberFormat"}
+*Module:* [Intl.None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"format(value: number): string"}
+{""}
+* *{"value:"}* {"number - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"resolvedOptions(): ResolvedNumberFormatOptions"}
+{""}
+* *Returns:* {"Intl.ResolvedNumberFormatOptions - "}
+
+
+----
+

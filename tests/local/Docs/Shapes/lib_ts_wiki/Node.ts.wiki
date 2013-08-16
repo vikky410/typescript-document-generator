@@ -1,0 +1,201 @@
+{anchor:Node}
+!! {"Node"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"nodeType: number;"}
+{""}
+
+!!!!!! {"previousSibling: Node;"}
+{""}
+
+!!!!!! {"localName: string;"}
+{""}
+
+!!!!!! {"namespaceURI: string;"}
+{""}
+
+!!!!!! {"textContent: string;"}
+{""}
+
+!!!!!! {"parentNode: Node;"}
+{""}
+
+!!!!!! {"nextSibling: Node;"}
+{""}
+
+!!!!!! {"nodeValue: string;"}
+{""}
+
+!!!!!! {"lastChild: Node;"}
+{""}
+
+!!!!!! {"childNodes: NodeList;"}
+{""}
+
+!!!!!! {"nodeName: string;"}
+{""}
+
+!!!!!! {"ownerDocument: Document;"}
+{""}
+
+!!!!!! {"attributes: NamedNodeMap;"}
+{""}
+
+!!!!!! {"firstChild: Node;"}
+{""}
+
+!!!!!! {"prefix: string;"}
+{""}
+
+!!!!!! {"ENTITY_REFERENCE_NODE: number;"}
+{""}
+
+!!!!!! {"ATTRIBUTE_NODE: number;"}
+{""}
+
+!!!!!! {"DOCUMENT_FRAGMENT_NODE: number;"}
+{""}
+
+!!!!!! {"TEXT_NODE: number;"}
+{""}
+
+!!!!!! {"ELEMENT_NODE: number;"}
+{""}
+
+!!!!!! {"COMMENT_NODE: number;"}
+{""}
+
+!!!!!! {"DOCUMENT_POSITION_DISCONNECTED: number;"}
+{""}
+
+!!!!!! {"DOCUMENT_POSITION_CONTAINED_BY: number;"}
+{""}
+
+!!!!!! {"DOCUMENT_POSITION_CONTAINS: number;"}
+{""}
+
+!!!!!! {"DOCUMENT_TYPE_NODE: number;"}
+{""}
+
+!!!!!! {"DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC: number;"}
+{""}
+
+!!!!!! {"DOCUMENT_NODE: number;"}
+{""}
+
+!!!!!! {"ENTITY_NODE: number;"}
+{""}
+
+!!!!!! {"PROCESSING_INSTRUCTION_NODE: number;"}
+{""}
+
+!!!!!! {"CDATA_SECTION_NODE: number;"}
+{""}
+
+!!!!!! {"NOTATION_NODE: number;"}
+{""}
+
+!!!!!! {"DOCUMENT_POSITION_FOLLOWING: number;"}
+{""}
+
+!!!!!! {"DOCUMENT_POSITION_PRECEDING: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"removeChild(oldChild: Node): Node"}
+{""}
+* *{"oldChild:"}* {"Node - "}
+* *Returns:* {"Node - "}
+
+!!!!!! {"appendChild(newChild: Node): Node"}
+{""}
+* *{"newChild:"}* {"Node - "}
+* *Returns:* {"Node - "}
+
+!!!!!! {"isSupported(feature: string, version: string): boolean"}
+{""}
+* *{"feature:"}* {"string - "}
+* *{"version:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"isEqualNode(arg: Node): boolean"}
+{""}
+* *{"arg:"}* {"Node - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"lookupPrefix(namespaceURI: string): string"}
+{""}
+* *{"namespaceURI:"}* {"string - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"isDefaultNamespace(namespaceURI: string): boolean"}
+{""}
+* *{"namespaceURI:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"compareDocumentPosition(other: Node): number"}
+{""}
+* *{"other:"}* {"Node - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"normalize(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"isSameNode(other: Node): boolean"}
+{""}
+* *{"other:"}* {"Node - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"hasAttributes(): boolean"}
+{""}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"lookupNamespaceURI(prefix: string): string"}
+{""}
+* *{"prefix:"}* {"string - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"cloneNode(deep?: boolean): Node"}
+{""}
+* [OPTIONAL] *{"deep:"}* {"boolean - "}
+* *Returns:* {"Node - "}
+
+!!!!!! {"hasChildNodes(): boolean"}
+{""}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"replaceChild(newChild: Node, oldChild: Node): Node"}
+{""}
+* *{"newChild:"}* {"Node - "}
+* *{"oldChild:"}* {"Node - "}
+* *Returns:* {"Node - "}
+
+!!!!!! {"insertBefore(newChild: Node, refChild?: Node): Node"}
+{""}
+* *{"newChild:"}* {"Node - "}
+* [OPTIONAL] *{"refChild:"}* {"Node - "}
+* *Returns:* {"Node - "}
+
+
+----
+

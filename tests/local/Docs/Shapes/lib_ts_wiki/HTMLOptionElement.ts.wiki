@@ -1,0 +1,52 @@
+{anchor:HTMLOptionElement}
+!! {"HTMLOptionElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [MSDataBindingExtensions]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"index: number;"}
+{""}
+
+!!!!!! {"defaultSelected: boolean;"}
+{""}
+
+!!!!!! {"value: string;"}
+{""}
+
+!!!!!! {"text: string;"}
+{""}
+
+!!!!!! {"form: HTMLFormElement;"}
+{""}
+
+!!!!!! {"label: string;"}
+{""}
+
+!!!!!! {"selected: boolean;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"create(): HTMLOptionElement"}
+{""}
+* *Returns:* {"HTMLOptionElement - "}
+
+
+----
+

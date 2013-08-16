@@ -1,0 +1,57 @@
+{anchor:Function}
+!! {"Function"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"prototype: any;"}
+{""}
+
+!!!!!! {"length: number;"}
+{""}
+
+!!!!!! {"arguments: any;"}
+{""}
+
+!!!!!! {"caller: Function;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"apply(thisArg: any, argArray?: any): any"}
+{""}
+* *{"thisArg:"}* {"any - "}
+* [OPTIONAL] *{"argArray:"}* {"any - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"call(thisArg: any, ...argArray: any[]): any"}
+{""}
+* *{"thisArg:"}* {"any - "}
+* *{"argArray:"}* {"any[] - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"bind(thisArg: any, ...argArray: any[]): any"}
+{""}
+* *{"thisArg:"}* {"any - "}
+* *{"argArray:"}* {"any[] - "}
+* *Returns:* {"any - "}
+
+
+----
+

@@ -1,0 +1,66 @@
+{anchor:IDBIndex}
+!! {"IDBIndex"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"unique: boolean;"}
+{""}
+
+!!!!!! {"name: string;"}
+{""}
+
+!!!!!! {"keyPath: string;"}
+{""}
+
+!!!!!! {"objectStore: IDBObjectStore;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"count(key?: any): IDBRequest"}
+{""}
+* [OPTIONAL] *{"key:"}* {"any - "}
+* *Returns:* {"IDBRequest - "}
+
+!!!!!! {"getKey(key: any): IDBRequest"}
+{""}
+* *{"key:"}* {"any - "}
+* *Returns:* {"IDBRequest - "}
+
+!!!!!! {"openKeyCursor(range?: IDBKeyRange, direction?: string): IDBRequest"}
+{""}
+* [OPTIONAL] *{"range:"}* {"IDBKeyRange - "}
+* [OPTIONAL] *{"direction:"}* {"string - "}
+* *Returns:* {"IDBRequest - "}
+
+!!!!!! {"get(key: any): IDBRequest"}
+{""}
+* *{"key:"}* {"any - "}
+* *Returns:* {"IDBRequest - "}
+
+!!!!!! {"openCursor(range?: IDBKeyRange, direction?: string): IDBRequest"}
+{""}
+* [OPTIONAL] *{"range:"}* {"IDBKeyRange - "}
+* [OPTIONAL] *{"direction:"}* {"string - "}
+* *Returns:* {"IDBRequest - "}
+
+
+----
+

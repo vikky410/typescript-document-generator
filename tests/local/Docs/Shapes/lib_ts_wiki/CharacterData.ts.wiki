@@ -1,0 +1,63 @@
+{anchor:CharacterData}
+!! {"CharacterData"}
+*Module:* [None]
+*Extends:* [Node]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+!!!!!! {"data: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"deleteData(offset: number, count: number): void"}
+{""}
+* *{"offset:"}* {"number - "}
+* *{"count:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"replaceData(offset: number, count: number, arg: string): void"}
+{""}
+* *{"offset:"}* {"number - "}
+* *{"count:"}* {"number - "}
+* *{"arg:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"appendData(arg: string): void"}
+{""}
+* *{"arg:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"insertData(offset: number, arg: string): void"}
+{""}
+* *{"offset:"}* {"number - "}
+* *{"arg:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"substringData(offset: number, count: number): string"}
+{""}
+* *{"offset:"}* {"number - "}
+* *{"count:"}* {"number - "}
+* *Returns:* {"string - "}
+
+
+----
+

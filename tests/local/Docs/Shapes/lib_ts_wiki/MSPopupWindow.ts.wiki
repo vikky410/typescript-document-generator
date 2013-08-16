@@ -1,0 +1,46 @@
+{anchor:MSPopupWindow}
+!! {"MSPopupWindow"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"document: Document;"}
+{""}
+
+!!!!!! {"isOpen: boolean;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"show(x: number, y: number, w: number, h: number, element?: any): void"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *{"w:"}* {"number - "}
+* *{"h:"}* {"number - "}
+* [OPTIONAL] *{"element:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"hide(): void"}
+{""}
+* *Returns:* {"void - "}
+
+
+----
+

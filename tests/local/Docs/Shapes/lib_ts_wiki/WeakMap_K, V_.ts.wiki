@@ -1,0 +1,47 @@
+{anchor:WeakMap<K, V>}
+!! {"WeakMap<K, V>"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"clear(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"delete(key: K): boolean"}
+{""}
+* *{"key:"}* {"K - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"get(key: K): V"}
+{""}
+* *{"key:"}* {"K - "}
+* *Returns:* {"V - "}
+
+!!!!!! {"has(key: K): boolean"}
+{""}
+* *{"key:"}* {"K - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"set(key: K, value: V): WeakMap<K, V>"}
+{""}
+* *{"key:"}* {"K - "}
+* *{"value:"}* {"V - "}
+* *Returns:* {"WeakMap<K, V> - "}
+
+
+----
+

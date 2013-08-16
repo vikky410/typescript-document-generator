@@ -1,0 +1,71 @@
+{anchor:Console}
+!! {"Console"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"count(countTitle?: string): void"}
+{""}
+* [OPTIONAL] *{"countTitle:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"groupEnd(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"time(timerName?: string): void"}
+{""}
+* [OPTIONAL] *{"timerName:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"timeEnd(timerName?: string): void"}
+{""}
+* [OPTIONAL] *{"timerName:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"trace(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"group(groupTitle?: string): void"}
+{""}
+* [OPTIONAL] *{"groupTitle:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"dirxml(value: any): void"}
+{""}
+* *{"value:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"debug(message?: string, ...optionalParams: any[]): void"}
+{""}
+* [OPTIONAL] *{"message:"}* {"string - "}
+* *{"optionalParams:"}* {"any[] - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"groupCollapsed(groupTitle?: string): void"}
+{""}
+* [OPTIONAL] *{"groupTitle:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"select(element: Element): void"}
+{""}
+* *{"element:"}* {"Element - "}
+* *Returns:* {"void - "}
+
+
+----
+

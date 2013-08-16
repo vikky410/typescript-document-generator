@@ -1,0 +1,25 @@
+{anchor:SVGAElement}
+!! {"SVGAElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGStylable], [SVGTransformable], [SVGLangSpace], [SVGTests], [SVGExternalResourcesRequired], [SVGURIReference]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"target: SVGAnimatedString;"}
+{""}
+
+
+----
+

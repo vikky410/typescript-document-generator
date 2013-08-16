@@ -1,0 +1,49 @@
+{anchor:MSSelection}
+!! {"MSSelection"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"type: string;"}
+{""}
+
+!!!!!! {"typeDetail: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"createRange(): TextRange"}
+{""}
+* *Returns:* {"TextRange - "}
+
+!!!!!! {"clear(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"createRangeCollection(): TextRangeCollection"}
+{""}
+* *Returns:* {"TextRangeCollection - "}
+
+!!!!!! {"empty(): void"}
+{""}
+* *Returns:* {"void - "}
+
+
+----
+

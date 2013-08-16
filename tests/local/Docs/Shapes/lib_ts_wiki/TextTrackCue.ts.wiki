@@ -1,0 +1,76 @@
+{anchor:TextTrackCue}
+!! {"TextTrackCue"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"onenter: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"track: TextTrack;"}
+{""}
+
+!!!!!! {"endTime: number;"}
+{""}
+
+!!!!!! {"text: string;"}
+{""}
+
+!!!!!! {"pauseOnExit: boolean;"}
+{""}
+
+!!!!!! {"id: string;"}
+{""}
+
+!!!!!! {"startTime: number;"}
+{""}
+
+!!!!!! {"onexit: (ev: Event) => any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "enter", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""enter" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "exit", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""exit" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getCueAsHTML(): DocumentFragment"}
+{""}
+* *Returns:* {"DocumentFragment - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

@@ -1,0 +1,40 @@
+{anchor:SVGMaskElement}
+!! {"SVGMaskElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGUnitTypes], [SVGStylable], [SVGLangSpace], [SVGTests], [SVGExternalResourcesRequired]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"y: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"width: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"maskUnits: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"maskContentUnits: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"x: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"height: SVGAnimatedLength;"}
+{""}
+
+
+----
+

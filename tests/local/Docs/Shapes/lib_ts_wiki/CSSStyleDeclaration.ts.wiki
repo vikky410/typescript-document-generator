@@ -1,0 +1,82 @@
+{anchor:CSSStyleDeclaration}
+!! {"CSSStyleDeclaration"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"alignItems: string;"}
+{""}
+
+!!!!!! {"borderImageSource: string;"}
+{""}
+
+!!!!!! {"flexBasis: string;"}
+{""}
+
+!!!!!! {"borderImageWidth: string;"}
+{""}
+
+!!!!!! {"borderImageRepeat: string;"}
+{""}
+
+!!!!!! {"order: string;"}
+{""}
+
+!!!!!! {"flex: string;"}
+{""}
+
+!!!!!! {"alignContent: string;"}
+{""}
+
+!!!!!! {"msImeAlign: string;"}
+{""}
+
+!!!!!! {"flexShrink: string;"}
+{""}
+
+!!!!!! {"flexGrow: string;"}
+{""}
+
+!!!!!! {"borderImageSlice: string;"}
+{""}
+
+!!!!!! {"flexWrap: string;"}
+{""}
+
+!!!!!! {"borderImageOutset: string;"}
+{""}
+
+!!!!!! {"flexDirection: string;"}
+{""}
+
+!!!!!! {"flexFlow: string;"}
+{""}
+
+!!!!!! {"borderImage: string;"}
+{""}
+
+!!!!!! {"justifyContent: string;"}
+{""}
+
+!!!!!! {"alignSelf: string;"}
+{""}
+
+!!!!!! {"msTextCombineHorizontal: string;"}
+{""}
+
+
+----
+

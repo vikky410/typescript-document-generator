@@ -1,0 +1,28 @@
+{anchor:CanvasGradient}
+!! {"CanvasGradient"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addColorStop(offset: number, color: string): void"}
+{""}
+* *{"offset:"}* {"number - "}
+* *{"color:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

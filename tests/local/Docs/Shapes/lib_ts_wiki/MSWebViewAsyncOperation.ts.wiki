@@ -1,0 +1,91 @@
+{anchor:MSWebViewAsyncOperation}
+!! {"MSWebViewAsyncOperation"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"target: MSHTMLWebViewElement;"}
+{""}
+
+!!!!!! {"oncomplete: (ev: any) => any;"}
+{""}
+
+!!!!!! {"error: DOMError;"}
+{""}
+
+!!!!!! {"onerror: (ev: any) => any;"}
+{""}
+
+!!!!!! {"readyState: number;"}
+{""}
+
+!!!!!! {"type: number;"}
+{""}
+
+!!!!!! {"result: any;"}
+{""}
+
+!!!!!! {"ERROR: number;"}
+{""}
+
+!!!!!! {"TYPE_CREATE_DATA_PACKAGE_FROM_SELECTION: number;"}
+{""}
+
+!!!!!! {"TYPE_INVOKE_SCRIPT: number;"}
+{""}
+
+!!!!!! {"COMPLETED: number;"}
+{""}
+
+!!!!!! {"TYPE_CAPTURE_PREVIEW_TO_RANDOM_ACCESS_STREAM: number;"}
+{""}
+
+!!!!!! {"STARTED: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "complete", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""complete" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "error", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""error" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"start(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

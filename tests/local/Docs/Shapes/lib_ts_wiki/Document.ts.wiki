@@ -1,0 +1,77 @@
+{anchor:Document}
+!! {"Document"}
+*Module:* [None]
+*Extends:* [MSDocumentExtensions]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"msFullscreenEnabled: boolean;"}
+{""}
+
+!!!!!! {"onmsfullscreenerror: (ev: any) => any;"}
+{""}
+
+!!!!!! {"onmspointerenter: (ev: any) => any;"}
+{""}
+
+!!!!!! {"msFullscreenElement: Element;"}
+{""}
+
+!!!!!! {"onmsfullscreenchange: (ev: any) => any;"}
+{""}
+
+!!!!!! {"onmspointerleave: (ev: any) => any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "msfullscreenerror", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""msfullscreenerror" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "mspointerenter", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""mspointerenter" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "msfullscreenchange", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""msfullscreenchange" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "mspointerleave", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""mspointerleave" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"msExitFullscreen(): void"}
+{""}
+* *Returns:* {"void - "}
+
+
+----
+

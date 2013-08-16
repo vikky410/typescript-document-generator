@@ -1,0 +1,70 @@
+{anchor:HTMLAreaElement}
+!! {"HTMLAreaElement"}
+*Module:* [None]
+*Extends:* [HTMLElement]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"protocol: string;"}
+{""}
+
+!!!!!! {"search: string;"}
+{""}
+
+!!!!!! {"alt: string;"}
+{""}
+
+!!!!!! {"coords: string;"}
+{""}
+
+!!!!!! {"hostname: string;"}
+{""}
+
+!!!!!! {"port: string;"}
+{""}
+
+!!!!!! {"pathname: string;"}
+{""}
+
+!!!!!! {"host: string;"}
+{""}
+
+!!!!!! {"hash: string;"}
+{""}
+
+!!!!!! {"target: string;"}
+{""}
+
+!!!!!! {"href: string;"}
+{""}
+
+!!!!!! {"noHref: boolean;"}
+{""}
+
+!!!!!! {"shape: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"toString(): string"}
+{""}
+* *Returns:* {"string - "}
+
+
+----
+

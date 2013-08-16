@@ -1,0 +1,64 @@
+{anchor:SVGFECompositeElement}
+!! {"SVGFECompositeElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGFilterPrimitiveStandardAttributes]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"operator: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"in2: SVGAnimatedString;"}
+{""}
+
+!!!!!! {"k2: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"k1: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"k3: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"in1: SVGAnimatedString;"}
+{""}
+
+!!!!!! {"k4: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"SVG_FECOMPOSITE_OPERATOR_OUT: number;"}
+{""}
+
+!!!!!! {"SVG_FECOMPOSITE_OPERATOR_OVER: number;"}
+{""}
+
+!!!!!! {"SVG_FECOMPOSITE_OPERATOR_XOR: number;"}
+{""}
+
+!!!!!! {"SVG_FECOMPOSITE_OPERATOR_ARITHMETIC: number;"}
+{""}
+
+!!!!!! {"SVG_FECOMPOSITE_OPERATOR_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_FECOMPOSITE_OPERATOR_IN: number;"}
+{""}
+
+!!!!!! {"SVG_FECOMPOSITE_OPERATOR_ATOP: number;"}
+{""}
+
+
+----
+

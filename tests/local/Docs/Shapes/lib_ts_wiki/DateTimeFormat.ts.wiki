@@ -1,0 +1,31 @@
+{anchor:DateTimeFormat}
+!! {"DateTimeFormat"}
+*Module:* [Intl.None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"format(date: number): string"}
+{""}
+* *{"date:"}* {"number - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"resolvedOptions(): ResolvedDateTimeFormatOptions"}
+{""}
+* *Returns:* {"Intl.ResolvedDateTimeFormatOptions - "}
+
+
+----
+

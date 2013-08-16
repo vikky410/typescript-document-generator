@@ -1,0 +1,36 @@
+{anchor:MutationObserver}
+!! {"MutationObserver"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"observe(target: Node, options: MutationObserverInit): void"}
+{""}
+* *{"target:"}* {"Node - "}
+* *{"options:"}* {"MutationObserverInit - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"takeRecords(): MutationRecord[]"}
+{""}
+* *Returns:* {"MutationRecord[] - "}
+
+!!!!!! {"disconnect(): void"}
+{""}
+* *Returns:* {"void - "}
+
+
+----
+

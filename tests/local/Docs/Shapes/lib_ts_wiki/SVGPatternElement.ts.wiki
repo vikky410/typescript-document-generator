@@ -1,0 +1,43 @@
+{anchor:SVGPatternElement}
+!! {"SVGPatternElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGUnitTypes], [SVGStylable], [SVGLangSpace], [SVGTests], [SVGFitToViewBox], [SVGExternalResourcesRequired], [SVGURIReference]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"patternUnits: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"y: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"width: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"x: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"patternContentUnits: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"patternTransform: SVGAnimatedTransformList;"}
+{""}
+
+!!!!!! {"height: SVGAnimatedLength;"}
+{""}
+
+
+----
+

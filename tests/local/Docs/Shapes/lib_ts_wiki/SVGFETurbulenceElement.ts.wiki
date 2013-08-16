@@ -1,0 +1,58 @@
+{anchor:SVGFETurbulenceElement}
+!! {"SVGFETurbulenceElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGFilterPrimitiveStandardAttributes]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"baseFrequencyX: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"numOctaves: SVGAnimatedInteger;"}
+{""}
+
+!!!!!! {"type: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"baseFrequencyY: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"stitchTiles: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"seed: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"SVG_STITCHTYPE_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_STITCHTYPE_NOSTITCH: number;"}
+{""}
+
+!!!!!! {"SVG_TURBULENCE_TYPE_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_TURBULENCE_TYPE_TURBULENCE: number;"}
+{""}
+
+!!!!!! {"SVG_TURBULENCE_TYPE_FRACTALNOISE: number;"}
+{""}
+
+!!!!!! {"SVG_STITCHTYPE_STITCH: number;"}
+{""}
+
+
+----
+

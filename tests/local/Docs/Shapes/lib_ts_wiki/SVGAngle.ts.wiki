@@ -1,0 +1,65 @@
+{anchor:SVGAngle}
+!! {"SVGAngle"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"valueAsString: string;"}
+{""}
+
+!!!!!! {"valueInSpecifiedUnits: number;"}
+{""}
+
+!!!!!! {"value: number;"}
+{""}
+
+!!!!!! {"unitType: number;"}
+{""}
+
+!!!!!! {"SVG_ANGLETYPE_RAD: number;"}
+{""}
+
+!!!!!! {"SVG_ANGLETYPE_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_ANGLETYPE_UNSPECIFIED: number;"}
+{""}
+
+!!!!!! {"SVG_ANGLETYPE_DEG: number;"}
+{""}
+
+!!!!!! {"SVG_ANGLETYPE_GRAD: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"newValueSpecifiedUnits(unitType: number, valueInSpecifiedUnits: number): void"}
+{""}
+* *{"unitType:"}* {"number - "}
+* *{"valueInSpecifiedUnits:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"convertToSpecifiedUnits(unitType: number): void"}
+{""}
+* *{"unitType:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

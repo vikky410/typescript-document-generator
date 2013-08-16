@@ -1,0 +1,56 @@
+{anchor:Screen}
+!! {"Screen"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"msOrientation: string;"}
+{""}
+
+!!!!!! {"onmsorientationchange: (ev: any) => any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "msorientationchange", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""msorientationchange" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"msLockOrientation(orientations: string[]): boolean"}
+{""}
+* *{"orientations:"}* {"string[] - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"msUnlockOrientation(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

@@ -1,0 +1,49 @@
+{anchor:HTMLTableSectionElement}
+!! {"HTMLTableSectionElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [HTMLTableAlignment], [DOML2DeprecatedBackgroundColorStyle]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"align: string;"}
+{""}
+
+!!!!!! {"rows: HTMLCollection;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"deleteRow(index?: number): void"}
+{""}
+* [OPTIONAL] *{"index:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"moveRow(indexFrom?: number, indexTo?: number): Object"}
+{""}
+* [OPTIONAL] *{"indexFrom:"}* {"number - "}
+* [OPTIONAL] *{"indexTo:"}* {"number - "}
+* *Returns:* {"Object - "}
+
+!!!!!! {"insertRow(index?: number): HTMLElement"}
+{""}
+* [OPTIONAL] *{"index:"}* {"number - "}
+* *Returns:* {"HTMLElement - "}
+
+
+----
+

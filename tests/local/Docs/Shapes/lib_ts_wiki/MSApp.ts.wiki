@@ -1,0 +1,76 @@
+{anchor:MSApp}
+!! {"MSApp"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"NORMAL: string;"}
+{""}
+
+!!!!!! {"HIGH: string;"}
+{""}
+
+!!!!!! {"IDLE: string;"}
+{""}
+
+!!!!!! {"CURRENT: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"getViewOpener(): MSAppView"}
+{""}
+* *Returns:* {"MSAppView - "}
+
+!!!!!! {"suppressSubdownloadCredentialPrompts(suppress: boolean): void"}
+{""}
+* *{"suppress:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"execAsyncAtPriority(asynchronousCallback: MSExecAtPriorityFunctionCallback, priority: string, ...args: any[]): void"}
+{""}
+* *{"asynchronousCallback:"}* {"MSExecAtPriorityFunctionCallback - "}
+* *{"priority:"}* {"string - "}
+* *{"args:"}* {"any[] - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"isTaskScheduledAtPriorityOrHigher(priority: string): boolean"}
+{""}
+* *{"priority:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"execAtPriority(synchronousCallback: MSExecAtPriorityFunctionCallback, priority: string, ...args: any[]): any"}
+{""}
+* *{"synchronousCallback:"}* {"MSExecAtPriorityFunctionCallback - "}
+* *{"priority:"}* {"string - "}
+* *{"args:"}* {"any[] - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"createNewView(uri: string): MSAppView"}
+{""}
+* *{"uri:"}* {"string - "}
+* *Returns:* {"MSAppView - "}
+
+!!!!!! {"getCurrentPriority(): string"}
+{""}
+* *Returns:* {"string - "}
+
+
+----
+

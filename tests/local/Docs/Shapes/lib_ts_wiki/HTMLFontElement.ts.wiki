@@ -1,0 +1,25 @@
+{anchor:HTMLFontElement}
+!! {"HTMLFontElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [DOML2DeprecatedColorProperty], [DOML2DeprecatedSizeProperty]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"face: string;"}
+{""}
+
+
+----
+

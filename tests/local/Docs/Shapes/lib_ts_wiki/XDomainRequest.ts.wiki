@@ -1,0 +1,102 @@
+{anchor:XDomainRequest}
+!! {"XDomainRequest"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"timeout: number;"}
+{""}
+
+!!!!!! {"onerror: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"onload: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"onprogress: (ev: any) => any;"}
+{""}
+
+!!!!!! {"ontimeout: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"responseText: string;"}
+{""}
+
+!!!!!! {"contentType: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "error", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""error" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "load", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""load" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "progress", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""progress" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "timeout", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""timeout" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"open(method: string, url: string): void"}
+{""}
+* *{"method:"}* {"string - "}
+* *{"url:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"create(): XDomainRequest"}
+{""}
+* *Returns:* {"XDomainRequest - "}
+
+!!!!!! {"abort(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"send(data?: any): void"}
+{""}
+* [OPTIONAL] *{"data:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

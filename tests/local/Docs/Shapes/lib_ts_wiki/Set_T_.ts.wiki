@@ -1,0 +1,55 @@
+{anchor:Set<T>}
+!! {"Set<T>"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"size: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"add(value: T): Set<T>"}
+{""}
+* *{"value:"}* {"T - "}
+* *Returns:* {"Set<T> - "}
+
+!!!!!! {"clear(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"delete(value: T): boolean"}
+{""}
+* *{"value:"}* {"T - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"forEach(callbackfn: (value: T, index: T, set: Set<T>) => void, thisArg?: any): void"}
+{""}
+* *{"callbackfn:"}* {"(value: T, index: T, set: Set<T>) => void - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"has(value: T): boolean"}
+{""}
+* *{"value:"}* {"T - "}
+* *Returns:* {"boolean - "}
+
+
+----
+

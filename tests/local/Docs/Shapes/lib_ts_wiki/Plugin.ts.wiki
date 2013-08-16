@@ -1,0 +1,52 @@
+{anchor:Plugin}
+!! {"Plugin"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+!!!!!! {"filename: string;"}
+{""}
+
+!!!!!! {"version: string;"}
+{""}
+
+!!!!!! {"name: string;"}
+{""}
+
+!!!!!! {"description: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"item(index: number): MimeType"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"MimeType - "}
+
+!!!!!! {"namedItem(type: string): MimeType"}
+{""}
+* *{"type:"}* {"string - "}
+* *Returns:* {"MimeType - "}
+
+
+----
+

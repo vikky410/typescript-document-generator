@@ -1,0 +1,35 @@
+{anchor:NodeListOf<TNode extends Node>}
+!! {"NodeListOf<TNode extends Node>"}
+*Module:* [None]
+*Extends:* [NodeList]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"item(index: number): TNode"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"TNode - "}
+
+
+----
+

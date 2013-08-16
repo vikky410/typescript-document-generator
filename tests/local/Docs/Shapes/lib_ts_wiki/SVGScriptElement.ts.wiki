@@ -1,0 +1,25 @@
+{anchor:SVGScriptElement}
+!! {"SVGScriptElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGExternalResourcesRequired], [SVGURIReference]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"type: string;"}
+{""}
+
+
+----
+

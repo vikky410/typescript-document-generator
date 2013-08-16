@@ -1,0 +1,66 @@
+{anchor:SVGPointList}
+!! {"SVGPointList"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"numberOfItems: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"replaceItem(newItem: SVGPoint, index: number): SVGPoint"}
+{""}
+* *{"newItem:"}* {"SVGPoint - "}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGPoint - "}
+
+!!!!!! {"getItem(index: number): SVGPoint"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGPoint - "}
+
+!!!!!! {"clear(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"appendItem(newItem: SVGPoint): SVGPoint"}
+{""}
+* *{"newItem:"}* {"SVGPoint - "}
+* *Returns:* {"SVGPoint - "}
+
+!!!!!! {"initialize(newItem: SVGPoint): SVGPoint"}
+{""}
+* *{"newItem:"}* {"SVGPoint - "}
+* *Returns:* {"SVGPoint - "}
+
+!!!!!! {"removeItem(index: number): SVGPoint"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGPoint - "}
+
+!!!!!! {"insertItemBefore(newItem: SVGPoint, index: number): SVGPoint"}
+{""}
+* *{"newItem:"}* {"SVGPoint - "}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGPoint - "}
+
+
+----
+

@@ -1,0 +1,25 @@
+{anchor:SVGClipPathElement}
+!! {"SVGClipPathElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGUnitTypes], [SVGStylable], [SVGTransformable], [SVGLangSpace], [SVGTests], [SVGExternalResourcesRequired]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"clipPathUnits: SVGAnimatedEnumeration;"}
+{""}
+
+
+----
+

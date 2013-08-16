@@ -1,0 +1,49 @@
+{anchor:SVGFEBlendElement}
+!! {"SVGFEBlendElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGFilterPrimitiveStandardAttributes]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"in2: SVGAnimatedString;"}
+{""}
+
+!!!!!! {"mode: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"in1: SVGAnimatedString;"}
+{""}
+
+!!!!!! {"SVG_FEBLEND_MODE_DARKEN: number;"}
+{""}
+
+!!!!!! {"SVG_FEBLEND_MODE_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_FEBLEND_MODE_MULTIPLY: number;"}
+{""}
+
+!!!!!! {"SVG_FEBLEND_MODE_NORMAL: number;"}
+{""}
+
+!!!!!! {"SVG_FEBLEND_MODE_SCREEN: number;"}
+{""}
+
+!!!!!! {"SVG_FEBLEND_MODE_LIGHTEN: number;"}
+{""}
+
+
+----
+

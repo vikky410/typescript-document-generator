@@ -1,0 +1,31 @@
+{anchor:SVGFEPointLightElement}
+!! {"SVGFEPointLightElement"}
+*Module:* [None]
+*Extends:* [SVGElement]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"y: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"x: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"z: SVGAnimatedNumber;"}
+{""}
+
+
+----
+

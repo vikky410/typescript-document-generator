@@ -1,0 +1,93 @@
+{anchor:Window}
+!! {"Window"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"onpageshow: (ev: PageTransitionEvent) => any;"}
+{""}
+
+!!!!!! {"ondevicemotion: (ev: DeviceMotionEvent) => any;"}
+{""}
+
+!!!!!! {"devicePixelRatio: number;"}
+{""}
+
+!!!!!! {"msCrypto: Crypto;"}
+{""}
+
+!!!!!! {"ondeviceorientation: (ev: DeviceOrientationEvent) => any;"}
+{""}
+
+!!!!!! {"onmspointerenter: (ev: any) => any;"}
+{""}
+
+!!!!!! {"onpagehide: (ev: PageTransitionEvent) => any;"}
+{""}
+
+!!!!!! {"onmspointerleave: (ev: any) => any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "pageshow", listener: (ev: PageTransitionEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""pageshow" - "}
+* *{"listener:"}* {"(ev: PageTransitionEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "devicemotion", listener: (ev: DeviceMotionEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""devicemotion" - "}
+* *{"listener:"}* {"(ev: DeviceMotionEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "deviceorientation", listener: (ev: DeviceOrientationEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""deviceorientation" - "}
+* *{"listener:"}* {"(ev: DeviceOrientationEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "mspointerenter", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""mspointerenter" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "pagehide", listener: (ev: PageTransitionEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""pagehide" - "}
+* *{"listener:"}* {"(ev: PageTransitionEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "mspointerleave", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""mspointerleave" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

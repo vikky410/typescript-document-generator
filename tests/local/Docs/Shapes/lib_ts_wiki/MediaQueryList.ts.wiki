@@ -1,0 +1,43 @@
+{anchor:MediaQueryList}
+!! {"MediaQueryList"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"matches: boolean;"}
+{""}
+
+!!!!!! {"media: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addListener(listener: MediaQueryListListener): void"}
+{""}
+* *{"listener:"}* {"MediaQueryListListener - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"removeListener(listener: MediaQueryListListener): void"}
+{""}
+* *{"listener:"}* {"MediaQueryListListener - "}
+* *Returns:* {"void - "}
+
+
+----
+

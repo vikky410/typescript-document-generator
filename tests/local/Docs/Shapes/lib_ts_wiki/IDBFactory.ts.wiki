@@ -1,0 +1,39 @@
+{anchor:IDBFactory}
+!! {"IDBFactory"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"open(name: string, version?: number): IDBOpenDBRequest"}
+{""}
+* *{"name:"}* {"string - "}
+* [OPTIONAL] *{"version:"}* {"number - "}
+* *Returns:* {"IDBOpenDBRequest - "}
+
+!!!!!! {"cmp(first: any, second: any): number"}
+{""}
+* *{"first:"}* {"any - "}
+* *{"second:"}* {"any - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"deleteDatabase(name: string): IDBOpenDBRequest"}
+{""}
+* *{"name:"}* {"string - "}
+* *Returns:* {"IDBOpenDBRequest - "}
+
+
+----
+

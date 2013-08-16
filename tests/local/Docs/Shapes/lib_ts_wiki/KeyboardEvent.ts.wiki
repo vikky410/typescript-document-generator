@@ -1,0 +1,99 @@
+{anchor:KeyboardEvent}
+!! {"KeyboardEvent"}
+*Module:* [None]
+*Extends:* [UIEvent]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"location: number;"}
+{""}
+
+!!!!!! {"keyCode: number;"}
+{""}
+
+!!!!!! {"shiftKey: boolean;"}
+{""}
+
+!!!!!! {"which: number;"}
+{""}
+
+!!!!!! {"locale: string;"}
+{""}
+
+!!!!!! {"key: string;"}
+{""}
+
+!!!!!! {"altKey: boolean;"}
+{""}
+
+!!!!!! {"metaKey: boolean;"}
+{""}
+
+!!!!!! {"char: string;"}
+{""}
+
+!!!!!! {"ctrlKey: boolean;"}
+{""}
+
+!!!!!! {"repeat: boolean;"}
+{""}
+
+!!!!!! {"charCode: number;"}
+{""}
+
+!!!!!! {"DOM_KEY_LOCATION_RIGHT: number;"}
+{""}
+
+!!!!!! {"DOM_KEY_LOCATION_STANDARD: number;"}
+{""}
+
+!!!!!! {"DOM_KEY_LOCATION_LEFT: number;"}
+{""}
+
+!!!!!! {"DOM_KEY_LOCATION_NUMPAD: number;"}
+{""}
+
+!!!!!! {"DOM_KEY_LOCATION_JOYSTICK: number;"}
+{""}
+
+!!!!!! {"DOM_KEY_LOCATION_MOBILE: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"getModifierState(keyArg: string): boolean"}
+{""}
+* *{"keyArg:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"initKeyboardEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, viewArg: Window, keyArg: string, locationArg: number, modifiersListArg: string, repeat: boolean, locale: string): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"viewArg:"}* {"Window - "}
+* *{"keyArg:"}* {"string - "}
+* *{"locationArg:"}* {"number - "}
+* *{"modifiersListArg:"}* {"string - "}
+* *{"repeat:"}* {"boolean - "}
+* *{"locale:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

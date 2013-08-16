@@ -1,0 +1,115 @@
+{anchor:WebSocket}
+!! {"WebSocket"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"protocol: string;"}
+{""}
+
+!!!!!! {"readyState: number;"}
+{""}
+
+!!!!!! {"bufferedAmount: number;"}
+{""}
+
+!!!!!! {"onopen: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"extensions: string;"}
+{""}
+
+!!!!!! {"onmessage: (ev: any) => any;"}
+{""}
+
+!!!!!! {"onclose: (ev: CloseEvent) => any;"}
+{""}
+
+!!!!!! {"onerror: (ev: ErrorEvent) => any;"}
+{""}
+
+!!!!!! {"binaryType: string;"}
+{""}
+
+!!!!!! {"url: string;"}
+{""}
+
+!!!!!! {"OPEN: number;"}
+{""}
+
+!!!!!! {"CLOSING: number;"}
+{""}
+
+!!!!!! {"CONNECTING: number;"}
+{""}
+
+!!!!!! {"CLOSED: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "open", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""open" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "message", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""message" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "close", listener: (ev: CloseEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""close" - "}
+* *{"listener:"}* {"(ev: CloseEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "error", listener: (ev: ErrorEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""error" - "}
+* *{"listener:"}* {"(ev: ErrorEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"close(code?: number, reason?: string): void"}
+{""}
+* [OPTIONAL] *{"code:"}* {"number - "}
+* [OPTIONAL] *{"reason:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"send(data: any): void"}
+{""}
+* *{"data:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

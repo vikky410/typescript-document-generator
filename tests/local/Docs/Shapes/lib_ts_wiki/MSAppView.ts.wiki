@@ -1,0 +1,41 @@
+{anchor:MSAppView}
+!! {"MSAppView"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"viewId: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"close(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"postMessage(message: any, targetOrigin: string, ports?: any): void"}
+{""}
+* *{"message:"}* {"any - "}
+* *{"targetOrigin:"}* {"string - "}
+* [OPTIONAL] *{"ports:"}* {"any - "}
+* *Returns:* {"void - "}
+
+
+----
+

@@ -1,0 +1,117 @@
+{anchor:MouseEvent}
+!! {"MouseEvent"}
+*Module:* [None]
+*Extends:* [UIEvent]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"toElement: Element;"}
+{""}
+
+!!!!!! {"layerY: number;"}
+{""}
+
+!!!!!! {"fromElement: Element;"}
+{""}
+
+!!!!!! {"which: number;"}
+{""}
+
+!!!!!! {"pageX: number;"}
+{""}
+
+!!!!!! {"offsetY: number;"}
+{""}
+
+!!!!!! {"x: number;"}
+{""}
+
+!!!!!! {"y: number;"}
+{""}
+
+!!!!!! {"metaKey: boolean;"}
+{""}
+
+!!!!!! {"altKey: boolean;"}
+{""}
+
+!!!!!! {"ctrlKey: boolean;"}
+{""}
+
+!!!!!! {"offsetX: number;"}
+{""}
+
+!!!!!! {"screenX: number;"}
+{""}
+
+!!!!!! {"clientY: number;"}
+{""}
+
+!!!!!! {"shiftKey: boolean;"}
+{""}
+
+!!!!!! {"layerX: number;"}
+{""}
+
+!!!!!! {"screenY: number;"}
+{""}
+
+!!!!!! {"relatedTarget: EventTarget;"}
+{""}
+
+!!!!!! {"button: number;"}
+{""}
+
+!!!!!! {"pageY: number;"}
+{""}
+
+!!!!!! {"buttons: number;"}
+{""}
+
+!!!!!! {"clientX: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initMouseEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, viewArg: Window, detailArg: number, screenXArg: number, screenYArg: number, clientXArg: number, clientYArg: number, ctrlKeyArg: boolean, altKeyArg: boolean, shiftKeyArg: boolean, metaKeyArg: boolean, buttonArg: number, relatedTargetArg: EventTarget): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"viewArg:"}* {"Window - "}
+* *{"detailArg:"}* {"number - "}
+* *{"screenXArg:"}* {"number - "}
+* *{"screenYArg:"}* {"number - "}
+* *{"clientXArg:"}* {"number - "}
+* *{"clientYArg:"}* {"number - "}
+* *{"ctrlKeyArg:"}* {"boolean - "}
+* *{"altKeyArg:"}* {"boolean - "}
+* *{"shiftKeyArg:"}* {"boolean - "}
+* *{"metaKeyArg:"}* {"boolean - "}
+* *{"buttonArg:"}* {"number - "}
+* *{"relatedTargetArg:"}* {"EventTarget - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getModifierState(keyArg: string): boolean"}
+{""}
+* *{"keyArg:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+
+----
+

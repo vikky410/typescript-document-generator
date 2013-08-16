@@ -1,0 +1,40 @@
+{anchor:SVGPathSegCurvetoCubicRel}
+!! {"SVGPathSegCurvetoCubicRel"}
+*Module:* [None]
+*Extends:* [SVGPathSeg]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"y: number;"}
+{""}
+
+!!!!!! {"y1: number;"}
+{""}
+
+!!!!!! {"x2: number;"}
+{""}
+
+!!!!!! {"x: number;"}
+{""}
+
+!!!!!! {"x1: number;"}
+{""}
+
+!!!!!! {"y2: number;"}
+{""}
+
+
+----
+

@@ -1,0 +1,40 @@
+{anchor:TimeRanges}
+!! {"TimeRanges"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"start(index: number): number"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"end(index: number): number"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"number - "}
+
+
+----
+

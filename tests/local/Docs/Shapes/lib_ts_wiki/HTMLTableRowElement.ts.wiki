@@ -1,0 +1,61 @@
+{anchor:HTMLTableRowElement}
+!! {"HTMLTableRowElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [HTMLTableAlignment], [DOML2DeprecatedBackgroundColorStyle]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"rowIndex: number;"}
+{""}
+
+!!!!!! {"cells: HTMLCollection;"}
+{""}
+
+!!!!!! {"align: string;"}
+{""}
+
+!!!!!! {"borderColorLight: any;"}
+{""}
+
+!!!!!! {"sectionRowIndex: number;"}
+{""}
+
+!!!!!! {"borderColor: any;"}
+{""}
+
+!!!!!! {"height: any;"}
+{""}
+
+!!!!!! {"borderColorDark: any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"deleteCell(index?: number): void"}
+{""}
+* [OPTIONAL] *{"index:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"insertCell(index?: number): HTMLElement"}
+{""}
+* [OPTIONAL] *{"index:"}* {"number - "}
+* *Returns:* {"HTMLElement - "}
+
+
+----
+

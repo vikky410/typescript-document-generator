@@ -1,0 +1,50 @@
+{anchor:DeviceMotionEvent}
+!! {"DeviceMotionEvent"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"rotationRate: DeviceRotationRate;"}
+{""}
+
+!!!!!! {"acceleration: DeviceAcceleration;"}
+{""}
+
+!!!!!! {"interval: number;"}
+{""}
+
+!!!!!! {"accelerationIncludingGravity: DeviceAcceleration;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initDeviceMotionEvent(type: string, bubbles: boolean, cancelable: boolean, acceleration: DeviceAccelerationDict, accelerationIncludingGravity: DeviceAccelerationDict, rotationRate: DeviceRotationRateDict, interval: number): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"bubbles:"}* {"boolean - "}
+* *{"cancelable:"}* {"boolean - "}
+* *{"acceleration:"}* {"DeviceAccelerationDict - "}
+* *{"accelerationIncludingGravity:"}* {"DeviceAccelerationDict - "}
+* *{"rotationRate:"}* {"DeviceRotationRateDict - "}
+* *{"interval:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

@@ -1,0 +1,52 @@
+{anchor:MSNavigatorDoNotTrack}
+!! {"MSNavigatorDoNotTrack"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"removeSiteSpecificTrackingException(args: ExceptionInformation): boolean"}
+{""}
+* *{"args:"}* {"ExceptionInformation - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"removeWebWideTrackingException(args: ExceptionInformation): boolean"}
+{""}
+* *{"args:"}* {"ExceptionInformation - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"storeWebWideTrackingException(args: StoreExceptionsInformation): void"}
+{""}
+* *{"args:"}* {"StoreExceptionsInformation - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"storeSiteSpecificTrackingException(args: StoreSiteSpecificExceptionsInformation): void"}
+{""}
+* *{"args:"}* {"StoreSiteSpecificExceptionsInformation - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"confirmSiteSpecificTrackingException(args: ConfirmSiteSpecificExceptionsInformation): boolean"}
+{""}
+* *{"args:"}* {"ConfirmSiteSpecificExceptionsInformation - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"confirmWebWideTrackingException(args: ExceptionInformation): boolean"}
+{""}
+* *{"args:"}* {"ExceptionInformation - "}
+* *Returns:* {"boolean - "}
+
+
+----
+

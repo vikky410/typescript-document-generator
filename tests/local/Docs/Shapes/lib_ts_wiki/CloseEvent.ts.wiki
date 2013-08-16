@@ -1,0 +1,46 @@
+{anchor:CloseEvent}
+!! {"CloseEvent"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"wasClean: boolean;"}
+{""}
+
+!!!!!! {"reason: string;"}
+{""}
+
+!!!!!! {"code: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initCloseEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, wasCleanArg: boolean, codeArg: number, reasonArg: string): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"wasCleanArg:"}* {"boolean - "}
+* *{"codeArg:"}* {"number - "}
+* *{"reasonArg:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

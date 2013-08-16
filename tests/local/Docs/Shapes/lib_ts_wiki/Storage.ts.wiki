@@ -1,0 +1,55 @@
+{anchor:Storage}
+!! {"Storage"}
+*Module:* [None]
+*Extends:* [MSStorageExtensions]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"getItem(key: string): any"}
+{""}
+* *{"key:"}* {"string - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"setItem(key: string, data: string): void"}
+{""}
+* *{"key:"}* {"string - "}
+* *{"data:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"clear(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"removeItem(key: string): void"}
+{""}
+* *{"key:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"key(index: number): string"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"string - "}
+
+
+----
+

@@ -1,0 +1,52 @@
+{anchor:Blob}
+!! {"Blob"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"type: string;"}
+{""}
+
+!!!!!! {"size: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"msDetachStream(): any"}
+{""}
+* *Returns:* {"any - "}
+
+!!!!!! {"slice(start?: number, end?: number, contentType?: string): Blob"}
+{""}
+* [OPTIONAL] *{"start:"}* {"number - "}
+* [OPTIONAL] *{"end:"}* {"number - "}
+* [OPTIONAL] *{"contentType:"}* {"string - "}
+* *Returns:* {"Blob - "}
+
+!!!!!! {"close(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"msClose(): void"}
+{""}
+* *Returns:* {"void - "}
+
+
+----
+

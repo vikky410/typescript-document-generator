@@ -1,0 +1,46 @@
+{anchor:MSMediaKeyError}
+!! {"MSMediaKeyError"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"systemCode: number;"}
+{""}
+
+!!!!!! {"code: number;"}
+{""}
+
+!!!!!! {"MS_MEDIA_KEYERR_SERVICE: number;"}
+{""}
+
+!!!!!! {"MS_MEDIA_KEYERR_HARDWARECHANGE: number;"}
+{""}
+
+!!!!!! {"MS_MEDIA_KEYERR_OUTPUT: number;"}
+{""}
+
+!!!!!! {"MS_MEDIA_KEYERR_DOMAIN: number;"}
+{""}
+
+!!!!!! {"MS_MEDIA_KEYERR_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"MS_MEDIA_KEYERR_CLIENT: number;"}
+{""}
+
+
+----
+

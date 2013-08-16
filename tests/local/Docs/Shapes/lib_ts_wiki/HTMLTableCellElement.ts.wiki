@@ -1,0 +1,64 @@
+{anchor:HTMLTableCellElement}
+!! {"HTMLTableCellElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [HTMLTableAlignment], [DOML2DeprecatedBackgroundStyle], [DOML2DeprecatedBackgroundColorStyle]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"width: number;"}
+{""}
+
+!!!!!! {"headers: string;"}
+{""}
+
+!!!!!! {"cellIndex: number;"}
+{""}
+
+!!!!!! {"align: string;"}
+{""}
+
+!!!!!! {"borderColorLight: any;"}
+{""}
+
+!!!!!! {"colSpan: number;"}
+{""}
+
+!!!!!! {"borderColor: any;"}
+{""}
+
+!!!!!! {"axis: string;"}
+{""}
+
+!!!!!! {"height: any;"}
+{""}
+
+!!!!!! {"noWrap: boolean;"}
+{""}
+
+!!!!!! {"abbr: string;"}
+{""}
+
+!!!!!! {"rowSpan: number;"}
+{""}
+
+!!!!!! {"scope: string;"}
+{""}
+
+!!!!!! {"borderColorDark: any;"}
+{""}
+
+
+----
+

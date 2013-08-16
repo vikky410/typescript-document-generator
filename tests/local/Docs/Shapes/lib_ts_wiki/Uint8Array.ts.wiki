@@ -1,0 +1,62 @@
+{anchor:Uint8Array}
+!! {"Uint8Array"}
+*Module:* [None]
+*Extends:* [ArrayBufferView]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"BYTES_PER_ELEMENT: number;"}
+{""}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"get(index: number): number"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"set(index: number, value: number): void"}
+{""}
+* *{"index:"}* {"number - "}
+* *{"value:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"set(array: Uint8Array, offset?: number): void"}
+{""}
+* *{"array:"}* {"Uint8Array - "}
+* [OPTIONAL] *{"offset:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"set(array: number[], offset?: number): void"}
+{""}
+* *{"array:"}* {"number[] - "}
+* [OPTIONAL] *{"offset:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"subarray(begin: number, end?: number): Uint8Array"}
+{""}
+* *{"begin:"}* {"number - "}
+* [OPTIONAL] *{"end:"}* {"number - "}
+* *Returns:* {"Uint8Array - "}
+
+
+----
+

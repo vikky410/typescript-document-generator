@@ -1,0 +1,164 @@
+{anchor:Array<T>}
+!! {"Array<T>"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"toString(): string"}
+{""}
+* *Returns:* {"string - "}
+
+!!!!!! {"toLocaleString(): string"}
+{""}
+* *Returns:* {"string - "}
+
+!!!!!! {"concat<U extends Array<T>>(...items: U[]): Array<T>"}
+{""}
+* *{"items:"}* {"U[] - "}
+* *Returns:* {"Array<T> - "}
+
+!!!!!! {"concat(...items: Array<T>): Array<T>"}
+{""}
+* *{"items:"}* {"Array<T> - "}
+* *Returns:* {"Array<T> - "}
+
+!!!!!! {"join(separator?: string): string"}
+{""}
+* [OPTIONAL] *{"separator:"}* {"string - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"pop(): T"}
+{""}
+* *Returns:* {"T - "}
+
+!!!!!! {"push(...items: Array<T>): number"}
+{""}
+* *{"items:"}* {"Array<T> - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"reverse(): Array<T>"}
+{""}
+* *Returns:* {"Array<T> - "}
+
+!!!!!! {"shift(): T"}
+{""}
+* *Returns:* {"T - "}
+
+!!!!!! {"slice(start: number, end?: number): Array<T>"}
+{""}
+* *{"start:"}* {"number - "}
+* [OPTIONAL] *{"end:"}* {"number - "}
+* *Returns:* {"Array<T> - "}
+
+!!!!!! {"sort(compareFn?: (a: T, b: T) => number): Array<T>"}
+{""}
+* [OPTIONAL] *{"compareFn:"}* {"(a: T, b: T) => number - "}
+* *Returns:* {"Array<T> - "}
+
+!!!!!! {"splice(start: number): Array<T>"}
+{""}
+* *{"start:"}* {"number - "}
+* *Returns:* {"Array<T> - "}
+
+!!!!!! {"splice(start: number, deleteCount: number, ...items: Array<T>): Array<T>"}
+{""}
+* *{"start:"}* {"number - "}
+* *{"deleteCount:"}* {"number - "}
+* *{"items:"}* {"Array<T> - "}
+* *Returns:* {"Array<T> - "}
+
+!!!!!! {"unshift(...items: Array<T>): number"}
+{""}
+* *{"items:"}* {"Array<T> - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"indexOf(searchElement: T, fromIndex?: number): number"}
+{""}
+* *{"searchElement:"}* {"T - "}
+* [OPTIONAL] *{"fromIndex:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"lastIndexOf(searchElement: T, fromIndex?: number): number"}
+{""}
+* *{"searchElement:"}* {"T - "}
+* [OPTIONAL] *{"fromIndex:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"every(callbackfn: (value: T, index: number, array: Array<T>) => boolean, thisArg?: any): boolean"}
+{""}
+* *{"callbackfn:"}* {"(value: T, index: number, array: Array<T>) => boolean - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"some(callbackfn: (value: T, index: number, array: Array<T>) => boolean, thisArg?: any): boolean"}
+{""}
+* *{"callbackfn:"}* {"(value: T, index: number, array: Array<T>) => boolean - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"forEach(callbackfn: (value: T, index: number, array: Array<T>) => void, thisArg?: any): void"}
+{""}
+* *{"callbackfn:"}* {"(value: T, index: number, array: Array<T>) => void - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"map<U>(callbackfn: (value: T, index: number, array: Array<T>) => U, thisArg?: any): U[]"}
+{""}
+* *{"callbackfn:"}* {"(value: T, index: number, array: Array<T>) => U - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"U[] - "}
+
+!!!!!! {"filter(callbackfn: (value: T, index: number, array: Array<T>) => boolean, thisArg?: any): Array<T>"}
+{""}
+* *{"callbackfn:"}* {"(value: T, index: number, array: Array<T>) => boolean - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"Array<T> - "}
+
+!!!!!! {"reduce(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: Array<T>) => T, initialValue?: T): T"}
+{""}
+* *{"callbackfn:"}* {"(previousValue: T, currentValue: T, currentIndex: number, array: Array<T>) => T - "}
+* [OPTIONAL] *{"initialValue:"}* {"T - "}
+* *Returns:* {"T - "}
+
+!!!!!! {"reduce<U>(callbackfn: (previousValue: U, currentValue: T, currentIndex: number, array: Array<T>) => U, initialValue: U): U"}
+{""}
+* *{"callbackfn:"}* {"(previousValue: U, currentValue: T, currentIndex: number, array: Array<T>) => U - "}
+* *{"initialValue:"}* {"U - "}
+* *Returns:* {"U - "}
+
+!!!!!! {"reduceRight(callbackfn: (previousValue: T, currentValue: T, currentIndex: number, array: Array<T>) => T, initialValue?: T): T"}
+{""}
+* *{"callbackfn:"}* {"(previousValue: T, currentValue: T, currentIndex: number, array: Array<T>) => T - "}
+* [OPTIONAL] *{"initialValue:"}* {"T - "}
+* *Returns:* {"T - "}
+
+!!!!!! {"reduceRight<U>(callbackfn: (previousValue: U, currentValue: T, currentIndex: number, array: Array<T>) => U, initialValue: U): U"}
+{""}
+* *{"callbackfn:"}* {"(previousValue: U, currentValue: T, currentIndex: number, array: Array<T>) => U - "}
+* *{"initialValue:"}* {"U - "}
+* *Returns:* {"U - "}
+
+
+----
+

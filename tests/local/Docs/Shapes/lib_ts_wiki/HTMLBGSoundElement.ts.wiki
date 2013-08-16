@@ -1,0 +1,34 @@
+{anchor:HTMLBGSoundElement}
+!! {"HTMLBGSoundElement"}
+*Module:* [None]
+*Extends:* [HTMLElement]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"balance: any;"}
+{""}
+
+!!!!!! {"volume: any;"}
+{""}
+
+!!!!!! {"src: string;"}
+{""}
+
+!!!!!! {"loop: number;"}
+{""}
+
+
+----
+

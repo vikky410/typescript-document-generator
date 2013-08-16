@@ -1,0 +1,153 @@
+{anchor:RegExpExecArray}
+!! {"RegExpExecArray"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+!!!!!! {"index: number;"}
+{""}
+
+!!!!!! {"input: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"toString(): string"}
+{""}
+* *Returns:* {"string - "}
+
+!!!!!! {"toLocaleString(): string"}
+{""}
+* *Returns:* {"string - "}
+
+!!!!!! {"concat(...items: string[][]): string[]"}
+{""}
+* *{"items:"}* {"string[][] - "}
+* *Returns:* {"string[] - "}
+
+!!!!!! {"join(separator?: string): string"}
+{""}
+* [OPTIONAL] *{"separator:"}* {"string - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"pop(): string"}
+{""}
+* *Returns:* {"string - "}
+
+!!!!!! {"push(...items: string[]): number"}
+{""}
+* *{"items:"}* {"string[] - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"reverse(): string[]"}
+{""}
+* *Returns:* {"string[] - "}
+
+!!!!!! {"shift(): string"}
+{""}
+* *Returns:* {"string - "}
+
+!!!!!! {"slice(start: number, end?: number): string[]"}
+{""}
+* *{"start:"}* {"number - "}
+* [OPTIONAL] *{"end:"}* {"number - "}
+* *Returns:* {"string[] - "}
+
+!!!!!! {"sort(compareFn?: (a: string, b: string) => number): string[]"}
+{""}
+* [OPTIONAL] *{"compareFn:"}* {"(a: string, b: string) => number - "}
+* *Returns:* {"string[] - "}
+
+!!!!!! {"splice(start: number): string[]"}
+{""}
+* *{"start:"}* {"number - "}
+* *Returns:* {"string[] - "}
+
+!!!!!! {"splice(start: number, deleteCount: number, ...items: string[]): string[]"}
+{""}
+* *{"start:"}* {"number - "}
+* *{"deleteCount:"}* {"number - "}
+* *{"items:"}* {"string[] - "}
+* *Returns:* {"string[] - "}
+
+!!!!!! {"unshift(...items: string[]): number"}
+{""}
+* *{"items:"}* {"string[] - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"indexOf(searchElement: string, fromIndex?: number): number"}
+{""}
+* *{"searchElement:"}* {"string - "}
+* [OPTIONAL] *{"fromIndex:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"lastIndexOf(searchElement: string, fromIndex?: number): number"}
+{""}
+* *{"searchElement:"}* {"string - "}
+* [OPTIONAL] *{"fromIndex:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"every(callbackfn: (value: string, index: number, array: string[]) => boolean, thisArg?: any): boolean"}
+{""}
+* *{"callbackfn:"}* {"(value: string, index: number, array: string[]) => boolean - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"some(callbackfn: (value: string, index: number, array: string[]) => boolean, thisArg?: any): boolean"}
+{""}
+* *{"callbackfn:"}* {"(value: string, index: number, array: string[]) => boolean - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"forEach(callbackfn: (value: string, index: number, array: string[]) => void, thisArg?: any): void"}
+{""}
+* *{"callbackfn:"}* {"(value: string, index: number, array: string[]) => void - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"map(callbackfn: (value: string, index: number, array: string[]) => any, thisArg?: any): any[]"}
+{""}
+* *{"callbackfn:"}* {"(value: string, index: number, array: string[]) => any - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"any[] - "}
+
+!!!!!! {"filter(callbackfn: (value: string, index: number, array: string[]) => boolean, thisArg?: any): string[]"}
+{""}
+* *{"callbackfn:"}* {"(value: string, index: number, array: string[]) => boolean - "}
+* [OPTIONAL] *{"thisArg:"}* {"any - "}
+* *Returns:* {"string[] - "}
+
+!!!!!! {"reduce(callbackfn: (previousValue: any, currentValue: any, currentIndex: number, array: string[]) => any, initialValue?: any): any"}
+{""}
+* *{"callbackfn:"}* {"(previousValue: any, currentValue: any, currentIndex: number, array: string[]) => any - "}
+* [OPTIONAL] *{"initialValue:"}* {"any - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"reduceRight(callbackfn: (previousValue: any, currentValue: any, currentIndex: number, array: string[]) => any, initialValue?: any): any"}
+{""}
+* *{"callbackfn:"}* {"(previousValue: any, currentValue: any, currentIndex: number, array: string[]) => any - "}
+* [OPTIONAL] *{"initialValue:"}* {"any - "}
+* *Returns:* {"any - "}
+
+
+----
+

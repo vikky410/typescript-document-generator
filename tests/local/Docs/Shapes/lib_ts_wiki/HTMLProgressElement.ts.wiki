@@ -1,0 +1,34 @@
+{anchor:HTMLProgressElement}
+!! {"HTMLProgressElement"}
+*Module:* [None]
+*Extends:* [HTMLElement]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"value: number;"}
+{""}
+
+!!!!!! {"max: number;"}
+{""}
+
+!!!!!! {"position: number;"}
+{""}
+
+!!!!!! {"form: HTMLFormElement;"}
+{""}
+
+
+----
+

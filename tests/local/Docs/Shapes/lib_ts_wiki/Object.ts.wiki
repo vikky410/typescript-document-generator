@@ -1,0 +1,49 @@
+{anchor:Object}
+!! {"Object"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"toString(): string"}
+{""}
+* *Returns:* {"string - "}
+
+!!!!!! {"toLocaleString(): string"}
+{""}
+* *Returns:* {"string - "}
+
+!!!!!! {"valueOf(): Object"}
+{""}
+* *Returns:* {"Object - "}
+
+!!!!!! {"hasOwnProperty(v: string): boolean"}
+{""}
+* *{"v:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"isPrototypeOf(v: Object): boolean"}
+{""}
+* *{"v:"}* {"Object - "}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"propertyIsEnumerable(v: string): boolean"}
+{""}
+* *{"v:"}* {"string - "}
+* *Returns:* {"boolean - "}
+
+
+----
+

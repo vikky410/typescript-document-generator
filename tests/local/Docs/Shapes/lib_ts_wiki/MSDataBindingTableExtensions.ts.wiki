@@ -1,0 +1,50 @@
+{anchor:MSDataBindingTableExtensions}
+!! {"MSDataBindingTableExtensions"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"dataPageSize: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"nextPage(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"firstPage(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"refresh(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"previousPage(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"lastPage(): void"}
+{""}
+* *Returns:* {"void - "}
+
+
+----
+

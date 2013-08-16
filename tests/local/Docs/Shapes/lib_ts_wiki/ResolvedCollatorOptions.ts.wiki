@@ -1,0 +1,43 @@
+{anchor:ResolvedCollatorOptions}
+!! {"ResolvedCollatorOptions"}
+*Module:* [Intl.None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"locale: string;"}
+{""}
+
+!!!!!! {"usage: string;"}
+{""}
+
+!!!!!! {"sensitivity: string;"}
+{""}
+
+!!!!!! {"ignorePunctuation: boolean;"}
+{""}
+
+!!!!!! {"collation: string;"}
+{""}
+
+!!!!!! {"caseFirst: string;"}
+{""}
+
+!!!!!! {"numeric: boolean;"}
+{""}
+
+
+----
+

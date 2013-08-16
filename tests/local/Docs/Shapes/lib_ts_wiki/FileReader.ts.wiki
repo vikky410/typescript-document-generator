@@ -1,0 +1,46 @@
+{anchor:FileReader}
+!! {"FileReader"}
+*Module:* [None]
+*Extends:* [MSBaseReader]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"error: DOMError;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"readAsArrayBuffer(blob: Blob): void"}
+{""}
+* *{"blob:"}* {"Blob - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"readAsDataURL(blob: Blob): void"}
+{""}
+* *{"blob:"}* {"Blob - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"readAsText(blob: Blob, encoding?: string): void"}
+{""}
+* *{"blob:"}* {"Blob - "}
+* [OPTIONAL] *{"encoding:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

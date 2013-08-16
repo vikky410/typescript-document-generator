@@ -1,0 +1,48 @@
+{anchor:PropertyDescriptor}
+!! {"PropertyDescriptor"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"configurable?: boolean;"}
+{""}
+
+!!!!!! {"enumerable?: boolean;"}
+{""}
+
+!!!!!! {"value?: any;"}
+{""}
+
+!!!!!! {"writable?: boolean;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! [OPTIONAL] {"get(): any"}
+{""}
+* *Returns:* {"any - "}
+
+!!!!!! [OPTIONAL] {"set(v: any): void"}
+{""}
+* *{"v:"}* {"any - "}
+* *Returns:* {"void - "}
+
+
+----
+

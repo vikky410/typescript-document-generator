@@ -1,0 +1,43 @@
+{anchor:HTMLOptGroupElement}
+!! {"HTMLOptGroupElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [MSDataBindingExtensions]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"index: number;"}
+{""}
+
+!!!!!! {"defaultSelected: boolean;"}
+{""}
+
+!!!!!! {"text: string;"}
+{""}
+
+!!!!!! {"value: string;"}
+{""}
+
+!!!!!! {"form: HTMLFormElement;"}
+{""}
+
+!!!!!! {"label: string;"}
+{""}
+
+!!!!!! {"selected: boolean;"}
+{""}
+
+
+----
+

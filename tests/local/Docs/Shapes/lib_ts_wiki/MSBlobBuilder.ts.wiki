@@ -1,0 +1,33 @@
+{anchor:MSBlobBuilder}
+!! {"MSBlobBuilder"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"append(data: any, endings?: string): void"}
+{""}
+* *{"data:"}* {"any - "}
+* [OPTIONAL] *{"endings:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getBlob(contentType?: string): Blob"}
+{""}
+* [OPTIONAL] *{"contentType:"}* {"string - "}
+* *Returns:* {"Blob - "}
+
+
+----
+

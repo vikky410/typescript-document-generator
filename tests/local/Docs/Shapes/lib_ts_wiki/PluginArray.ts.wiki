@@ -1,0 +1,45 @@
+{anchor:PluginArray}
+!! {"PluginArray"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"refresh(reload?: boolean): void"}
+{""}
+* [OPTIONAL] *{"reload:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"item(index: number): Plugin"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"Plugin - "}
+
+!!!!!! {"namedItem(name: string): Plugin"}
+{""}
+* *{"name:"}* {"string - "}
+* *Returns:* {"Plugin - "}
+
+
+----
+

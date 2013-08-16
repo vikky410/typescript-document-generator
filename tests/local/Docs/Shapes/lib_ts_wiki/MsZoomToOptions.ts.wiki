@@ -1,0 +1,40 @@
+{anchor:MsZoomToOptions}
+!! {"MsZoomToOptions"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"contentX?: number;"}
+{""}
+
+!!!!!! {"contentY?: number;"}
+{""}
+
+!!!!!! {"viewportX?: string;"}
+{""}
+
+!!!!!! {"viewportY?: string;"}
+{""}
+
+!!!!!! {"scaleFactor?: number;"}
+{""}
+
+!!!!!! {"animate?: string;"}
+{""}
+
+
+----
+

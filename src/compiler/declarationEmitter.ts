@@ -986,7 +986,8 @@ module TypeScript {
                 var declFileName: string;
                 if (document.script.isDeclareFile) {
                     declFileName = document.fileName;
-                } else {
+                }
+                else {
                     declFileName = this.compiler.emitOptions.mapOutputFileName(document, TypeScriptCompiler.mapToDTSFileName);
                 }
 

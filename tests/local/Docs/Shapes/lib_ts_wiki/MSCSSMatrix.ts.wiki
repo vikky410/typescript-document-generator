@@ -1,0 +1,150 @@
+{anchor:MSCSSMatrix}
+!! {"MSCSSMatrix"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"m24: number;"}
+{""}
+
+!!!!!! {"m34: number;"}
+{""}
+
+!!!!!! {"a: number;"}
+{""}
+
+!!!!!! {"d: number;"}
+{""}
+
+!!!!!! {"m32: number;"}
+{""}
+
+!!!!!! {"m41: number;"}
+{""}
+
+!!!!!! {"m11: number;"}
+{""}
+
+!!!!!! {"f: number;"}
+{""}
+
+!!!!!! {"e: number;"}
+{""}
+
+!!!!!! {"m23: number;"}
+{""}
+
+!!!!!! {"m14: number;"}
+{""}
+
+!!!!!! {"m33: number;"}
+{""}
+
+!!!!!! {"m22: number;"}
+{""}
+
+!!!!!! {"m21: number;"}
+{""}
+
+!!!!!! {"c: number;"}
+{""}
+
+!!!!!! {"m12: number;"}
+{""}
+
+!!!!!! {"b: number;"}
+{""}
+
+!!!!!! {"m42: number;"}
+{""}
+
+!!!!!! {"m31: number;"}
+{""}
+
+!!!!!! {"m43: number;"}
+{""}
+
+!!!!!! {"m13: number;"}
+{""}
+
+!!!!!! {"m44: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"multiply(secondMatrix: MSCSSMatrix): MSCSSMatrix"}
+{""}
+* *{"secondMatrix:"}* {"MSCSSMatrix - "}
+* *Returns:* {"MSCSSMatrix - "}
+
+!!!!!! {"skewY(angle: number): MSCSSMatrix"}
+{""}
+* *{"angle:"}* {"number - "}
+* *Returns:* {"MSCSSMatrix - "}
+
+!!!!!! {"setMatrixValue(value: string): void"}
+{""}
+* *{"value:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"inverse(): MSCSSMatrix"}
+{""}
+* *Returns:* {"MSCSSMatrix - "}
+
+!!!!!! {"rotateAxisAngle(x: number, y: number, z: number, angle: number): MSCSSMatrix"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *{"z:"}* {"number - "}
+* *{"angle:"}* {"number - "}
+* *Returns:* {"MSCSSMatrix - "}
+
+!!!!!! {"toString(): string"}
+{""}
+* *Returns:* {"string - "}
+
+!!!!!! {"rotate(angleX: number, angleY?: number, angleZ?: number): MSCSSMatrix"}
+{""}
+* *{"angleX:"}* {"number - "}
+* [OPTIONAL] *{"angleY:"}* {"number - "}
+* [OPTIONAL] *{"angleZ:"}* {"number - "}
+* *Returns:* {"MSCSSMatrix - "}
+
+!!!!!! {"translate(x: number, y: number, z?: number): MSCSSMatrix"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* [OPTIONAL] *{"z:"}* {"number - "}
+* *Returns:* {"MSCSSMatrix - "}
+
+!!!!!! {"scale(scaleX: number, scaleY?: number, scaleZ?: number): MSCSSMatrix"}
+{""}
+* *{"scaleX:"}* {"number - "}
+* [OPTIONAL] *{"scaleY:"}* {"number - "}
+* [OPTIONAL] *{"scaleZ:"}* {"number - "}
+* *Returns:* {"MSCSSMatrix - "}
+
+!!!!!! {"skewX(angle: number): MSCSSMatrix"}
+{""}
+* *{"angle:"}* {"number - "}
+* *Returns:* {"MSCSSMatrix - "}
+
+
+----
+

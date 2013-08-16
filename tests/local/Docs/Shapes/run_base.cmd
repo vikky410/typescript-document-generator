@@ -1,0 +1,1 @@
+CALL ..\..\..\..\tsc_built_local.cmd --declaration Shapes.ts

@@ -1,0 +1,91 @@
+{anchor:Selection}
+!! {"Selection"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"isCollapsed: boolean;"}
+{""}
+
+!!!!!! {"anchorNode: Node;"}
+{""}
+
+!!!!!! {"focusNode: Node;"}
+{""}
+
+!!!!!! {"anchorOffset: number;"}
+{""}
+
+!!!!!! {"focusOffset: number;"}
+{""}
+
+!!!!!! {"rangeCount: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addRange(range: Range): void"}
+{""}
+* *{"range:"}* {"Range - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"collapseToEnd(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"toString(): string"}
+{""}
+* *Returns:* {"string - "}
+
+!!!!!! {"selectAllChildren(parentNode: Node): void"}
+{""}
+* *{"parentNode:"}* {"Node - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getRangeAt(index: number): Range"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"Range - "}
+
+!!!!!! {"collapse(parentNode: Node, offset: number): void"}
+{""}
+* *{"parentNode:"}* {"Node - "}
+* *{"offset:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"removeAllRanges(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"collapseToStart(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"deleteFromDocument(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"removeRange(range: Range): void"}
+{""}
+* *{"range:"}* {"Range - "}
+* *Returns:* {"void - "}
+
+
+----
+

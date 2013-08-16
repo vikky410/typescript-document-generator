@@ -1,0 +1,46 @@
+{anchor:HTMLLinkElement}
+!! {"HTMLLinkElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [LinkStyle]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"rel: string;"}
+{""}
+
+!!!!!! {"target: string;"}
+{""}
+
+!!!!!! {"href: string;"}
+{""}
+
+!!!!!! {"media: string;"}
+{""}
+
+!!!!!! {"rev: string;"}
+{""}
+
+!!!!!! {"type: string;"}
+{""}
+
+!!!!!! {"charset: string;"}
+{""}
+
+!!!!!! {"hreflang: string;"}
+{""}
+
+
+----
+

@@ -1,0 +1,34 @@
+{anchor:SVGEllipseElement}
+!! {"SVGEllipseElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGStylable], [SVGTransformable], [SVGLangSpace], [SVGTests], [SVGExternalResourcesRequired]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"ry: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"cx: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"rx: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"cy: SVGAnimatedLength;"}
+{""}
+
+
+----
+

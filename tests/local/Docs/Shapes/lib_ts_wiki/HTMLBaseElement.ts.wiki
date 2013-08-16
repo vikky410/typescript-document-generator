@@ -1,0 +1,28 @@
+{anchor:HTMLBaseElement}
+!! {"HTMLBaseElement"}
+*Module:* [None]
+*Extends:* [HTMLElement]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"target: string;"}
+{""}
+
+!!!!!! {"href: string;"}
+{""}
+
+
+----
+

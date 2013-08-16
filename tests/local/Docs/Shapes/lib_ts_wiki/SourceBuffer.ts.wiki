@@ -1,0 +1,66 @@
+{anchor:SourceBuffer}
+!! {"SourceBuffer"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"updating: boolean;"}
+{""}
+
+!!!!!! {"appendWindowStart: number;"}
+{""}
+
+!!!!!! {"appendWindowEnd: number;"}
+{""}
+
+!!!!!! {"buffered: TimeRanges;"}
+{""}
+
+!!!!!! {"timestampOffset: number;"}
+{""}
+
+!!!!!! {"audioTracks: AudioTrackList;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"appendBuffer(data: ArrayBuffer): void"}
+{""}
+* *{"data:"}* {"ArrayBuffer - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"remove(start: number, end: number): void"}
+{""}
+* *{"start:"}* {"number - "}
+* *{"end:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"abort(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"appendStream(stream: MSStream, maxSize?: number): void"}
+{""}
+* *{"stream:"}* {"MSStream - "}
+* [OPTIONAL] *{"maxSize:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

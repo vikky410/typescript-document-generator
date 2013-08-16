@@ -1,0 +1,46 @@
+{anchor:SVGElementInstance}
+!! {"SVGElementInstance"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"previousSibling: SVGElementInstance;"}
+{""}
+
+!!!!!! {"parentNode: SVGElementInstance;"}
+{""}
+
+!!!!!! {"lastChild: SVGElementInstance;"}
+{""}
+
+!!!!!! {"nextSibling: SVGElementInstance;"}
+{""}
+
+!!!!!! {"childNodes: SVGElementInstanceList;"}
+{""}
+
+!!!!!! {"correspondingUseElement: SVGUseElement;"}
+{""}
+
+!!!!!! {"correspondingElement: SVGElement;"}
+{""}
+
+!!!!!! {"firstChild: SVGElementInstance;"}
+{""}
+
+
+----
+

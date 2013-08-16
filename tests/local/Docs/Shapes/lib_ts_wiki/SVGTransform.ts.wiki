@@ -1,0 +1,91 @@
+{anchor:SVGTransform}
+!! {"SVGTransform"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"type: number;"}
+{""}
+
+!!!!!! {"angle: number;"}
+{""}
+
+!!!!!! {"matrix: SVGMatrix;"}
+{""}
+
+!!!!!! {"SVG_TRANSFORM_SKEWX: number;"}
+{""}
+
+!!!!!! {"SVG_TRANSFORM_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_TRANSFORM_SCALE: number;"}
+{""}
+
+!!!!!! {"SVG_TRANSFORM_TRANSLATE: number;"}
+{""}
+
+!!!!!! {"SVG_TRANSFORM_MATRIX: number;"}
+{""}
+
+!!!!!! {"SVG_TRANSFORM_ROTATE: number;"}
+{""}
+
+!!!!!! {"SVG_TRANSFORM_SKEWY: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"setTranslate(tx: number, ty: number): void"}
+{""}
+* *{"tx:"}* {"number - "}
+* *{"ty:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"setScale(sx: number, sy: number): void"}
+{""}
+* *{"sx:"}* {"number - "}
+* *{"sy:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"setMatrix(matrix: SVGMatrix): void"}
+{""}
+* *{"matrix:"}* {"SVGMatrix - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"setSkewY(angle: number): void"}
+{""}
+* *{"angle:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"setRotate(angle: number, cx: number, cy: number): void"}
+{""}
+* *{"angle:"}* {"number - "}
+* *{"cx:"}* {"number - "}
+* *{"cy:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"setSkewX(angle: number): void"}
+{""}
+* *{"angle:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

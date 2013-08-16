@@ -1,0 +1,70 @@
+{anchor:IDBCursor}
+!! {"IDBCursor"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"source: any;"}
+{""}
+
+!!!!!! {"direction: string;"}
+{""}
+
+!!!!!! {"key: any;"}
+{""}
+
+!!!!!! {"primaryKey: any;"}
+{""}
+
+!!!!!! {"PREV: string;"}
+{""}
+
+!!!!!! {"PREV_NO_DUPLICATE: string;"}
+{""}
+
+!!!!!! {"NEXT: string;"}
+{""}
+
+!!!!!! {"NEXT_NO_DUPLICATE: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"advance(count: number): void"}
+{""}
+* *{"count:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"delete(): IDBRequest"}
+{""}
+* *Returns:* {"IDBRequest - "}
+
+!!!!!! {"continue(key?: any): void"}
+{""}
+* [OPTIONAL] *{"key:"}* {"any - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"update(value: any): IDBRequest"}
+{""}
+* *{"value:"}* {"any - "}
+* *Returns:* {"IDBRequest - "}
+
+
+----
+

@@ -1,0 +1,178 @@
+{anchor:MSEventObj}
+!! {"MSEventObj"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"nextPage: string;"}
+{""}
+
+!!!!!! {"keyCode: number;"}
+{""}
+
+!!!!!! {"toElement: Element;"}
+{""}
+
+!!!!!! {"returnValue: any;"}
+{""}
+
+!!!!!! {"dataFld: string;"}
+{""}
+
+!!!!!! {"y: number;"}
+{""}
+
+!!!!!! {"dataTransfer: DataTransfer;"}
+{""}
+
+!!!!!! {"propertyName: string;"}
+{""}
+
+!!!!!! {"url: string;"}
+{""}
+
+!!!!!! {"offsetX: number;"}
+{""}
+
+!!!!!! {"recordset: Object;"}
+{""}
+
+!!!!!! {"screenX: number;"}
+{""}
+
+!!!!!! {"buttonID: number;"}
+{""}
+
+!!!!!! {"wheelDelta: number;"}
+{""}
+
+!!!!!! {"reason: number;"}
+{""}
+
+!!!!!! {"origin: string;"}
+{""}
+
+!!!!!! {"data: string;"}
+{""}
+
+!!!!!! {"srcFilter: Object;"}
+{""}
+
+!!!!!! {"boundElements: HTMLCollection;"}
+{""}
+
+!!!!!! {"cancelBubble: boolean;"}
+{""}
+
+!!!!!! {"altLeft: boolean;"}
+{""}
+
+!!!!!! {"behaviorCookie: number;"}
+{""}
+
+!!!!!! {"bookmarks: BookmarkCollection;"}
+{""}
+
+!!!!!! {"type: string;"}
+{""}
+
+!!!!!! {"repeat: boolean;"}
+{""}
+
+!!!!!! {"srcElement: Element;"}
+{""}
+
+!!!!!! {"source: Window;"}
+{""}
+
+!!!!!! {"fromElement: Element;"}
+{""}
+
+!!!!!! {"offsetY: number;"}
+{""}
+
+!!!!!! {"x: number;"}
+{""}
+
+!!!!!! {"behaviorPart: number;"}
+{""}
+
+!!!!!! {"qualifier: string;"}
+{""}
+
+!!!!!! {"altKey: boolean;"}
+{""}
+
+!!!!!! {"ctrlKey: boolean;"}
+{""}
+
+!!!!!! {"clientY: number;"}
+{""}
+
+!!!!!! {"shiftKey: boolean;"}
+{""}
+
+!!!!!! {"shiftLeft: boolean;"}
+{""}
+
+!!!!!! {"contentOverflow: boolean;"}
+{""}
+
+!!!!!! {"screenY: number;"}
+{""}
+
+!!!!!! {"ctrlLeft: boolean;"}
+{""}
+
+!!!!!! {"button: number;"}
+{""}
+
+!!!!!! {"srcUrn: string;"}
+{""}
+
+!!!!!! {"clientX: number;"}
+{""}
+
+!!!!!! {"actionURL: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"getAttribute(strAttributeName: string, lFlags?: number): any"}
+{""}
+* *{"strAttributeName:"}* {"string - "}
+* [OPTIONAL] *{"lFlags:"}* {"number - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"setAttribute(strAttributeName: string, AttributeValue: any, lFlags?: number): void"}
+{""}
+* *{"strAttributeName:"}* {"string - "}
+* *{"AttributeValue:"}* {"any - "}
+* [OPTIONAL] *{"lFlags:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"removeAttribute(strAttributeName: string, lFlags?: number): boolean"}
+{""}
+* *{"strAttributeName:"}* {"string - "}
+* [OPTIONAL] *{"lFlags:"}* {"number - "}
+* *Returns:* {"boolean - "}
+
+
+----
+

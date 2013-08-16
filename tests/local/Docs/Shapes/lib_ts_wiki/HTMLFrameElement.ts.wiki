@@ -1,0 +1,92 @@
+{anchor:HTMLFrameElement}
+!! {"HTMLFrameElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [GetSVGDocument], [MSDataBindingExtensions]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"width: any;"}
+{""}
+
+!!!!!! {"scrolling: string;"}
+{""}
+
+!!!!!! {"marginHeight: string;"}
+{""}
+
+!!!!!! {"marginWidth: string;"}
+{""}
+
+!!!!!! {"borderColor: any;"}
+{""}
+
+!!!!!! {"frameSpacing: any;"}
+{""}
+
+!!!!!! {"frameBorder: string;"}
+{""}
+
+!!!!!! {"noResize: boolean;"}
+{""}
+
+!!!!!! {"contentWindow: Window;"}
+{""}
+
+!!!!!! {"src: string;"}
+{""}
+
+!!!!!! {"name: string;"}
+{""}
+
+!!!!!! {"height: any;"}
+{""}
+
+!!!!!! {"contentDocument: Document;"}
+{""}
+
+!!!!!! {"border: string;"}
+{""}
+
+!!!!!! {"longDesc: string;"}
+{""}
+
+!!!!!! {"onload: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"security: any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "load", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""load" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

@@ -1,0 +1,34 @@
+{anchor:Date}
+!! {"Date"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"toLocaleString(locales: string[], options?: Intl.DateTimeFormatOptions): string"}
+{""}
+* *{"locales:"}* {"string[] - "}
+* [OPTIONAL] *{"options:"}* {"Intl.DateTimeFormatOptions - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"toLocaleString(locale: string, options?: Intl.DateTimeFormatOptions): string"}
+{""}
+* *{"locale:"}* {"string - "}
+* [OPTIONAL] *{"options:"}* {"Intl.DateTimeFormatOptions - "}
+* *Returns:* {"string - "}
+
+
+----
+

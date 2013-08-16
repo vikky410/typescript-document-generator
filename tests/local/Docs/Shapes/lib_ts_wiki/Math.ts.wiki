@@ -1,0 +1,142 @@
+{anchor:Math}
+!! {"Math"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"E: number;"}
+{""}
+
+!!!!!! {"LN10: number;"}
+{""}
+
+!!!!!! {"LN2: number;"}
+{""}
+
+!!!!!! {"LOG2E: number;"}
+{""}
+
+!!!!!! {"LOG10E: number;"}
+{""}
+
+!!!!!! {"PI: number;"}
+{""}
+
+!!!!!! {"SQRT1_2: number;"}
+{""}
+
+!!!!!! {"SQRT2: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"abs(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"acos(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"asin(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"atan(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"atan2(y: number, x: number): number"}
+{""}
+* *{"y:"}* {"number - "}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"ceil(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"cos(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"exp(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"floor(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"log(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"max(...values: number[]): number"}
+{""}
+* *{"values:"}* {"number[] - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"min(...values: number[]): number"}
+{""}
+* *{"values:"}* {"number[] - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"pow(x: number, y: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *{"y:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"random(): number"}
+{""}
+* *Returns:* {"number - "}
+
+!!!!!! {"round(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"sin(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"sqrt(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"tan(x: number): number"}
+{""}
+* *{"x:"}* {"number - "}
+* *Returns:* {"number - "}
+
+
+----
+

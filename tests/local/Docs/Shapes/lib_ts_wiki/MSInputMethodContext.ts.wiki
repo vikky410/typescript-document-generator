@@ -1,0 +1,89 @@
+{anchor:MSInputMethodContext}
+!! {"MSInputMethodContext"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"oncandidatewindowshow: (ev: any) => any;"}
+{""}
+
+!!!!!! {"target: HTMLElement;"}
+{""}
+
+!!!!!! {"compositionStartOffset: number;"}
+{""}
+
+!!!!!! {"oncandidatewindowhide: (ev: any) => any;"}
+{""}
+
+!!!!!! {"oncandidatewindowupdate: (ev: any) => any;"}
+{""}
+
+!!!!!! {"compositionEndOffset: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "candidatewindowshow", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""candidatewindowshow" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "candidatewindowhide", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""candidatewindowhide" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "candidatewindowupdate", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""candidatewindowupdate" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getCompositionAlternatives(): string[]"}
+{""}
+* *Returns:* {"string[] - "}
+
+!!!!!! {"getCandidateWindowClientRect(): ClientRect"}
+{""}
+* *Returns:* {"ClientRect - "}
+
+!!!!!! {"hasComposition(): boolean"}
+{""}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"isCandidateWindowVisible(): boolean"}
+{""}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

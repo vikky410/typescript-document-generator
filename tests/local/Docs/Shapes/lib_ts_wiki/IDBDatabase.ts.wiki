@@ -1,0 +1,84 @@
+{anchor:IDBDatabase}
+!! {"IDBDatabase"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"version: string;"}
+{""}
+
+!!!!!! {"name: string;"}
+{""}
+
+!!!!!! {"objectStoreNames: DOMStringList;"}
+{""}
+
+!!!!!! {"onerror: (ev: ErrorEvent) => any;"}
+{""}
+
+!!!!!! {"onabort: (ev: any) => any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "error", listener: (ev: ErrorEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""error" - "}
+* *{"listener:"}* {"(ev: ErrorEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "abort", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""abort" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"createObjectStore(name: string, optionalParameters?: any): IDBObjectStore"}
+{""}
+* *{"name:"}* {"string - "}
+* [OPTIONAL] *{"optionalParameters:"}* {"any - "}
+* *Returns:* {"IDBObjectStore - "}
+
+!!!!!! {"close(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"transaction(storeNames: any, mode?: string): IDBTransaction"}
+{""}
+* *{"storeNames:"}* {"any - "}
+* [OPTIONAL] *{"mode:"}* {"string - "}
+* *Returns:* {"IDBTransaction - "}
+
+!!!!!! {"deleteObjectStore(name: string): void"}
+{""}
+* *{"name:"}* {"string - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

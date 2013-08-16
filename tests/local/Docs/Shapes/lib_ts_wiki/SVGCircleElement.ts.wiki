@@ -1,0 +1,31 @@
+{anchor:SVGCircleElement}
+!! {"SVGCircleElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGStylable], [SVGTransformable], [SVGLangSpace], [SVGTests], [SVGExternalResourcesRequired]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"cx: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"r: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"cy: SVGAnimatedLength;"}
+{""}
+
+
+----
+

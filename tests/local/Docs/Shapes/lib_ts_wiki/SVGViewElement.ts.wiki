@@ -1,0 +1,25 @@
+{anchor:SVGViewElement}
+!! {"SVGViewElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGZoomAndPan], [SVGFitToViewBox], [SVGExternalResourcesRequired]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"viewTarget: SVGStringList;"}
+{""}
+
+
+----
+

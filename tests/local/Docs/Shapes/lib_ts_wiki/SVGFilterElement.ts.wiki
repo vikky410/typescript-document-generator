@@ -1,0 +1,57 @@
+{anchor:SVGFilterElement}
+!! {"SVGFilterElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGUnitTypes], [SVGStylable], [SVGLangSpace], [SVGURIReference], [SVGExternalResourcesRequired]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"y: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"width: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"filterResX: SVGAnimatedInteger;"}
+{""}
+
+!!!!!! {"filterUnits: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"primitiveUnits: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"x: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"height: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"filterResY: SVGAnimatedInteger;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"setFilterRes(filterResX: number, filterResY: number): void"}
+{""}
+* *{"filterResX:"}* {"number - "}
+* *{"filterResY:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

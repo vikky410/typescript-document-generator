@@ -1,0 +1,29 @@
+{anchor:FormData}
+!! {"FormData"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"append(name: any, value: any, blobName?: string): void"}
+{""}
+* *{"name:"}* {"any - "}
+* *{"value:"}* {"any - "}
+* [OPTIONAL] *{"blobName:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

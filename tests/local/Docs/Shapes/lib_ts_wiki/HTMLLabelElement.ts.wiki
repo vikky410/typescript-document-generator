@@ -1,0 +1,28 @@
+{anchor:HTMLLabelElement}
+!! {"HTMLLabelElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [MSDataBindingExtensions]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"htmlFor: string;"}
+{""}
+
+!!!!!! {"form: HTMLFormElement;"}
+{""}
+
+
+----
+

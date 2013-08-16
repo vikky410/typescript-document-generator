@@ -1,0 +1,50 @@
+{anchor:DeviceOrientationEvent}
+!! {"DeviceOrientationEvent"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"gamma: number;"}
+{""}
+
+!!!!!! {"alpha: number;"}
+{""}
+
+!!!!!! {"absolute: boolean;"}
+{""}
+
+!!!!!! {"beta: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initDeviceOrientationEvent(type: string, bubbles: boolean, cancelable: boolean, alpha: number, beta: number, gamma: number, absolute: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"bubbles:"}* {"boolean - "}
+* *{"cancelable:"}* {"boolean - "}
+* *{"alpha:"}* {"number - "}
+* *{"beta:"}* {"number - "}
+* *{"gamma:"}* {"number - "}
+* *{"absolute:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

@@ -1,0 +1,46 @@
+{anchor:SVGFEColorMatrixElement}
+!! {"SVGFEColorMatrixElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGFilterPrimitiveStandardAttributes]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"in1: SVGAnimatedString;"}
+{""}
+
+!!!!!! {"type: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"values: SVGAnimatedNumberList;"}
+{""}
+
+!!!!!! {"SVG_FECOLORMATRIX_TYPE_SATURATE: number;"}
+{""}
+
+!!!!!! {"SVG_FECOLORMATRIX_TYPE_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_FECOLORMATRIX_TYPE_MATRIX: number;"}
+{""}
+
+!!!!!! {"SVG_FECOLORMATRIX_TYPE_HUEROTATE: number;"}
+{""}
+
+!!!!!! {"SVG_FECOLORMATRIX_TYPE_LUMINANCETOALPHA: number;"}
+{""}
+
+
+----
+

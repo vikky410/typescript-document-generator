@@ -1,0 +1,43 @@
+{anchor:MSResourceMetadata}
+!! {"MSResourceMetadata"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"protocol: string;"}
+{""}
+
+!!!!!! {"fileSize: string;"}
+{""}
+
+!!!!!! {"fileUpdatedDate: string;"}
+{""}
+
+!!!!!! {"nameProp: string;"}
+{""}
+
+!!!!!! {"fileCreatedDate: string;"}
+{""}
+
+!!!!!! {"fileModifiedDate: string;"}
+{""}
+
+!!!!!! {"mimeType: string;"}
+{""}
+
+
+----
+

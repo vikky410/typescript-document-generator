@@ -1,0 +1,49 @@
+{anchor:ErrorEvent}
+!! {"ErrorEvent"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"colno: number;"}
+{""}
+
+!!!!!! {"filename: string;"}
+{""}
+
+!!!!!! {"lineno: number;"}
+{""}
+
+!!!!!! {"message: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"initErrorEvent(typeArg: string, canBubbleArg: boolean, cancelableArg: boolean, messageArg: string, filenameArg: string, linenoArg: number): void"}
+{""}
+* *{"typeArg:"}* {"string - "}
+* *{"canBubbleArg:"}* {"boolean - "}
+* *{"cancelableArg:"}* {"boolean - "}
+* *{"messageArg:"}* {"string - "}
+* *{"filenameArg:"}* {"string - "}
+* *{"linenoArg:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

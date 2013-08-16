@@ -1,0 +1,43 @@
+{anchor:SVGFEMorphologyElement}
+!! {"SVGFEMorphologyElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGFilterPrimitiveStandardAttributes]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"operator: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"radiusX: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"radiusY: SVGAnimatedNumber;"}
+{""}
+
+!!!!!! {"in1: SVGAnimatedString;"}
+{""}
+
+!!!!!! {"SVG_MORPHOLOGY_OPERATOR_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_MORPHOLOGY_OPERATOR_ERODE: number;"}
+{""}
+
+!!!!!! {"SVG_MORPHOLOGY_OPERATOR_DILATE: number;"}
+{""}
+
+
+----
+

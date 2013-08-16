@@ -1,0 +1,147 @@
+{anchor:ApplicationCache}
+!! {"ApplicationCache"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"status: number;"}
+{""}
+
+!!!!!! {"ondownloading: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"onprogress: (ev: ProgressEvent) => any;"}
+{""}
+
+!!!!!! {"onupdateready: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"oncached: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"onobsolete: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"onerror: (ev: ErrorEvent) => any;"}
+{""}
+
+!!!!!! {"onchecking: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"onnoupdate: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"CHECKING: number;"}
+{""}
+
+!!!!!! {"UNCACHED: number;"}
+{""}
+
+!!!!!! {"UPDATEREADY: number;"}
+{""}
+
+!!!!!! {"DOWNLOADING: number;"}
+{""}
+
+!!!!!! {"IDLE: number;"}
+{""}
+
+!!!!!! {"OBSOLETE: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "downloading", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""downloading" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "progress", listener: (ev: ProgressEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""progress" - "}
+* *{"listener:"}* {"(ev: ProgressEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "updateready", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""updateready" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "cached", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""cached" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "obsolete", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""obsolete" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "error", listener: (ev: ErrorEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""error" - "}
+* *{"listener:"}* {"(ev: ErrorEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "checking", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""checking" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "noupdate", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""noupdate" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"swapCache(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"abort(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"update(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

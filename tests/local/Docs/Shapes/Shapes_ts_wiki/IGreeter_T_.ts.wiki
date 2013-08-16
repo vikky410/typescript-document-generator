@@ -1,0 +1,35 @@
+{anchor:IGreeter<T>}
+!! {"IGreeter<T>"}
+*Module:* [Sayings.None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:Shapes.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/Shapes.ts]
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{"IGreeter description"}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"greeting: T;"}
+{"greeting description"}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"greet(): T"}
+{"greet description"}
+* *Returns:* {"T - "}
+
+
+----
+

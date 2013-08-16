@@ -1,0 +1,33 @@
+{anchor:HTMLAreasCollection}
+!! {"HTMLAreasCollection"}
+*Module:* [None]
+*Extends:* [HTMLCollection]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"remove(index?: number): void"}
+{""}
+* [OPTIONAL] *{"index:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"add(element: HTMLElement, before?: any): void"}
+{""}
+* *{"element:"}* {"HTMLElement - "}
+* [OPTIONAL] *{"before:"}* {"any - "}
+* *Returns:* {"void - "}
+
+
+----
+

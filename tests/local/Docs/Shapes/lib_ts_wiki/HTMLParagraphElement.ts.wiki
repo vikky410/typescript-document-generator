@@ -1,0 +1,25 @@
+{anchor:HTMLParagraphElement}
+!! {"HTMLParagraphElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [DOML2DeprecatedTextFlowControl]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"align: string;"}
+{""}
+
+
+----
+

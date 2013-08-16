@@ -1,0 +1,87 @@
+{anchor:SVGTextContentElement}
+!! {"SVGTextContentElement"}
+*Module:* [None]
+*Extends:* [SVGElement], [SVGStylable], [SVGLangSpace], [SVGTests], [SVGExternalResourcesRequired]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"textLength: SVGAnimatedLength;"}
+{""}
+
+!!!!!! {"lengthAdjust: SVGAnimatedEnumeration;"}
+{""}
+
+!!!!!! {"LENGTHADJUST_SPACING: number;"}
+{""}
+
+!!!!!! {"LENGTHADJUST_SPACINGANDGLYPHS: number;"}
+{""}
+
+!!!!!! {"LENGTHADJUST_UNKNOWN: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"getCharNumAtPosition(point: SVGPoint): number"}
+{""}
+* *{"point:"}* {"SVGPoint - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"getStartPositionOfChar(charnum: number): SVGPoint"}
+{""}
+* *{"charnum:"}* {"number - "}
+* *Returns:* {"SVGPoint - "}
+
+!!!!!! {"getExtentOfChar(charnum: number): SVGRect"}
+{""}
+* *{"charnum:"}* {"number - "}
+* *Returns:* {"SVGRect - "}
+
+!!!!!! {"getComputedTextLength(): number"}
+{""}
+* *Returns:* {"number - "}
+
+!!!!!! {"getSubStringLength(charnum: number, nchars: number): number"}
+{""}
+* *{"charnum:"}* {"number - "}
+* *{"nchars:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"selectSubString(charnum: number, nchars: number): void"}
+{""}
+* *{"charnum:"}* {"number - "}
+* *{"nchars:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getNumberOfChars(): number"}
+{""}
+* *Returns:* {"number - "}
+
+!!!!!! {"getRotationOfChar(charnum: number): number"}
+{""}
+* *{"charnum:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"getEndPositionOfChar(charnum: number): SVGPoint"}
+{""}
+* *{"charnum:"}* {"number - "}
+* *Returns:* {"SVGPoint - "}
+
+
+----
+

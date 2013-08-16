@@ -1,0 +1,1 @@
+CALL ..\..\..\..\tsc_built_local.cmd --documentation --declaration --wikiRemoveRoot "%CD%" --wikiSourceRoot "https://typescriptui.codeplex.com/SourceControl/latest#Main/" Shapes.ts

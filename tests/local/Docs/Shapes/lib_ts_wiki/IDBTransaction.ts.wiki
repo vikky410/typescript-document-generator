@@ -1,0 +1,91 @@
+{anchor:IDBTransaction}
+!! {"IDBTransaction"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"oncomplete: (ev: Event) => any;"}
+{""}
+
+!!!!!! {"db: IDBDatabase;"}
+{""}
+
+!!!!!! {"mode: string;"}
+{""}
+
+!!!!!! {"error: DOMError;"}
+{""}
+
+!!!!!! {"onerror: (ev: ErrorEvent) => any;"}
+{""}
+
+!!!!!! {"onabort: (ev: any) => any;"}
+{""}
+
+!!!!!! {"READ_ONLY: string;"}
+{""}
+
+!!!!!! {"VERSION_CHANGE: string;"}
+{""}
+
+!!!!!! {"READ_WRITE: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "complete", listener: (ev: Event) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""complete" - "}
+* *{"listener:"}* {"(ev: Event) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "error", listener: (ev: ErrorEvent) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""error" - "}
+* *{"listener:"}* {"(ev: ErrorEvent) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "abort", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""abort" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"abort(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"objectStore(name: string): IDBObjectStore"}
+{""}
+* *{"name:"}* {"string - "}
+* *Returns:* {"IDBObjectStore - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

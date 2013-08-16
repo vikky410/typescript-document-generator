@@ -1,0 +1,17 @@
+{anchor:HTMLDirectoryElement}
+!! {"HTMLDirectoryElement"}
+*Module:* [None]
+*Extends:* [HTMLElement], [DOML2DeprecatedListSpaceReduction], [DOML2DeprecatedListNumberingAndBulletStyle]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+

@@ -1,0 +1,27 @@
+{anchor:DocumentEvent}
+!! {"DocumentEvent"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"createEvent(eventInterface: string): Event"}
+{""}
+* *{"eventInterface:"}* {"string - "}
+* *Returns:* {"Event - "}
+
+
+----
+

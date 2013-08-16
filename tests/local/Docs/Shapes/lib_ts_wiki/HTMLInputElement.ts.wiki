@@ -1,0 +1,106 @@
+{anchor:HTMLInputElement}
+!! {"HTMLInputElement"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"validationMessage: string;"}
+{""}
+
+!!!!!! {"files: FileList;"}
+{""}
+
+!!!!!! {"max: string;"}
+{""}
+
+!!!!!! {"formTarget: string;"}
+{""}
+
+!!!!!! {"willValidate: boolean;"}
+{""}
+
+!!!!!! {"step: string;"}
+{""}
+
+!!!!!! {"autofocus: boolean;"}
+{""}
+
+!!!!!! {"required: boolean;"}
+{""}
+
+!!!!!! {"formEnctype: string;"}
+{""}
+
+!!!!!! {"valueAsNumber: number;"}
+{""}
+
+!!!!!! {"placeholder: string;"}
+{""}
+
+!!!!!! {"formMethod: string;"}
+{""}
+
+!!!!!! {"list: HTMLElement;"}
+{""}
+
+!!!!!! {"autocomplete: string;"}
+{""}
+
+!!!!!! {"min: string;"}
+{""}
+
+!!!!!! {"formAction: string;"}
+{""}
+
+!!!!!! {"pattern: string;"}
+{""}
+
+!!!!!! {"validity: ValidityState;"}
+{""}
+
+!!!!!! {"formNoValidate: string;"}
+{""}
+
+!!!!!! {"multiple: boolean;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"checkValidity(): boolean"}
+{""}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"stepDown(n?: number): void"}
+{""}
+* [OPTIONAL] *{"n:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"stepUp(n?: number): void"}
+{""}
+* [OPTIONAL] *{"n:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"setCustomValidity(error: string): void"}
+{""}
+* *{"error:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

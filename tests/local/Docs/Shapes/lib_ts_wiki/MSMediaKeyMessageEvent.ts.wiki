@@ -1,0 +1,28 @@
+{anchor:MSMediaKeyMessageEvent}
+!! {"MSMediaKeyMessageEvent"}
+*Module:* [None]
+*Extends:* [Event]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"destinationURL: string;"}
+{""}
+
+!!!!!! {"message: Uint8Array;"}
+{""}
+
+
+----
+

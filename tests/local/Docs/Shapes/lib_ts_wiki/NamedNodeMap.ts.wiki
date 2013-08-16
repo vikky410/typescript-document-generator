@@ -1,0 +1,67 @@
+{anchor:NamedNodeMap}
+!! {"NamedNodeMap"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"length: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"removeNamedItemNS(namespaceURI: string, localName: string): Attr"}
+{""}
+* *{"namespaceURI:"}* {"string - "}
+* *{"localName:"}* {"string - "}
+* *Returns:* {"Attr - "}
+
+!!!!!! {"item(index: number): Attr"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"Attr - "}
+
+!!!!!! {"removeNamedItem(name: string): Attr"}
+{""}
+* *{"name:"}* {"string - "}
+* *Returns:* {"Attr - "}
+
+!!!!!! {"getNamedItem(name: string): Attr"}
+{""}
+* *{"name:"}* {"string - "}
+* *Returns:* {"Attr - "}
+
+!!!!!! {"setNamedItem(arg: Attr): Attr"}
+{""}
+* *{"arg:"}* {"Attr - "}
+* *Returns:* {"Attr - "}
+
+!!!!!! {"getNamedItemNS(namespaceURI: string, localName: string): Attr"}
+{""}
+* *{"namespaceURI:"}* {"string - "}
+* *{"localName:"}* {"string - "}
+* *Returns:* {"Attr - "}
+
+!!!!!! {"setNamedItemNS(arg: Attr): Attr"}
+{""}
+* *{"arg:"}* {"Attr - "}
+* *Returns:* {"Attr - "}
+
+
+----
+

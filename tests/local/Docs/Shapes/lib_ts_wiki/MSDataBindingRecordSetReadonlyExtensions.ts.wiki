@@ -1,0 +1,36 @@
+{anchor:MSDataBindingRecordSetReadonlyExtensions}
+!! {"MSDataBindingRecordSetReadonlyExtensions"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"recordset: Object;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"namedRecordset(dataMember: string, hierarchy?: any): Object"}
+{""}
+* *{"dataMember:"}* {"string - "}
+* [OPTIONAL] *{"hierarchy:"}* {"any - "}
+* *Returns:* {"Object - "}
+
+
+----
+

@@ -1,0 +1,83 @@
+{anchor:SVGLength}
+!! {"SVGLength"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"valueAsString: string;"}
+{""}
+
+!!!!!! {"valueInSpecifiedUnits: number;"}
+{""}
+
+!!!!!! {"value: number;"}
+{""}
+
+!!!!!! {"unitType: number;"}
+{""}
+
+!!!!!! {"SVG_LENGTHTYPE_NUMBER: number;"}
+{""}
+
+!!!!!! {"SVG_LENGTHTYPE_CM: number;"}
+{""}
+
+!!!!!! {"SVG_LENGTHTYPE_PC: number;"}
+{""}
+
+!!!!!! {"SVG_LENGTHTYPE_PERCENTAGE: number;"}
+{""}
+
+!!!!!! {"SVG_LENGTHTYPE_MM: number;"}
+{""}
+
+!!!!!! {"SVG_LENGTHTYPE_PT: number;"}
+{""}
+
+!!!!!! {"SVG_LENGTHTYPE_IN: number;"}
+{""}
+
+!!!!!! {"SVG_LENGTHTYPE_EMS: number;"}
+{""}
+
+!!!!!! {"SVG_LENGTHTYPE_PX: number;"}
+{""}
+
+!!!!!! {"SVG_LENGTHTYPE_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"SVG_LENGTHTYPE_EXS: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"newValueSpecifiedUnits(unitType: number, valueInSpecifiedUnits: number): void"}
+{""}
+* *{"unitType:"}* {"number - "}
+* *{"valueInSpecifiedUnits:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"convertToSpecifiedUnits(unitType: number): void"}
+{""}
+* *{"unitType:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

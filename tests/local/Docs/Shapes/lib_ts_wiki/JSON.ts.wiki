@@ -1,0 +1,59 @@
+{anchor:JSON}
+!! {"JSON"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"parse(text: string, reviver?: (key: any, value: any) => any): any"}
+{""}
+* *{"text:"}* {"string - "}
+* [OPTIONAL] *{"reviver:"}* {"(key: any, value: any) => any - "}
+* *Returns:* {"any - "}
+
+!!!!!! {"stringify(value: any): string"}
+{""}
+* *{"value:"}* {"any - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"stringify(value: any, replacer: (key: string, value: any) => any): string"}
+{""}
+* *{"value:"}* {"any - "}
+* *{"replacer:"}* {"(key: string, value: any) => any - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"stringify(value: any, replacer: any[]): string"}
+{""}
+* *{"value:"}* {"any - "}
+* *{"replacer:"}* {"any[] - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"stringify(value: any, replacer: (key: string, value: any) => any, space: any): string"}
+{""}
+* *{"value:"}* {"any - "}
+* *{"replacer:"}* {"(key: string, value: any) => any - "}
+* *{"space:"}* {"any - "}
+* *Returns:* {"string - "}
+
+!!!!!! {"stringify(value: any, replacer: any[], space: any): string"}
+{""}
+* *{"value:"}* {"any - "}
+* *{"replacer:"}* {"any[] - "}
+* *{"space:"}* {"any - "}
+* *Returns:* {"string - "}
+
+
+----
+

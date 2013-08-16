@@ -1,0 +1,66 @@
+{anchor:SVGPathSegList}
+!! {"SVGPathSegList"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"numberOfItems: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"replaceItem(newItem: SVGPathSeg, index: number): SVGPathSeg"}
+{""}
+* *{"newItem:"}* {"SVGPathSeg - "}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGPathSeg - "}
+
+!!!!!! {"getItem(index: number): SVGPathSeg"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGPathSeg - "}
+
+!!!!!! {"clear(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"appendItem(newItem: SVGPathSeg): SVGPathSeg"}
+{""}
+* *{"newItem:"}* {"SVGPathSeg - "}
+* *Returns:* {"SVGPathSeg - "}
+
+!!!!!! {"initialize(newItem: SVGPathSeg): SVGPathSeg"}
+{""}
+* *{"newItem:"}* {"SVGPathSeg - "}
+* *Returns:* {"SVGPathSeg - "}
+
+!!!!!! {"removeItem(index: number): SVGPathSeg"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGPathSeg - "}
+
+!!!!!! {"insertItemBefore(newItem: SVGPathSeg, index: number): SVGPathSeg"}
+{""}
+* *{"newItem:"}* {"SVGPathSeg - "}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGPathSeg - "}
+
+
+----
+

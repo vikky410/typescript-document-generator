@@ -1,0 +1,37 @@
+{anchor:SVGTextPositioningElement}
+!! {"SVGTextPositioningElement"}
+*Module:* [None]
+*Extends:* [SVGTextContentElement]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"y: SVGAnimatedLengthList;"}
+{""}
+
+!!!!!! {"rotate: SVGAnimatedNumberList;"}
+{""}
+
+!!!!!! {"dy: SVGAnimatedLengthList;"}
+{""}
+
+!!!!!! {"x: SVGAnimatedLengthList;"}
+{""}
+
+!!!!!! {"dx: SVGAnimatedLengthList;"}
+{""}
+
+
+----
+

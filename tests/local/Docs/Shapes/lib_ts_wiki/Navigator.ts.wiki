@@ -1,0 +1,43 @@
+{anchor:Navigator}
+!! {"Navigator"}
+*Module:* [None]
+*Extends:* [MSFileSaver]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"msMaxTouchPoints: number;"}
+{""}
+
+!!!!!! {"msPointerEnabled: boolean;"}
+{""}
+
+!!!!!! {"msManipulationViewsEnabled: boolean;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"msLaunchUri(uri: string, successCallback?: MSLaunchUriCallback, noHandlerCallback?: MSLaunchUriCallback): void"}
+{""}
+* *{"uri:"}* {"string - "}
+* [OPTIONAL] *{"successCallback:"}* {"MSLaunchUriCallback - "}
+* [OPTIONAL] *{"noHandlerCallback:"}* {"MSLaunchUriCallback - "}
+* *Returns:* {"void - "}
+
+
+----
+

@@ -1,0 +1,41 @@
+{anchor:Geolocation}
+!! {"Geolocation"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"clearWatch(watchId: number): void"}
+{""}
+* *{"watchId:"}* {"number - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"getCurrentPosition(successCallback: PositionCallback, errorCallback?: PositionErrorCallback, options?: PositionOptions): void"}
+{""}
+* *{"successCallback:"}* {"PositionCallback - "}
+* [OPTIONAL] *{"errorCallback:"}* {"PositionErrorCallback - "}
+* [OPTIONAL] *{"options:"}* {"PositionOptions - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"watchPosition(successCallback: PositionCallback, errorCallback?: PositionErrorCallback, options?: PositionOptions): number"}
+{""}
+* *{"successCallback:"}* {"PositionCallback - "}
+* [OPTIONAL] *{"errorCallback:"}* {"PositionErrorCallback - "}
+* [OPTIONAL] *{"options:"}* {"PositionOptions - "}
+* *Returns:* {"number - "}
+
+
+----
+

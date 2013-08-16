@@ -1,0 +1,66 @@
+{anchor:SVGLengthList}
+!! {"SVGLengthList"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"numberOfItems: number;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"replaceItem(newItem: SVGLength, index: number): SVGLength"}
+{""}
+* *{"newItem:"}* {"SVGLength - "}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGLength - "}
+
+!!!!!! {"getItem(index: number): SVGLength"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGLength - "}
+
+!!!!!! {"clear(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"appendItem(newItem: SVGLength): SVGLength"}
+{""}
+* *{"newItem:"}* {"SVGLength - "}
+* *Returns:* {"SVGLength - "}
+
+!!!!!! {"initialize(newItem: SVGLength): SVGLength"}
+{""}
+* *{"newItem:"}* {"SVGLength - "}
+* *Returns:* {"SVGLength - "}
+
+!!!!!! {"removeItem(index: number): SVGLength"}
+{""}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGLength - "}
+
+!!!!!! {"insertItemBefore(newItem: SVGLength, index: number): SVGLength"}
+{""}
+* *{"newItem:"}* {"SVGLength - "}
+* *{"index:"}* {"number - "}
+* *Returns:* {"SVGLength - "}
+
+
+----
+

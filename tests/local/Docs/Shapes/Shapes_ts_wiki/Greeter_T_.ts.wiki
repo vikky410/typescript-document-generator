@@ -1,0 +1,55 @@
+{anchor:Greeter<T>}
+!! {"Greeter<T>"}
+*Module:* [Sayings.None]
+*Extends:* [NullGreeter]
+*Implements:* [IGreeter<T>]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:Shapes.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/Shapes.ts]
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{"Greeter description"}
+
+----
+
+!!!! {"Constructors"}
+
+!!!!!! constructor{"()"}
+{"constructor description"}
+
+!!!!!! constructor{"(message?: T)"}
+{"constructor description"}
+* [OPTIONAL] *{"message:"}* {"T - message description"}
+
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"greeting: T;"}
+{"greeting description"}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"greet(): T"}
+{"greet description"}
+* *Returns:* {"T - "}
+
+!!!!!! {"test(AParam: string, BParam?: number, CParam?: number): void"}
+{"Test description"}
+* *{"AParam:"}* {"string - AParam description"}
+* [OPTIONAL] *{"BParam:"}* {"number - BParam description"}
+* [OPTIONAL] *{"CParam:"}* {"number - CParam description"}
+* *Returns:* {"void - Return description."}
+
+
+----
+

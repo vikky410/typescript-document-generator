@@ -1,0 +1,50 @@
+{anchor:SVGLocatable}
+!! {"SVGLocatable"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"farthestViewportElement: SVGElement;"}
+{""}
+
+!!!!!! {"nearestViewportElement: SVGElement;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"getBBox(): SVGRect"}
+{""}
+* *Returns:* {"SVGRect - "}
+
+!!!!!! {"getTransformToElement(element: SVGElement): SVGMatrix"}
+{""}
+* *{"element:"}* {"SVGElement - "}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"getCTM(): SVGMatrix"}
+{""}
+* *Returns:* {"SVGMatrix - "}
+
+!!!!!! {"getScreenCTM(): SVGMatrix"}
+{""}
+* *Returns:* {"SVGMatrix - "}
+
+
+----
+

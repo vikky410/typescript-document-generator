@@ -1,0 +1,96 @@
+{anchor:CryptoOperation}
+!! {"CryptoOperation"}
+*Module:* [None]
+*Extends:* [EventTarget]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"algorithm: Algorithm;"}
+{""}
+
+!!!!!! {"oncomplete: (ev: any) => any;"}
+{""}
+
+!!!!!! {"onerror: (ev: any) => any;"}
+{""}
+
+!!!!!! {"onprogress: (ev: any) => any;"}
+{""}
+
+!!!!!! {"onabort: (ev: any) => any;"}
+{""}
+
+!!!!!! {"key: Key;"}
+{""}
+
+!!!!!! {"result: any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "complete", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""complete" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "error", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""error" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "progress", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""progress" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "abort", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""abort" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"abort(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"finish(): void"}
+{""}
+* *Returns:* {"void - "}
+
+!!!!!! {"process(buffer: ArrayBufferView): void"}
+{""}
+* *{"buffer:"}* {"ArrayBufferView - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: string, listener: EventListener, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {"string - "}
+* *{"listener:"}* {"EventListener - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+
+----
+

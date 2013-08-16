@@ -1,0 +1,88 @@
+{anchor:SVGPathSeg}
+!! {"SVGPathSeg"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"pathSegType: number;"}
+{""}
+
+!!!!!! {"pathSegTypeAsLetter: string;"}
+{""}
+
+!!!!!! {"PATHSEG_MOVETO_REL: number;"}
+{""}
+
+!!!!!! {"PATHSEG_LINETO_VERTICAL_REL: number;"}
+{""}
+
+!!!!!! {"PATHSEG_CURVETO_CUBIC_SMOOTH_ABS: number;"}
+{""}
+
+!!!!!! {"PATHSEG_CURVETO_QUADRATIC_REL: number;"}
+{""}
+
+!!!!!! {"PATHSEG_CURVETO_CUBIC_ABS: number;"}
+{""}
+
+!!!!!! {"PATHSEG_LINETO_HORIZONTAL_ABS: number;"}
+{""}
+
+!!!!!! {"PATHSEG_CURVETO_QUADRATIC_ABS: number;"}
+{""}
+
+!!!!!! {"PATHSEG_LINETO_ABS: number;"}
+{""}
+
+!!!!!! {"PATHSEG_CLOSEPATH: number;"}
+{""}
+
+!!!!!! {"PATHSEG_LINETO_HORIZONTAL_REL: number;"}
+{""}
+
+!!!!!! {"PATHSEG_CURVETO_CUBIC_SMOOTH_REL: number;"}
+{""}
+
+!!!!!! {"PATHSEG_LINETO_REL: number;"}
+{""}
+
+!!!!!! {"PATHSEG_CURVETO_QUADRATIC_SMOOTH_ABS: number;"}
+{""}
+
+!!!!!! {"PATHSEG_ARC_REL: number;"}
+{""}
+
+!!!!!! {"PATHSEG_CURVETO_CUBIC_REL: number;"}
+{""}
+
+!!!!!! {"PATHSEG_UNKNOWN: number;"}
+{""}
+
+!!!!!! {"PATHSEG_LINETO_VERTICAL_ABS: number;"}
+{""}
+
+!!!!!! {"PATHSEG_ARC_ABS: number;"}
+{""}
+
+!!!!!! {"PATHSEG_MOVETO_ABS: number;"}
+{""}
+
+!!!!!! {"PATHSEG_CURVETO_QUADRATIC_SMOOTH_REL: number;"}
+{""}
+
+
+----
+

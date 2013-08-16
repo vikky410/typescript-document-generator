@@ -1,0 +1,57 @@
+{anchor:HTMLTextAreaElement}
+!! {"HTMLTextAreaElement"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"validationMessage: string;"}
+{""}
+
+!!!!!! {"autofocus: boolean;"}
+{""}
+
+!!!!!! {"validity: ValidityState;"}
+{""}
+
+!!!!!! {"required: boolean;"}
+{""}
+
+!!!!!! {"maxLength: number;"}
+{""}
+
+!!!!!! {"willValidate: boolean;"}
+{""}
+
+!!!!!! {"placeholder: string;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"checkValidity(): boolean"}
+{""}
+* *Returns:* {"boolean - "}
+
+!!!!!! {"setCustomValidity(error: string): void"}
+{""}
+* *{"error:"}* {"string - "}
+* *Returns:* {"void - "}
+
+
+----
+

@@ -1,0 +1,60 @@
+{anchor:Element}
+!! {"Element"}
+*Module:* [None]
+*Extends:* [None]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"onmspointerenter: (ev: any) => any;"}
+{""}
+
+!!!!!! {"onmspointerleave: (ev: any) => any;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"addEventListener(type: "mspointerenter", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""mspointerenter" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"addEventListener(type: "mspointerleave", listener: (ev: any) => any, useCapture?: boolean): void"}
+{""}
+* *{"type:"}* {""mspointerleave" - "}
+* *{"listener:"}* {"(ev: any) => any - "}
+* [OPTIONAL] *{"useCapture:"}* {"boolean - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"msZoomTo(args: MsZoomToOptions): void"}
+{""}
+* *{"args:"}* {"MsZoomToOptions - "}
+* *Returns:* {"void - "}
+
+!!!!!! {"msGetUntransformedBounds(): ClientRect"}
+{""}
+* *Returns:* {"ClientRect - "}
+
+!!!!!! {"msRequestFullscreen(): void"}
+{""}
+* *Returns:* {"void - "}
+
+
+----
+

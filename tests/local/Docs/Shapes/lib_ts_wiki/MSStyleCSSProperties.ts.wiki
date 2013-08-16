@@ -1,0 +1,73 @@
+{anchor:MSStyleCSSProperties}
+!! {"MSStyleCSSProperties"}
+*Module:* [None]
+*Extends:* [MSCSSProperties]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"pixelWidth: number;"}
+{""}
+
+!!!!!! {"posHeight: number;"}
+{""}
+
+!!!!!! {"posLeft: number;"}
+{""}
+
+!!!!!! {"pixelTop: number;"}
+{""}
+
+!!!!!! {"pixelBottom: number;"}
+{""}
+
+!!!!!! {"textDecorationNone: boolean;"}
+{""}
+
+!!!!!! {"pixelLeft: number;"}
+{""}
+
+!!!!!! {"posTop: number;"}
+{""}
+
+!!!!!! {"posBottom: number;"}
+{""}
+
+!!!!!! {"textDecorationOverline: boolean;"}
+{""}
+
+!!!!!! {"posWidth: number;"}
+{""}
+
+!!!!!! {"textDecorationLineThrough: boolean;"}
+{""}
+
+!!!!!! {"pixelHeight: number;"}
+{""}
+
+!!!!!! {"textDecorationBlink: boolean;"}
+{""}
+
+!!!!!! {"posRight: number;"}
+{""}
+
+!!!!!! {"pixelRight: number;"}
+{""}
+
+!!!!!! {"textDecorationUnderline: boolean;"}
+{""}
+
+
+----
+

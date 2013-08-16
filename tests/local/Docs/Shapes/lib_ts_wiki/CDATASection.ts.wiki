@@ -1,0 +1,17 @@
+{anchor:CDATASection}
+!! {"CDATASection"}
+*Module:* [None]
+*Extends:* [Text]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+

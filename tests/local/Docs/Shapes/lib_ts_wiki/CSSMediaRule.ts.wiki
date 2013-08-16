@@ -1,0 +1,44 @@
+{anchor:CSSMediaRule}
+!! {"CSSMediaRule"}
+*Module:* [None]
+*Extends:* [CSSRule]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"media: MediaList;"}
+{""}
+
+!!!!!! {"cssRules: CSSRuleList;"}
+{""}
+
+
+----
+
+!!!! {"Public Methods"}
+
+!!!!!! {"insertRule(rule: string, index?: number): number"}
+{""}
+* *{"rule:"}* {"string - "}
+* [OPTIONAL] *{"index:"}* {"number - "}
+* *Returns:* {"number - "}
+
+!!!!!! {"deleteRule(index?: number): void"}
+{""}
+* [OPTIONAL] *{"index:"}* {"number - "}
+* *Returns:* {"void - "}
+
+
+----
+

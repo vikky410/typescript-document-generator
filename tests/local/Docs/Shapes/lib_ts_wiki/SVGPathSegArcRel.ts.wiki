@@ -1,0 +1,43 @@
+{anchor:SVGPathSegArcRel}
+!! {"SVGPathSegArcRel"}
+*Module:* [None]
+*Extends:* [SVGPathSeg]
+*Exported:* Yes
+
+_Associated source files:_
+* [url:lib.d.ts|https://typescriptui.codeplex.com/SourceControl/latest#Main/lib.d.ts]
+
+----
+
+!!!! {"Description"}
+
+{""}
+
+----
+
+!!!! {"Public Properties"}
+
+!!!!!! {"y: number;"}
+{""}
+
+!!!!!! {"sweepFlag: boolean;"}
+{""}
+
+!!!!!! {"r2: number;"}
+{""}
+
+!!!!!! {"x: number;"}
+{""}
+
+!!!!!! {"angle: number;"}
+{""}
+
+!!!!!! {"r1: number;"}
+{""}
+
+!!!!!! {"largeArcFlag: boolean;"}
+{""}
+
+
+----
+
