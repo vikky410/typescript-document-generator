@@ -5596,11 +5596,11 @@ module TypeScript {
                 if (paramSymbols.length) {
                     paramType = paramSymbols[0].type;
 
-                    if (paramType === this.semanticInfoChain.stringTypeSymbol) {
+                    if (!stringSignature && paramType === this.semanticInfoChain.stringTypeSymbol) {
                         stringSignature = signatures[i];
                         continue;
                     }
-                    else if (paramType === this.semanticInfoChain.numberTypeSymbol || paramType.kind === PullElementKind.Enum) {
+                    else if (!numberSignature && (paramType === this.semanticInfoChain.numberTypeSymbol || paramType.kind === PullElementKind.Enum)) {
                         numberSignature = signatures[i];
                         continue;
                     }
@@ -7147,6 +7147,10 @@ module TypeScript {
             }
 
             if (s1.nonOptionalParamCount != s2.nonOptionalParamCount) {
+                return false;
+            }
+
+            if (!!(s1.typeParameters && s1.typeParameters.length) != !!(s2.typeParameters && s2.typeParameters.length)) {
                 return false;
             }
 
@@ -9038,6 +9042,10 @@ module TypeScript {
 
                 if (!typeSymbol.isNamedTypeSymbol()) {
                     if (typeSymbol.inSymbolPrivacyCheck) {
+                        var associatedContainerType = typeSymbol.getAssociatedContainerType();
+                        if (associatedContainerType && associatedContainerType.isNamedTypeSymbol()) {
+                            this.checkSymbolPrivacy(declSymbol, associatedContainerType, context, privacyErrorReporter);
+                        }
                         return;
                     }
 
@@ -9064,7 +9072,7 @@ module TypeScript {
                 // Check if type symbol is externally visible
                 var symbolIsVisible = symbol.isExternallyVisible();
                 // If Visible check if the type is part of dynamic module
-                if (symbolIsVisible) {
+                if (symbolIsVisible && symbol.kind != PullElementKind.Primitive && symbol.kind != PullElementKind.TypeParameter) {
                     var symbolPath = symbol.pathToRoot();
                     if (symbolPath.length && symbolPath[symbolPath.length - 1].kind === PullElementKind.DynamicModule) {
                         // Type from the dynamic module
@@ -9860,7 +9868,12 @@ module TypeScript {
             var contextForBaseTypeResolution = new PullTypeResolutionContext();
             contextForBaseTypeResolution.isResolvingClassExtendedType = true;
 
+            // REVIEW: Is shouldn't be necessary to re-resolve the base list anymore - all of these names should already be resolved, and we can
+            // just use the extends/implements lists on the symbols
+            var prevResolvingTypeReference = context.resolvingTypeReference;
+            context.resolvingTypeReference = true;
             var baseType = <PullTypeSymbol>this.resolveAST(baseDeclAST, false, enclosingDecl, context);
+            context.resolvingTypeReference = prevResolvingTypeReference;
             contextForBaseTypeResolution.isResolvingClassExtendedType = false;
 
             var typeDeclIsClass = typeSymbol.isClass();
